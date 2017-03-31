@@ -116,6 +116,7 @@ public class GearscriptCreator {
 					constructedGearString += "_unit linkItem \"ItemGPS\";\n";
 				}
 				break;
+				
 			case "B_Soldier_TL_F":
 				constructedGearString += "_unit addWeapon \"Binocular\";\n_unit additem \"ACRE_PRC148\";\n";
 				System.out.println("Give team lead GPS? (y/n)");
@@ -123,6 +124,22 @@ public class GearscriptCreator {
 				if (sel2.equalsIgnoreCase("y")) {
 					constructedGearString += "_unit linkItem \"ItemGPS\";\n";
 				}
+				break;
+			
+			case "B_medic_F":
+				
+				break;
+			
+			case "B_soldier_AR_F":
+				
+				break;
+				
+			case "B_soldier_AAR_F":
+				
+				break;
+				
+			case "B_soldier_LAT_F":
+				
 				break;
 				
 		}
