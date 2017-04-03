@@ -21,6 +21,7 @@ import java.util.Scanner;
 public class GearscriptCreator {
 	String testPreset = "testPreset.sqf";
 	static Scanner scan = new Scanner(System.in);
+	public static String autoRifleAmmoClassname = "";
 	
 	public static void main(String[] args) {
 		
@@ -78,8 +79,14 @@ public class GearscriptCreator {
 		    injectString("switch (typeOf _unit) do\n{");
 		    injectString(buildGearForUnit("B_Soldier_SL_F"));
 		    injectString(buildGearForUnit("B_Soldier_TL_F"));
+		    injectString(buildGearForUnit("B_medic_F"));
+		    injectString(buildGearForUnit("B_soldier_AR_F"));
+		    injectString(buildGearForUnit("B_soldier_AAR_F"));
+		    injectString(buildGearForUnit("B_soldier_LAT_F"));
+		    injectString(buildGearForUnit("B_soldier_F"));
 		    //TODO: finish up units and show unit classnames to user
 		    
+		    injectString("\n};");
 		    //option to add custom headgear for SL?
 		    writer.close();
 		} catch (IOException e) {
@@ -127,21 +134,27 @@ public class GearscriptCreator {
 				break;
 			
 			case "B_medic_F":
-				
+				constructedGearString += "_unit addbackpack \"B_Kitbag_rgr\";\n[_unit,\"MedB\"] call bis_fnc_setUnitInsignia;\n_unit setvariable [\"ace_medical_medicClass\", 1, true];\nunitbackpack _unit addItemCargoGlobal [\"ACE_elasticBandage\",30];\nunitbackpack _unit addItemCargoGlobal [\"ACE_packingBandage\",30];\nunitbackpack _unit addItemCargoGlobal [\"ACE_epinephrine\",15];\nunitbackpack _unit addItemCargoGlobal [\"ACE_Morphine\",15];\nunitbackpack _unit addItemCargoGlobal [\"ACE_personalAidKit\",4];\nunitbackpack _unit addItemCargoGlobal [\"ACE_salineIV_500\",1];\n_unit addmagazines [\"SmokeShell\",4];\n";
 				break;
 			
 			case "B_soldier_AR_F":
-				
+				constructedGearString += "_unit addBackpack \"MNP_B_WD_FP\";\n_unit addmagazines [" + unitWeapon[1] + ",6];\n";
+				autoRifleAmmoClassname = unitWeapon[1];
 				break;
 				
 			case "B_soldier_AAR_F":
-				
+				constructedGearString += "_unit addbackpack \"MNP_B_WD_CA\";\nunitbackpack _unit addmagazineCargoGlobal [" + autoRifleAmmoClassname + ",5];\n";
 				break;
 				
 			case "B_soldier_LAT_F":
-				
+				//TODO: allow users to choose LAT weapon, for now just give them a law
+				constructedGearString += "_unit addmagazines[\"rhs_m72a7_mag\",1];\n_unit addweapon \"rhs_weap_m72a7\";\n";
 				break;
 				
+			case "B_soldier_F":
+				break;
+				
+			//TODO: extra classes (DMR, AT, MG, AMG, ENG, PILOT, CREW)
 		}
 		
 		constructedGearString += "BASIC;\n};";
@@ -158,6 +171,12 @@ public class GearscriptCreator {
 		weapons.put("1. RHS M16A2 GL", new String[]{"\"RH_M16A2gl\"","\"30Rnd_556x45_Stanag\"","\"1Rnd_HE_Grenade_shell\""});
 		weapons.put("2. RHS M16A2", new String[]{"\"RH_M16A2\"","\"30Rnd_556x45_Stanag\""});
 		weapons.put("3. RHS M240" , new String[]{"\"rhs_weap_m240G\"","\"rhsusf_100Rnd_762x51\""});
+		weapons.put("4. CUP FN FAL", new String[]{"\"CUP_arifle_FNFAL\"","\"CUP_20Rnd_762x51_FNFAL_M\""});
+		weapons.put("5. FAMAS", new String[]{"\"prpl_famas\"","\"prpl_25Rnd_556x45_famas\""});
+		weapons.put("6. CUP AK47", new String[]{"\"CUP_arifle_AK47\"","\"CUP_30Rnd_762x39_AK47_M\""});
+		weapons.put("7. RHS AK74 GP25", new String[]{"\"rhs_weap_ak74_gp25\"","\"rhs_30Rnd_545x39_AK\"","\"1Rnd_HE_Grenade_shell\""});
+		weapons.put("8. CUP RPK74", new String[]{"\"CUP_arifle_RPK74_45\"","\"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M\""});
+		weapons.put("9. CUP M4A1", new String[]{"\"CUP_arifle_M4A1_black\"","\"CUP_30Rnd_556x45_Stanag\""});
 		
 		String selection = "-999";
 		boolean condition = true;
@@ -225,6 +244,7 @@ public class GearscriptCreator {
 		uniforms.put("1. MNP WoodCamo LongSleeve", "\"MNP_CombatUniform_Wood_A\"");
 		uniforms.put("2. MNP WoodCamo RolledUpSleeve", "\"MNP_CombatUniform_Wood_B\"");
 		uniforms.put("3. MNP Desert Uniform" , "\"MNP_CombatUniform_US3Co\"");
+		uniforms.put("4. RHS MARPAT", "\"rhs_uniform_FROG01_wd\"");
 		
 		String selection = "-999";
 		boolean condition = true;
@@ -252,7 +272,7 @@ public class GearscriptCreator {
 	private static String getTotalHeadgearInput()
 	{
 		int numHeadgear = -999;
-		System.out.println("How many different items of headgear would you like to be in the randomized array? (enter an integer from 1 to 10)");
+		System.out.println("How many different items of headgear would you like to be in the randomized headgear array? (enter an integer from 1 to 10)");
 		String selection = "-999";
 		boolean condition = true;
 		while (condition)
@@ -319,7 +339,7 @@ public class GearscriptCreator {
 	private static String getTotalVestInput()
 	{
 		int numVest = -999;
-		System.out.println("How many different vests would you like to be in the randomized array? (enter an integer from 1 to 10)");
+		System.out.println("How many different vests would you like to be in the randomized vest array? (enter an integer from 1 to 10)");
 		String selection = "-999";
 		boolean condition = true;
 		while (condition)
