@@ -245,7 +245,17 @@ public class GearscriptCreator {
 		uniforms.put("2. MNP WoodCamo RolledUpSleeve", "\"MNP_CombatUniform_Wood_B\"");
 		uniforms.put("3. MNP Desert Uniform" , "\"MNP_CombatUniform_US3Co\"");
 		uniforms.put("4. RHS MARPAT", "\"rhs_uniform_FROG01_wd\"");
-		
+		uniforms.put("5. RHS EMR Desert Uniform", "\"rhs_uniform_emr_des_patchless\"");
+		uniforms.put("6. CUP NAPA Flecktarn (Olive)", "\"CUP_U_I_GUE_Flecktarn\"");
+		uniforms.put("7. MNP 6 Color Desert BDU", "\"MNP_CombatUniform_6CO\"");
+		uniforms.put("8. MNP DPM Uniform (Desert)", "\"MNP_CombatUniform_DDPMR\"");
+		uniforms.put("9. MNP Israeli Drab Uniform", "\"MNP_CombatUniform_ISR\"");
+		uniforms.put("10. MNP MultiCam Fatigues (USA)", "\"MNP_CombatUniform_DS_B\"");
+		uniforms.put("11. MNP Rebel Uniform (Desert Jigsaw)", "\"MNP_CombatUniform_Militia_DA\"");
+		uniforms.put("12. MNP Ukrainian Woodland Uniform", "\"MNP_CombatUniform_Ukrainian\"");
+		uniforms.put("13. Paramilitary Uniform (Jacket, woodland)", "\"U_I_C_Soldier_Para_2_F\"");
+		uniforms.put("14. Suit (Black)", "\"CUP_U_C_Suit_01\"");
+
 		String selection = "-999";
 		boolean condition = true;
 		while (condition)
