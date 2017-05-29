@@ -16,6 +16,9 @@ import java.util.Scanner;
 /*
  * By: Steve/red62
  * 
+ * TODOS:
+ * -add RHS modern AK47
+ * -set all units weapons to same option (other than TL/SL)
  */
 
 public class GearscriptCreator {
@@ -83,7 +86,10 @@ public class GearscriptCreator {
 		    injectString(buildGearForUnit("B_soldier_AR_F"));
 		    injectString(buildGearForUnit("B_soldier_AAR_F"));
 		    injectString(buildGearForUnit("B_soldier_LAT_F"));
-		    injectString(buildGearForUnit("B_soldier_F"));
+		    injectString(buildGearForUnit("B_soldier_AAT_F"));
+		    injectString(buildGearForUnit("B_Soldier_F")); //rifle
+		    injectString(buildGearForUnit("B_Soldier_GL_F")); //gren
+		    injectString(buildGearForUnit("B_soldier_M_F")); //marksman
 		    //TODO: finish up units and show unit classnames to user
 		    
 		    injectString("\n};");
@@ -102,10 +108,13 @@ public class GearscriptCreator {
 	//build the gear string for a selected unit
 	private static String buildGearForUnit(String unit)
 	{
+		int numMags = 8;
+		if (unit.equals("B_soldier_AR_F")) {numMags = 2;} //special case where AR mags are larger
+		
 		System.out.println("Choose a weapon to give to: " + unit);
 		String constructedGearString = "case \"" + unit + "\":\n{\nUNIFORM;\n";
 		String[] unitWeapon = getWeaponForUnit();
-		constructedGearString += "_unit addweapon " + unitWeapon[0] +";\n_unit addmagazines [" + unitWeapon[1] +",8];\n";
+		constructedGearString += "_unit addweapon " + unitWeapon[0] +";\n_unit addmagazines [" + unitWeapon[1] +"," + numMags + "];\n";
 		if (unitWeapon.length > 2)
 		{
 			constructedGearString += "_unit addmagazines [" + unitWeapon[2] + ",8];\n";
