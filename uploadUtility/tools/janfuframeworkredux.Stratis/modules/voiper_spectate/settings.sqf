@@ -1,1 +1,0 @@
-//This module overwrites the default spectator script with voipers spectator an updated version of GDT ported to Arma 3 by Aiello

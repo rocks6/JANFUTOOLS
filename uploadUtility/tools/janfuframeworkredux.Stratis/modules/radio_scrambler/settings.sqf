@@ -1,2 +1,0 @@
-//This module randomly distributes the radio channels presets "default", "default2", "default3", "default4" amongst the sides west, east, resistance and civilian.
-//This is a fail safe for mission makers that forget a scrambler in TvTs
