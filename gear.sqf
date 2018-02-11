@@ -27,7 +27,7 @@ _unit additem "ACE_packingBandage";\
 _unit additem "ACE_packingBandage";\
 _unit additem "ACE_packingBandage";
 
-_UniformArray = ["CUP_U_I_GUE_Flecktarn"];
+_UniformArray = ["MNP_CombatUniform_Wood_A"];
 
 _HeadgearArray = ["MNP_MC_USW"];
 
@@ -51,7 +51,6 @@ _unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 _unit addWeapon "Binocular";
 _unit additem "ACRE_PRC148";
-_unit linkItem "ItemGPS";
 BASIC;
 };
 case "B_Soldier_TL_F":
@@ -63,14 +62,14 @@ _unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 _unit addWeapon "Binocular";
 _unit additem "ACRE_PRC148";
-_unit linkItem "ItemGPS";
 BASIC;
 };
 case "B_medic_F":
 {
 UNIFORM;
-_unit addweapon "RH_M16A2";
+_unit addweapon "RH_M16A2gl";
 _unit addmagazines ["30Rnd_556x45_Stanag",8];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 _unit addbackpack "B_Kitbag_rgr";
 [_unit,"MedB"] call bis_fnc_setUnitInsignia;
@@ -87,28 +86,31 @@ BASIC;
 case "B_soldier_AR_F":
 {
 UNIFORM;
-_unit addweapon "rhs_weap_m240G";
-_unit addmagazines ["rhsusf_100Rnd_762x51",8];
+_unit addweapon "RH_M16A2gl";
+_unit addmagazines ["30Rnd_556x45_Stanag",2];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 _unit addBackpack "MNP_B_WD_FP";
-_unit addmagazines ["rhsusf_100Rnd_762x51",6];
+_unit addmagazines ["30Rnd_556x45_Stanag",6];
 BASIC;
 };
 case "B_soldier_AAR_F":
 {
 UNIFORM;
-_unit addweapon "RH_M16A2";
+_unit addweapon "RH_M16A2gl";
 _unit addmagazines ["30Rnd_556x45_Stanag",8];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 _unit addbackpack "MNP_B_WD_CA";
-unitbackpack _unit addmagazineCargoGlobal ["rhsusf_100Rnd_762x51",5];
+unitbackpack _unit addmagazineCargoGlobal ["30Rnd_556x45_Stanag",5];
 BASIC;
 };
 case "B_soldier_LAT_F":
 {
 UNIFORM;
-_unit addweapon "RH_M16A2";
+_unit addweapon "RH_M16A2gl";
 _unit addmagazines ["30Rnd_556x45_Stanag",8];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 _unit addmagazines["rhs_m72a7_mag",1];
 _unit addweapon "rhs_weap_m72a7";
@@ -117,20 +119,22 @@ BASIC;
 case "B_soldier_AAT_F":
 {
 UNIFORM;
-_unit addweapon "RH_M16A2";
+_unit addweapon "RH_M16A2gl";
 _unit addmagazines ["30Rnd_556x45_Stanag",8];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 BASIC;
 };
-case "B_soldier_F":
+case "B_Soldier_F":
 {
 UNIFORM;
-_unit addweapon "RH_M16A2";
+_unit addweapon "RH_M16A2gl";
 _unit addmagazines ["30Rnd_556x45_Stanag",8];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 BASIC;
 };
-case "B_soldier_GL_F":
+case "B_Soldier_GL_F":
 {
 UNIFORM;
 _unit addweapon "RH_M16A2gl";
@@ -142,8 +146,9 @@ BASIC;
 case "B_soldier_M_F":
 {
 UNIFORM;
-_unit addweapon "RH_M16A2";
+_unit addweapon "RH_M16A2gl";
 _unit addmagazines ["30Rnd_556x45_Stanag",8];
+_unit addmagazines ["1Rnd_HE_Grenade_shell",8];
 _unit addmagazines ["SmokeShell",2];
 BASIC;
 };
