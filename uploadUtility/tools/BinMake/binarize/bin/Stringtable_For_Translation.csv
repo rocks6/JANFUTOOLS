@@ -1,0 +1,137 @@
+COMMENT,*******"NOT TRANSLATED IN SPANISH"****************** 
+STRN_M08,Armored Fist, Poing blindé, Pugno corazzato, spanish, german, czech TODO TRANSLATE
+STRN_M09,Fight in the Ruins,  Combat dans les ruines, Battaglia nelle rovine, spanish, german, czech TODO TRANSLATE
+STRN_M10,Close Combat, Combat rapproché, Combattimento corpo a corpo, spanish, german, czech  TODO TRANSLATE
+STRN_M11,Far-away Run,  Fuite au loin, Fuga, spanish, german, czech TODO TRANSLATE
+STRN_M12,Run to Chateau,  Course pour le château, Castello, spanish, german, czech TODO TRANSLATE
+STRN_M13,Sector Control: Bridge too far, Contrôle de secteur : pont trop loin, Controllo settore: ponte lontano, spanish, german, czech  TODO TRANSLATE
+STRN_M14,Air Assault,  Assaut aérien, Assalto aereo, spanish, german, czech TODO TRANSLATE
+STRN_M15,Camel Dogfight,  Combat tournoyant, italian, spanish, german, czech TODO TRANSLATE
+STRN_M16,City Brush,  Nettoyage urbain, italian, spanish, german, czech TODO TRANSLATE
+STRN_M17,Demolition Squad,  Groupe de démolition, Squadra demolizione, spanish, german, czech TODO TRANSLATE
+STRN_M18,Shadow Killers,  Tueurs de l'ombre, Killer ombra, spanish, german, czech TODO TRANSLATE
+STRN_M19,Lost Squad,  Groupe perdu, Squadra perduta, spanish, german, czech TODO TRANSLATE
+STRN_M20,Oil War,  Guerre du pétrole, Guerra al petrolio, spanish, german, czech TODO TRANSLATE
+STRN_M21,Desert Ambush,  Embuscade dans le désert, Imboscata nel deserto, spanish, german, czech  TODO TRANSLATE
+STRN_M22,Opossing Islands,  Affrontement entre îles, Isole nemiche, spanish, german, czech TODO TRANSLATE
+STRN_M23,Across the Bridge,  A travers le pont, Attraverso il ponte, spanish, german, czech TODO TRANSLATE
+STRN_M24,"Large scale, many vehicles",  Grande envergure, nombreux véhicules, Larga scala, molti veicoli, spanish, german, czech TODO TRANSLATE
+STRN_M25,Behind the Horizont,  Au-dela de l'horizon, Dietro l'orizzonte, spanish, german, czech TODO TRANSLATE
+STRN_M26,Hold Castle, Tenir le château, Tieni il castello, spanish, german, czech  TODO TRANSLATE
+STRN_M27,War Cry,  Cri de guerre, Urlo di guerra, spanish, german, czech TODO TRANSLATE
+STRN_M28,Iron Conquerors,  Conquérants d'acier, Conquistatori di ferro, spanish, german, czech TODO TRANSLATE
+STRN_M29,Hold City,  Tenir la ville, Tieni la citta, spanish, german, czech TODO TRANSLATE
+STRN_M30,Street Combat,  Combats de rue, Combattimento sulla strada, spanish, german, czech TODO TRANSLATE
+STRN_M31,Paintball match,  Match de paintball, Partita paintball, spanish, german, czech TODO TRANSLATE
+STRN_M32,Team Flag Fight, Capture de drapeau par équipe, Scontro a squadre con bandiera, spanish, german, czech  TODO TRANSLATE
+STRN_M33,Sector Control, Contrôle de secteur, Controllo settore, spanish, german, czech  TODO TRANSLATE
+STRN_M34,Hostage Rescue,  Sauvetage d'otages, Salvataggio ostaggio, spanish, german, czech TODO TRANSLATE
+STRN_M35,Seize the City,  Prendre la ville, Prendi la citta, spanish, german, czech TODO TRANSLATE
+STRN_M36,Return to Eden, Retour a Eden, Torna all'Eden, spanish, german, czech  TODO TRANSLATE
+STRN_M37,Village Combat,  Combat en village, Combattimento nel villaggio, spanish, german, czech TODO TRANSLATE
+STRN_M38,Castle Conflict,  Affrontement au château, Conflitto nel castello, spanish, german, czech TODO TRANSLATE
+STRN_M39,City Conflict,  Affrontement en ville, Conflitto in citta, spanish, german, czech TODO TRANSLATE
+
+COMMENT,*******"NOT TRANSLATED IN GERMAN"****************** 
+
+STR_DISP_XBOX_DESC_HOLDBASE,East: defend base - West: conquer base, "Est: défendez la base - Ouest: prenez la base","Russi: difendi base - NATO: conquista base","Este: defender la base; oeste: conquistar la base","",TODO TRANSLATE
+
+STR_XBOX_GROUP_PLAYER, Player Group,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_CHARLIE, "West Attack Squad2 (Charlie)",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTATTACK1,East Attack Squad1,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTATTACK2,East Attack Squad2,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_WESTDEFEND1,"West Defend Squad1",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_WESTDEFEND2,"West Defend Squad2",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTDEFEND1,East Defend Squad1,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTDEFEND2,East Defend Squad2,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_ROLE_CONQ_ONE_M60,Lead M60 %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_ROLE_CONQ_TWO_M60,M60 2 %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_ROLE_CONQ_THREE_M60,M60 3 %s,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_ROLE_CONQ_COBRA,Cobra %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_GUARD1,T72,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_GUARD2,Shilka,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_REINF1,Armored Team,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_REINF2,Anti Air Battery,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_REINF3,Strong Armored Team,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_UNITS_NAME_EAST_GUARD,East Guard,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_UNITS_NAME_REINFORCEMENTS,East Reinforcements,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_GROUP_NAME_ABRAMS, Abrams Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_NAME_M60,M60's Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_NAME_COMBINATED,Air&Armored,French,Italian,Spanish,German,Czech, TODO Translate
+
+STRN_M66,"Pilot Down","Pilot down","Pilot down",Spanish,German,Czech, TODO Translate
+STRN_M15,Camel Dogfight,  french, italian, spanish, german, czech TODO TRANSLATE
+STRN_M16,City Brush,  french, italian, spanish, german, czech TODO TRANSLATE
+
+
+STR_XBOX_LIVE_STATS_SINGLE,"SP - Single Missions","MU - Mission Unique",Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_LIVE_STATS_CAMPAIN_1985,"SP - Campaign 1985",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CAMPAIN_RES,"SP - Campaign Resistance",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_TOTAL,"SP - Total",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_LIVE_STATS_DM,"MP - DM",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CTF,"MP - CTF",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_FF,"MP - FF",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_COOP,"MP - Coop",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_TEAM,"MP - Team",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_SCONTROL,"MP - SControl",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_HOLD,"MP - Hold",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_UNKNOWN,"MP - Unknown",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_MPTOTAL,"MP - Total",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_DDSERVER,"Dedicated server hosting",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_WIZARD_EDIT,Edit Mission Settings,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_MP_CONNECTED, Connected Players,French,Italian,Spanish,German,Czech, TODO Translate
+
+COMMENT,********TOOLTIPS ON CONTROLER********
+
+STR_XBOX_CONTROLER_SCHEME_DEFAULT,"Default scheme",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_SCHEME_STICK,"Reverted sticks",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_SCHEME_TRIGGERS,"Reverted triggers",French,Italian,Spanish,German,Czech, TODO Translate
+
+
+STR_XBOX_CONTROLER_MOVE, "Move",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_AIM,"Aim",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_CHARACTERS,"Characters",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_VEHICLE_GROUND,"Ground vehicles",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_AIR,"Aircraft",French,Italian,Spanish,German,Czech, TODO Translate
+
+COMMENT,***** Added after 03/12/2003 *****
+COMMENT, ******** Section without english correction follows **********
+
+STR_XBOX_WIZARD_MY_MISSIONS,My missions,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CAMPAIN1985,SP - Campaign Cold War Crisis,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_INTEL_DATE_FORMAT,"%m/%d/%Y","%m/%d/%Y","%m/%d/%Y","%m/%d/%Y","%m/%d/%Y","%m/%d/%Y"
+STR_INTEL_TIME_FORMAT,"%H:%M:%S","%H:%M:%S","%H:%M:%S","%H:%M:%S","%H:%M:%S","%H:%M:%S"
+
+STR_LOAD_FAILED,Unable to load '%s'.,Chargement de '%s' impossible.,Impossibile caricare '%s'.,Imposible cargar '%s'.,'%s' kann nicht geladen werden.,Czech, TODO Translate
+
+STR_XBOX_CREDITS,%1 Credits,%1 Crédits,%1 Titoli di coda,%1 Colaboradores,%1 Mitarbeiter,%1 Credits
+
+STR_XBOX_HINT_IGNORE,%1 Ignore,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_HINT_REMOVE,%1 Remove,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_QUESTION_DELETE_SAVE,You're attempting to delete saved game '%s'. Are you sure?,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_MSG_DISK_FULL_T,Your Xbox console does not have enough free blocks to download this content. Please free %d blocks.,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MSG_DISK_FULL_U,Your Xbox doesn’t have enough free blocks to save games. Please free %d blocks.,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_HINT_FREE_BLOCKS,%1 Free blocks,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_INTERUPTED_ABORT_MOVIE, "%1 Abort Movie",French,Italian,Spanish,German,Czech, TODO Translate
+
+STRN_X_MISSION_SNIPER,Sniper,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_VULCAN,Vulcan ,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_KILL_THEM_ALL,Kill Them All,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_CONVOY,Convoy,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_TANK_GUNNER,Tank Gunner,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_RACE,Race,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_UNLOCKED_CAMPAIGN, "Campaign Resistance unlocked!",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_MP_TIMEOUT_CLIENT,Connection lost with host,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MP_KICKED_CLIENT,You was kicked off,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MP_BANNED_CLIENT,You was banned,French,Italian,Spanish,German,Czech, TODO Translate

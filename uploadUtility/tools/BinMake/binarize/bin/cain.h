@@ -1,0 +1,37 @@
+
+#define cainTarget05East	{6548,3555}
+#define cainTarget07East	{4330,3198}
+#define cainTarget08East	{7835,5549}
+#define cainTarget04Guerilla	{5900,6360}
+#define cainTarget01West	{8538.48046875,9240.9658203125}
+#define cainTarget03West	{4542,8032}
+#define cainTarget06Guerilla	{7192,7280}
+#define cainTarget12Empty	{2636,6959}
+#define cainPrimary01	{9458,9292}
+
+#define cainWestInvasion	{7078,4111,100}
+#define cainEastInvasion	{6147,8101,100}
+#define cainEastRecon01	{5703,6516,100}
+#define cainWestRecon01	{5280,5375,100}
+#define cainGuerInvasion	{5891,6570,100}
+#define cainGuerRecon01	{6188,5065,100}
+#define cainEastNewPort	{5955,8227,100}
+#define cainWestNewPort	{7295,3917,100}
+#define cainEastRecon02	{3331,7211,100}
+#define cainEastRecon03	{9427,10232,100}
+#define cainEastRecon04	{9455,9300,100}
+#define cainEastRecon05	{8369,6887,100}
+#define cainEastRecon06	{7254,4629,100}
+#define cainEastRecon07	{4530,3655,100}
+#define cainEastRecon08	{4318,5828,100}
+#define cainWestRecon02	{5335,3345,100}
+#define cainWestRecon03	{7931,5970,100}
+#define cainWestRecon04	{9455,9850,100}
+#define cainWestRecon05	{7635,7959,100}
+#define cainWestRecon06	{4191,7183,100}
+#define cainWestRecon07	{1990,7324,100}
+#define cainWestRecon08	{3443,4572,100}
+#define cainGuerRecon02	{7564,7691,100}
+#define cainGuerRecon03	{4093,4615,100}
+#define cainGuerRecon04	{3302,6802,100}
+#define cainGuerRecon05	{8665,7832,100}

@@ -1,0 +1,2516 @@
+LANGUAGE,English,Korean
+
+COMMENT,Date and Time,ÀÏ½Ã
+STR_SUNDAY,Sun,ÀÏ¿äÀÏ
+STR_MONDAY,Mon,¿ù¿äÀÏ
+STR_TUESDAY,Tue,È­¿äÀÏ
+STR_WEDNESDAY,Wed,¼ö¿äÀÏ
+STR_THURSDAY,Thu,¸ñ¿äÀÏ
+STR_FRIDAY,Fri,±Ý¿äÀÏ
+STR_SATURDAY,Sat,Åä¿äÀÏ
+
+STR_JANUARY,Jan,1¿ù
+STR_FEBRUARY,Feb,2¿ù
+STR_MARCH,Mar,3¿ù
+STR_APRIL,Apr, 4¿ù
+STR_MAY,May, 5¿ù
+STR_JUNE,Jun, 6¿ù
+STR_JULY,Jul, 7¿ù
+STR_AUGUST,Aug, 8¿ù
+STR_SEPTEMBER,Sep, 9¿ù
+STR_OCTOBER,Oct, 10¿ù
+STR_NOVEMBER,Nov, 11¿ù
+STR_DECEMBER,Dec, 12¿ù
+
+STR_DATE_FORMAT,"%a, %b %d","%a, %b %dÀÏ"
+STR_DATE_FORMAT_SHORT,%b %d,%b %d
+STR_TIME_FORMAT,% 2d:%02d,% 2d : %02d
+STR_MAP_INFO_OLD, Info age: % 2d:%02d, Info age :  % 2d : %02d
+
+STR_RESOLUTION_FORMAT,%d x %d x %d,%d x %d x %d
+STR_REFRESH_RATE_FORMAT,%d Hz,%d Hz
+STR_WINDOWED,Windowed,Windowed
+
+COMMENT,Sides,¼Ò¼Ó
+STR_WEST,West,³ªÅä±º
+STR_EAST,East,¼Ò·Ã±º
+STR_GUERRILA,Resistance,·¹Áö½ºÅÁ½º
+STR_CIVILIAN,Civilian,¹Î°£ÀÎ
+STR_LOGIC,Game Logic,°ÔÀÓ ·ÎÁ÷
+STR_EMPTY,Empty,ºñ¾úÀ½
+STR_NOBODY,Nobody,¾Æ¹«µµ ¾øÀ½
+
+COMMENT,Ranks,°è±Þ
+STR_PRIVATE,Private,ÀÏº´
+STR_CORPORAL,Corporal,»óº´
+STR_SERGEANT,Sergeant,º´Àå
+STR_LIEUTNANT,Lieutenant,ÁßÀ§
+STR_CAPTAIN,Captain,´ëÀ§
+STR_MAJOR,Major,¼Ò·É
+STR_COLONEL,Colonel,´ë·É
+STR_GENERAL,General,Àå±º
+
+STR_SHORT_PRIVATE,Pvt,ÀÏº´
+STR_SHORT_CORPORAL,Corp,»óº´
+STR_SHORT_SERGEANT,Sgt,º´Àå
+STR_SHORT_LIEUTNANT,Ltn,ÁßÀ§
+STR_SHORT_CAPTAIN,Cpt,´ëÀ§
+STR_SHORT_MAJOR,Mjr,¼Ò·É
+STR_SHORT_COLONEL,Col,´ë·É
+STR_SHORT_GENERAL,Gen,Àå±º
+
+COMMENT,Combat modes and Formations,ÀüÅõ ¸ðµå ¹× ´ë¿­
+STR_IGNORE,Never fire,»ç°ÝÀý´ë±ÝÁö
+STR_BYPASS,Hold fire,»ç°Ý±ÝÁö
+STR_WHITE,"Hold fire, Engage at will","»ç°Ý ±ÝÁö, Á¢±Ù °ø°Ý"
+STR_CONTACT,Open fire,»ç°Ý°³½Ã
+STR_ENGAGE,"Open fire, Engage at will","»ç°Ý°³½Ã, Á¢±Ù °ø°Ý"
+STR_OPEN_FIRE,Open fire,»ç°Ý°³½Ã
+STR_HOLD_FIRE,Hold fire,»ç°Ý±ÝÁö
+STR_STEALTH,Stealth,ÀºÆó
+STR_COMBAT,Danger,À§Çè
+STR_AWARE,Aware,ÁÖÀÇ
+STR_SAFE,Safe,¾ÈÀü
+STR_COMBAT_MODE,Combat Mode,ÀüÅõ ¸ðµå
+STR_POS_UP,Stand Up,ÀÏ¾î¼¸
+STR_POS_DOWN,Go prone,Æ÷º¹À¸·Î
+STR_POS_AUTO,Keep low,ÀÚ¼¼ ³·Ãç
+
+STR_COLUMN,Column,2¿­Á¾´ë
+STR_STAGGERED,Staggered Col.,±³Â÷Çü2¿­Á¾´ë
+STR_WEDGE,Wedge,½û±âÇü´ë¿­
+STR_ECHL,Echelon L.,ÁÂÃøÁ¦Çü´ë¿­
+STR_ECHR,Echelon R.,¿ìÃøÁ¦Çü´ë¿­
+STR_VEE,Vee,V´ë¿­
+STR_LINE,Line,1¿­È¾´ë
+STR_DISENGAGE,Disengage,Åð°¢
+STR_ENGAGE_AT_WILL,Engage at will,Á¢±Ù °ø°Ý
+STR_ENGAGE_NOW,Engage,±³Àü
+
+COMMENT,Command State,¸í·É »óÅÂ
+STR_STATE_NOCOMMAND,None,¾øÀ½
+STR_STATE_WAIT,Ready,ÁØºñ¿Ï·á
+STR_STATE_ATTACK,Engage,±³Àü
+STR_STATE_HIDE,Hide,ÀºÆó
+STR_STATE_MOVE,Move,ÀÌµ¿
+STR_STATE_HEAL,Heal,Ä¡·á
+STR_STATE_REPAIR,Repair,¼ö¸®
+STR_STATE_REFUEL,Refuel,¿¬·áº¸±Þ
+STR_STATE_REARM,Rearm,Åº¾àº¸±Þ
+STR_STATE_SUPPORT,Support,Áö¿ø
+STR_STATE_JOIN,Follow,ÇÕ·ù
+STR_STATE_GETIN,Mount,Å¾½Â
+STR_STATE_FIRE,Fire,»ç°Ý
+STR_STATE_GETOUT,Disembark,ÇÏÂ÷
+STR_STATE_STOP,Stop,Á¤Áö
+STR_STATE_EXPECT,Wait,´ë±â
+STR_STATE_ACTION,Action,¾×¼Ç
+
+
+COMMENT,Command,¸í·É
+
+STR_NOCOMMAND,None,¾øÀ½
+STR_WAIT,Wait,´ë±â
+STR_ATTACK,Engage,±³Àü
+STR_HIDE,Find cover,¾öÆó
+STR_MOVE,Move,ÀÌµ¿
+STR_HEAL,Heal,Ä¡·á
+STR_REPAIR,Repair,¼ö¸®
+STR_REFUEL,Refuel,¿¬·áº¸±Þ
+STR_REARM,Rearm,Åº¾àÃæÀü
+STR_SUPPORT,Support,Áö¿ø
+STR_JOIN,Follow,ÇÕ·ù
+STR_GETIN,Mount,Å¾½Â
+STR_FIRE,Fire,»ç°Ý
+STR_GETOUT,Disembark,ÇÏÂ÷
+STR_STOP,Stop,Á¤Áö
+STR_EXPECT,Wait for me,ºÐ´ëÀå µÚ¿¡ ´ë±â
+STR_ACTION,Action,¾×¼Ç
+
+STR_WATCH,Engage,±³Àü
+STR_WATCH_AROUND,Watch Around,¼ö»ö
+STR_WATCH_AUTO,No target,Àû ¾øÀ½
+STR_ADVANCE,Advance,ÀüÁø
+STR_STAY_BACK,Stay Back,ÈÄ¹æ´ë±â
+STR_FLANK_LEFT,Flank Left,ÁÂÃøÀü°³
+STR_FLANK_RIGHT,Flank Right,¿ìÃøÀü°³
+STR_NEXT_WAYPOINT,Next waypoint,´ÙÀ½ ÀÌµ¿Æ÷ÀÎÆ®
+
+STR_AWAY,Away,ÀÌÅ»
+STR_FOLLOW_ME,Return to Formation,´ë¿­ ÇÕ·ù
+STR_CEASE_FIRE,Cease Fire,»ç°ÝÁßÁö
+
+STR_LEADER,Leader,ºÐ´ëÀå
+
+STR_RADIO_CUSTOM,Custom,Ä¿½ºÅÒ
+
+STR_RADIO,Radio,¹«Àü±â
+STR_RADIO_ALPHA,Alpha,¾ËÆÄ
+STR_RADIO_BRAVO,Bravo,ºê¶óº¸
+STR_RADIO_CHARLIE,Charlie,Âû¸®
+STR_RADIO_DELTA,Delta,µ¨Å¸
+STR_RADIO_ECHO,Echo,¿¡ÄÚ
+STR_RADIO_FOXTROT,Foxtrot,Æø½ºÆ®·Ô
+STR_RADIO_GOLF,Golf,°ñÇÁ
+STR_RADIO_HOTEL,Hotel,È£ÅÚ
+
+COMMENT,InGameUI,InGameUl
+STR_UI_HBAR,Health,Ã¼·Â
+STR_UI_ABAR,Armor,Àå°©
+STR_UI_FBAR,Fuel,¿¬·á
+STR_UI_EBAR,Rating,Æò°¡
+
+STR_UI_CARGO_INF,Cargo infantry %d,º¸º´ Â÷·® %d
+STR_UI_CARGO_FUEL,Cargo fuel %.0f,¿¬·á Â÷·® %.0f
+STR_UI_CARGO_REPAIR,Cargo repair %.0f,¼ö¸® Â÷·® %.0f
+STR_UI_CARGO_AMMO,Cargo ammo %.0f,Åº¾à Â÷·® %.0f
+STR_UI_SPEED,Speed %.0f,¼Ó·Â %.0f
+STR_UI_ALT,Alt. %.0f,°íµµ. %.0f
+
+COMMENT,Multiplayer statistics,¸ÖÆ¼ÇÃ·¹ÀÌ¾î Åë°è
+STR_MPTABLE_NAME,Player,ÇÃ·¹ÀÌ¾î
+STR_MPTABLE_INFANTRY,Infantry,º¸º´
+STR_MPTABLE_SOFT,Soft,Â÷·®
+STR_MPTABLE_ARMORED,Armored,Àå°©Â÷·®
+STR_MPTABLE_AIR,Air,ºñÇàÀ¯´Ö
+STR_MPTABLE_PLAYERS,Players,ÇÃ·¹ÀÌ¾î
+STR_MPTABLE_TOTAL,Total,ÇÕ°è
+STR_MPTABLE_KILLED,Killed,Àü»çÈ½¼ö
+
+COMMENT,Actions,¾×¼Ç
+STR_NO_ACTION,No action available,¾×¼Ç ºÒ°¡´É
+STR_ACTION_GETIN_COMMANDER,Get in %s as commander,%s¿¡ ÁöÈÖ¼®À¸·Î Å¾½Â
+STR_ACTION_GETIN_DRIVER,Get in %s as driver,%s¿¡ Á¶Á¾¼ö·Î Å¾½Â
+STR_ACTION_GETIN_PILOT,Get in %s as pilot,%s¿¡ ÆÄÀÏ·µÀ¸·Î Å¾½Â
+STR_ACTION_GETIN_GUNNER,Get in %s as gunner,%s¿¡ »ç°Ý¼ö·Î Å¾½Â
+STR_ACTION_GETIN_CARGO,Get in %s ride in back,%sµÞÀÚ¼®¿¡ Å¾½Â
+STR_ACTION_HEAL,Heal at %s,%s¿¡(°Ô)¼­ Ä¡·á
+STR_ACTION_REPAIR,Repair at %s,%¿¡(°Ô)¼­ ¼ö¸®
+STR_ACTION_REFUEL,Refuel at %s,%s¿¡(°Ô)¼­ ¿¬·áº¸±Þ
+STR_ACTION_REARM,Rearm at %s,%s¿¡(°Ô)¼­ Åº¾àÃæÀü
+STR_ACTION_GETOUT,Get out,ÇÏÂ÷
+STR_ACTION_LIGHTON,Light on,¶óÀÌÆ® ÄÔ
+STR_ACTION_LIGHTOFF,Light off,¶óÀÌÆ® ²û
+STR_ACTION_ENGINEON,Engine on,¿£Áø °¡µ¿
+STR_ACTION_ENGINEOFF,Engine off,¿£Áø ²û
+STR_ACTION_WEAPON,Weapon %s,%s(À»)¸¦ ¹«Àå
+STR_ACTION_MAGAZINE,Reload %s,%s(À»)¸¦ ÀçÀåÀü
+STR_ACTION_TAKEWEAPON,Take %s,%s(À»)¸¦ È¹µæ
+STR_ACTION_DROPTAKEWEAPON,Take %s (drop %s),%s(À»)¸¦ È¹µæ (%s(À») ¹ö¸²)
+STR_ACTION_TAKEMAGAZINE,Take %s,%s(À»)¸¦ È¹µæ
+STR_ACTION_DROPTAKEMAGAZINE,Take %s (drop %s),%sÀ»(¸¦) È¹µæ (%sÀ»(¸¦) ¹ö¸²)
+STR_ACTION_TAKEFLAG,Take Flag,±ê¹ß È¹µæ
+STR_ACTION_RETURNFLAG,Return Flag,±ê¹ß ¿øÀ§Ä¡
+STR_ACTION_TURNIN,Turn in,ÇØÄ¡ ´Ý±â
+STR_ACTION_TURNOUT,Turn out,ÇØÄ¡ ¿­±â
+STR_ACTION_WEAPONINHAND,%s in hand,%s ¹«Àå
+STR_ACTION_WEAPONONBACK,%s on back,%s ¾î±ú °É±â
+STR_ACTION_SITDOWN,Sit down,¾ÉÀ½
+STR_ACTION_EJECT,Eject,Å»Ãâ
+STR_ACTION_LAND,Landing autopilot,ÀÚµ¿Á¶Á¾À¸·Î Âø·ú
+STR_ACTION_CANCEL_LAND,Landing autopilot off,ÀÚµ¿Á¶Á¾ ²û
+STR_ACTION_TO_DRIVER,To driver's seat,¿îÀü¼®À¸·Î
+STR_ACTION_TO_PILOT,To pilot's seat,ÆÄÀÏ·µ¼®À¸·Î
+STR_ACTION_TO_GUNNER,To gunner's seat,»ç°Ý¼ö¼®À¸·Î
+STR_ACTION_TO_COMMANDER,To commander's seat,ÁöÈÖ¼®À¸·Î
+STR_ACTION_TO_CARGO,To back seat,µÞÀÚ¸®·Î
+STR_ACTION_HIDE_BODY,Hide body,½ÃÃ¼¼û±è
+STR_ACTION_TOUCH_OFF,Touch Off %d bomb(s),%d ÆøÆÄ
+STR_ACTION_START_TIMER,Set timer on (%.0f seconds),(%.ÃÊ) ÆøÆÄ½Ã°£¸ÂÃã
+STR_ACTION_SET_TIMER,Set timer +%.0f sec. (%.0f remaining),ÆøÆÄ½Ã°£¸ÂÃã +%. ÃÊ . (%. ÃÊ³²À½)
+STR_ACTION_DEACTIVATE,Deactivate bomb,ÆøÅº ÇØÃ¼
+
+STR_ACTION_TAKEOFF_GOGGLES,Take off NV goggles,¾ß°£Åõ½Ã°æ ¹þ±â
+STR_ACTION_TAKEON_GOGGLES,Put on NV goggles,¾ß°£Åõ½Ã°æ Âø¿ë
+STR_ACTION_MANUAL_FIRE,Manual fire,¼öµ¿ »ç°Ý
+STR_ACTION_MANUAL_FIRE_CANCEL,Cancel manual fire,¼öµ¿ »ç°Ý ÇØÁ¦
+STR_ACTION_HOVER,Auto-hover,¿ÀÅäÈ£¹ö¸µ
+STR_ACTION_HOVER_CANCEL,Cancel Auto-hover,¿ÀÅäÈ£¹ö¸µ ÇØÁ¦
+STR_ACTION_STROKEFIST,Strike with fist,ÁÖ¸ÔÀ¸·Î °¡°Ý
+STR_ACTION_STROKEGUN,Strike with gun,¼ÒÃÑÀ¸·Î °¡°Ý
+
+STR_ACTION_LADDERUP,Climb Ladder Up,»ç´Ù¸® ¿À¸£±â
+STR_ACTION_LADDERDOWN,Climb Ladder Down,»ç´Ù¸® ³»·Á°¡±â
+STR_ACTION_LADDERON,Grasp Ladder,»ç´Ù¸® Àâ±â
+STR_ACTION_LADDEROFF,Drop Ladder,»ç´Ù¸® ³»¸®±â
+
+STR_ACTION_FIRE_INFLAME,Light fire,ºÒÄÑ±â
+STR_ACTION_FIRE_PUT_DOWN,Put out fire,ºÒ²ô±â
+STR_ACTION_GEAR_UP,Gear up,¹ÙÄû ¿Ã¸®±â
+STR_ACTION_GEAR_DOWN,Gear down,¹ÙÄû ³»¸®±â
+STR_ACTION_FLAPS_UP,Flaps up,ÇÃ·¦ ¿Ã¸®±â
+STR_ACTION_FLAPS_DOWN,Flaps down,ÇÃ·¦ ³»¸®±â
+
+STR_USRACT_MOVE_FORWARD,Move forward,ÀüÁø
+STR_USRACT_MOVE_BACK,Move back,ÈÄÁø
+STR_USRACT_TURN_LEFT,Strafe left,ÁÂÃø Ç×°ø±â°ø°Ý
+STR_USRACT_TURN_RIGHT,Strafe right,¿ìÃø Ç×°ø±â°ø°Ý
+STR_USRACT_MOVE_UP,Move up,À§·Î ÀÌµ¿
+STR_USRACT_MOVE_DOWN,Move down,¾Æ·¡·Î ÀÌµ¿
+STR_USRACT_FAST_FORWARD,Fast forward,ºü¸£°Ô ÀüÁø
+STR_USRACT_SLOW_FORWARD,Slow forward,´À¸®°Ô ÀüÁø
+STR_USRACT_MOVE_LEFT,Turn left,ÁÂ·Î
+STR_USRACT_MOVE_RIGHT,Turn right,¿ì·Î
+STR_USRACT_TOGGLE_WEAPONS,Toggle weapons,¹«±â Åä±Û
+STR_USRACT_FIRE,Fire,»ç°Ý
+STR_USRACT_RELOAD_MAGAZINE,Reload magazine,ÅºÃ¢ ÀçÀåÀü
+STR_USRACT_LOCK_TARGETS,Next target,´ÙÀ½ Å¸°Ù
+STR_USRACT_LOCK_TARGET,Lock target,Å¸°Ù °íÁ¤
+STR_USRACT_REVEAL_TARGET,Reveal target,Å¸°Ù È®ÀÎ
+STR_USRACT_PREV_ACTION,Previous action,ÀÌÀü ¾×¼Ç
+STR_USRACT_NEXT_ACTION,Next action,´ÙÀ½ ¾×¼Ç
+STR_USRACT_ACTION,Perform action,¾×¼Ç ¼öÇà
+STR_USRACT_HEADLIGHTS,Headlights on/off,¶óÀÌÆ® ÄÔ/²û
+STR_USRACT_NIGHT_VISION,Night vision,¾ß½Ã°æ
+STR_USRACT_BINOCULAR,Binocular,½Ö¾È°æ
+STR_USRACT_COMPASS,Compass,³ªÄ§¹Ý
+STR_USRACT_WATCH,Watch,½Ã°¢
+STR_USRACT_MAP,Map,Áöµµ
+STR_USRACT_HELP,Last help,ÃÖ±Ù µµ¿ò¸»
+STR_USRACT_TIME_INC,Time acceleration,½Ã°£ °¡¼Ó
+STR_USRACT_TIME_DEC,Time deceleration,½Ã°£ °¨¼Ó
+STR_USRACT_OPTICS,Optics,Á¶ÁØ°æ
+STR_USRACT_PERSON_VIEW,1st / 3rd person view,1ÀÎÄª / 3ÀÎÄª ½ÃÁ¡
+STR_USRACT_TACTICAL_VIEW,Tactical view,ÁöÈÖ ½ÃÁ¡
+STR_USRACT_ZOOM_IN,Zoom in,È®´ë
+STR_USRACT_ZOOM_OUT,Zoom out,Ãà¼Ò
+STR_USRACT_LOOK_ARROUND,Look around,»ç¹æ º¸±â
+STR_USRACT_LOOK_ARROUND_TOGGLE,Free-look,ÀÓÀÇ¹æÇâ º¸±â
+STR_USRACT_LOOK_LEFT_DOWN,Look left down,ÁÂÃøÇÏ´Ü º¸±â
+STR_USRACT_LOOK_DOWN,Look down,¾Æ·¡ º¸±â
+STR_USRACT_LOOK_RIGHT_DOWN,Look right down,¿ìÃøÇÏ´Ü º¸±â
+STR_USRACT_LOOK_LEFT,Look left,ÁÂÃø º¸±â
+STR_USRACT_LOOK_CENTER,Center look,Áß¾Ó º¸±â
+STR_USRACT_LOOK_RIGHT,Look right,¿ìÃø º¸±â
+STR_USRACT_LOOK_LEFT_UP,Look left up,ÁÂÃø»ó´Ü º¸±â
+STR_USRACT_LOOK_UP,Look up,»ó´Ü º¸±â
+STR_USRACT_LOOK_RIGHT_UP,Look right up,¿ìÃø»ó´Ü º¸±â
+STR_USRACT_PREV_CHANNEL,Previous channel,ÀÌÀü Ã¤³Î
+STR_USRACT_NEXT_CHANNEL,Next channel,´ÙÀ½ Ã¤³Î
+STR_USRACT_CHAT,Chat,Ã¤ÆÃ
+STR_USRACT_VOICE_OVER_NET,Voice Over Net,À½¼º¼Û¼ö½Å
+STR_USRACT_NETWORK_STATS,Multiplayer statistics,¸ÖÆ¼ÇÃ·¹ÀÌ¾î Åë°è
+STR_USRACT_NETWORK_PLAYERS,List of players,ÇÃ·¹ÀÌ¾î ¸®½ºÆ®
+STR_USRACT_SELECT_ALL,Select all units,¸ðµç À¯´Ö ¼±ÅÃ
+STR_USRACT_TURBO,Turbo,ÅÍº¸
+
+STR_DIFF_ARMOR,Extended armor,Àå°© È®Àå
+STR_DIFF_FRIENDLY_TAG,Friendly TAG,¾Æ±ºÇ¥½Ä
+STR_DIFF_ENEMY_TAG,Enemy TAG,Àû Ç¥½Ä
+STR_DIFF_HUD,Extended HUD info,È®Àå HUD Á¤º¸
+STR_DIFF_AUTO_SPOT,Auto report,ÀÚµ¿ º¸°í
+STR_DIFF_MAP,Extended map info,È®Àå Áöµµ Á¤º¸
+STR_DIFF_WEAPON_CURSOR,Weapon crosshair,¹«±â Á¶ÁØ ½ÊÀÚ¼±
+STR_DIFF_AUTO_GUIDE_AT,Auto guide AT,ÀÚµ¿ AT °¡ÀÌµå
+STR_DIFF_CLOCK_INDICATOR,Clock indicator,¹æÇâ Áö½Ã Ç¥½Ã
+
+
+COMMENT,Currency format,ÇöÀç Æ÷¸Ë
+STR_CURRENCY_NONE,NOTHING,¾øÀ½
+STR_CURRENCY_LOT,UNLIMITED,¹«ÇÑ´ë
+STR_CURRENCY_BLANK,.,.
+STR_CURRENCY_FORMAT,$%s,$%s
+
+COMMENT,Default values for displays,µð½ºÇÃ·¹ÀÌ ±âº»¼³Á¤
+STR_NEW_GAME,*** New Game ***,*** »õ°ÔÀÓ ***
+STR_PLAY_WEST,Play west,¿þ½ºÆ®·Î ÇÃ·¹ÀÌ
+STR_PLAY_EAST,Play east,ÀÌ½ºÆ®·Î ÇÃ·¹ÀÌ
+STR_PLAY_GUERRILA,Play resistance,·¹Áö½ºÅÁ½º·Î ÇÃ·¹ÀÌ
+STR_ARCUNIT_TITLE2,Insert unit,À¯´Ö »ðÀÔ
+STR_ARCUNIT_TITLE4,Edit unit,À¯´Ö ÆíÁý
+STR_ARCWP_TITLE1,Insert waypoint,¿þÀÌÆ÷ÀÎÆ® »ðÀÔ
+STR_ARCWP_TITLE2,Edit waypoint,¿þÀÌÆ÷ÀÎÆ® ÆíÁý
+STR_ARCSENS_TITLE1,Insert trigger,Æ®¸®°Å »ðÀÔ
+STR_ARCSENS_TITLE2,Edit trigger,Æ®¸®°Å ÆíÁý
+STR_ARCMARK_TITLE1,Insert marker,¸¶Å© »ðÀÔ
+STR_ARCMARK_TITLE2,Edit marker,¸¶Å© ÆíÁý
+STR_ARCMARK_TYPE1,Icon:,¾ÆÀÌÄÜ : 
+STR_ARCMARK_TYPE2,Fill:,Ã¤¿ì±â : 
+STR_MAIN_PLAYER,PLAYER: %s,ÇÃ·¹ÀÌ¾î :  %s
+STR_MAIN_RANK,%s Ian Gastovski,%s Ian Gastovski
+STR_MAIN_MISSION,Mission: %s,¹Ì¼Ç :  %s
+STR_NONPLAYABLE,Non Playable,ÇÃ·¹ÀÌ ÇÒ¼ö¾øÀ½
+STR_PLAYER,Player,ÇÃ·¹ÀÌ¾î
+STR_PLAYER_COMMANDER,Player as commander,Ä¿¸Ç´õ·Î ÇÃ·¹ÀÌ
+STR_PLAYER_DRIVER,Player as driver,Á¶Á¾¼ö·Î ÇÃ·¹ÀÌ
+STR_PLAYER_PILOT,Player as pilot,ÆÄÀÏ·µÀ¸·Î ÇÃ·¹ÀÌ
+STR_PLAYER_GUNNER,Player as gunner,»ç°Ý¼ö·Î ÇÃ·¹ÀÌ
+STR_PLAYABLE,Playable,ÇÃ·¹ÀÌ °¡´É
+STR_PLAYABLE_C,Playable as commander,ÁöÈÖ°üÀ¸·Î ÇÃ·¹ÀÌ °¡´É
+STR_PLAYABLE_D,Playable as driver,ÆÄÀÏ·µÀ¸·Î ÇÃ·¹ÀÌ °¡´É
+STR_PLAYABLE_P,Playable as pilot,ÆÄÀÏ·µÀ¸·Î ÇÃ·¹ÀÌ °¡´É
+STR_PLAYABLE_G,Playable as gunner,»ç¼ö·Î ÇÃ·¹ÀÌ °¡´É
+STR_PLAYABLE_CD,"Playable as commander, driver","ÁöÈÖ°üÀ¸·Î ÇÃ·¹ÀÌ °¡´É"""
+STR_PLAYABLE_CP,"Playable as commander, pilot","ÁöÈÖ°ü, ÆÄÀÏ·µÀ¸·Î ÇÃ·¹ÀÌ °¡´É"
+STR_PLAYABLE_CG,"Playable as commander, gunner","ÀüÂ÷Àå, »ç¼ö·Î ÇÃ·¹ÀÌ °¡´É"
+STR_PLAYABLE_DG,"Playable as driver, gunner","Á¶Á¾¼ö, »ç°Ý¼ö·Î ÇÃ·¹ÀÌ °¡´É"
+STR_PLAYABLE_PG,"Playable as pilot, gunner","ÆÄÀÏ·µ,Æ÷¼ö·Î ÇÃ·¹ÀÌ °¡´É"
+STR_PLAYABLE_CDG,"Playable as commander, driver, gunner","ÁöÈÖ°ü, Á¶Á¾¼ö, »ç°Ý¼ö·Î ÇÃ·¹ÀÌ °¡´É"
+STR_PLAYABLE_CPG,"Playable as commander, pilot, gunner","ÁöÈÖ°ü, ÆÄÀÏ·µ, »ç°Ý¼ö·Î ÇÃ·¹ÀÌ °¡´É"
+STR_STAT_MISSION,Mission statistics:,¹Ì¼Ç Åë°è : 
+STR_STAT_TOTAL,Total statistics:,ÃÑ°è : 
+STR_STAT_YOU,YOU WERE KILLED %d TIMES.,´ç½ÅÀº %d È¸ Àü»çÇÏ¿´½À´Ï´Ù.
+STR_STAT_GRP,YOUR GROUP LOST %d UNITS.,´ç½ÅÀÇ ´ë¿ø Áß %d ¸íÀÌ Àü»çÇÏ¿´½À´Ï´Ù.
+STR_TEMPL_MERGE,Merge mission,¹Ì¼Ç ÇÕÄ¡±â
+STR_SOUND_NONE,No sound,È¿°úÀ½ OFF
+STR_MUSIC_NONE,No music,¹ÂÁ÷ OFF
+STR_MUSIC_SILENCE,Silence,Ä§¹¬
+STR_NO_CHANGE,No change,º¯È­ ¾øÀ½
+STR_CAMPAIGN_NEW,New campaign,»õ Ä·ÆäÀÎ
+STR_CAMPAIGN_MIS_TITLE,%s - %s - Mission Statistics,%s - %s - ¹Ì¼Ç Åë°è
+STR_SURE,Are you sure?,È®½ÇÇÕ´Ï±î?
+STR_HOUSE_POSITION,Position #%d,À§Ä¡ #%d
+STR_SENSOR,TRIGGER,Æ®¸®°Å
+STR_RADIO_UNASSIGNED,,
+STR_CAMPAIGN_START,Start campaign,ÀÛÀü °³½Ã
+STR_CAMPAIGN_RETRY,Retry mission,Àç½Ãµµ
+STR_CAMPAIGN_CONTINUE,Continue,°è¼Ó
+STR_MULTI_LAN,LAN,LAN
+STR_MULTI_REMOTE,Remote,Remote
+STR_SESSION_NAME_FORMAT,%s on %s,%s on %s
+STR_PLAYER_AI,AI,AI
+STR_PLAYER_NONE,NOBODY,¾øÀ½
+STR_POSITION_COMMANDER, commander,ÁöÈÖ°ü
+STR_POSITION_DRIVER, driver,¿îÀü»ç
+STR_POSITION_PILOT, pilot,ÆÄÀÏ·µ
+STR_POSITION_GUNNER, gunner,»ç°Ý¼ö
+STR_POSITION_LEADER,", group leader",", ºÐ´ëÀå"
+STR_DIFF_CADET,Difficulty: Cadet,³­ÀÌµµ : ÈÆ·Ãº´
+STR_DIFF_VETERAN,Difficulty: Veteran,³­ÀÌµµ : º£Å×¶û
+STR_EXPORT_NONE,User mission,»ç¿ëÀÚ Á¤ÀÇ ¹Ì¼Ç
+STR_EXPORT_SINGLE,Export to single missions,½Ì±Û ¹Ì¼ÇÀ¸·Î ÀúÀå
+STR_EXPORT_MULTI,Export to multiplayer missions,¸ÖÆ¼ÇÃ·¹ÀÌ¾î ¹Ì¼ÇÀ¸·Î ÀúÀå
+STR_EXPORT_MAIL,Send by e-mail,e-mail·Î º¸³»±â
+STR_VERSION_INFO,Version: %s,¹öÁ¯ :  %s
+STR_EDITOR_EASY,Easy,ÃÊ±Þ
+STR_EDITOR_ADVANCED,Advanced,°í±Þ
+STR_EMPTY_SLOT,Empty,°ø¹é
+STR_NOT_ASSIGNED,<Unassigned>,<¹ÌÁöÁ¤>
+STR_MPROLE_TITLE_WEST,West setup,³ªÅä±º ¼Â¾÷
+STR_MPROLE_TITLE_EAST,East setup,¼Ò·Ã±º ¼Â¾÷
+STR_MPROLE_TITLE_RESIST,Resistance setup,·¹Áö½ºÅÁ½º ¼Â¾÷
+STR_MPROLE_TITLE_CIVIL,Civilians setup,¹Î°£ÀÎ ¼Â¾÷
+STR_MPROLE_ENABLE,Enable,°¡´É
+STR_MPROLE_DISABLE,Disable,ºÒ°¡´É
+STR_NEWUSER_TITLE1,New player,´º ÇÃ·¹ÀÌ¾î
+STR_NEWUSER_TITLE2,Edit player,ÇÃ·¹ÀÌ¾î ÆíÁý
+STR_CONFIG_YNORMAL,Y axis normal,Y Ãà Á¤»ó
+STR_CONFIG_YREVERSED,Y axis reversed,Y Ãà ¹Ý´ë
+STR_CONFIG_JOYSTICK_DISABLED,Joystick disabled,Á¶ÀÌ½ºÆ½ »ç¿ë ºÒ°¡´É
+STR_CONFIG_JOYSTICK_ENABLED,Joystick enabled,Á¶ÀÌ½ºÆ½ »ç¿ë °¡´É
+STR_OPT_SUBTITLES_DISABLED,Subtitles disabled,ÀÚ¸· Áö¿ø
+STR_OPT_SUBTITLES_ENABLED,Subtitles enabled,ÀÚ¸· ¹ÌÁö¿ø
+STR_OPT_RADIO_DISABLED,Radio subtitles disabled,¹«Àü±â ÀÚ¸· ºñÁö¿ø
+STR_OPT_RADIO_ENABLED,Radio subtitles enabled,¹«Àü±â ÀÚ¸· Áö¿ø
+STR_SINGLE_PLAY,Play,½ÃÀÛ
+STR_SINGLE_RESUME,Resume (%d/%d/%d %d:%02d),°è¼Ó (%d/%d/%d %d : %02d)
+STR_SINGLE_RESTART,Restart,Àç½ÃÀÛ 
+STR_CAMPAIGN_BEGIN,Start,½ÃÀÛ
+STR_CAMPAIGN_RESTART,Revert,º¹±¸
+STR_CAMPAIGN_RESUME,Continue,°è¼Ó
+STR_CAMPAIGN_LB_CONTINUE, - continue (%d/%d/%d %d:%02d), - °è¼Ó (%d/%d/%d %d : %02d)
+STR_VEHICLE_UNLOCKED,Unlocked,°íÁ¤µÇ¾î ÀÖÁö ¾ÊÀ½
+STR_VEHICLE_DEFAULT,Default,±âº»¼³Á¤
+STR_VEHICLE_LOCKED,Locked,°íÁ¤
+STR_ENABLED,Enabled,°¡´É
+STR_DISABLED,Disabled,ºÒ°¡´É
+STR_LEFT_BUTTON,Left,¿ÞÂÊ
+STR_RIGHT_BUTTON,Right,¿À¸¥ÂÊ
+STR_SINGLE_VOICE,Single,½Ì±Û  
+STR_ALL_VOICES,All,¸ðµÎ
+STR_NO_PASSWORD,No password,ÆÐ½º¿öµå ¾øÀ½
+STR_PASSWORD,Password: %s,ÆÐ½º¿öµå :  %s
+STR_PLAYER_ID,Player ID: %s,ÇÃ·¹ÀÌ¾î ID :  %s
+
+STR_CHANNEL_GLOBAL,Global channel,±Û·Î¹ß Ã¤³Î
+STR_CHANNEL_SIDE,Side channel,¼Ò¼Ó Ã¤³Î
+STR_CHANNEL_GROUP,Group channel,±×·ì Ã¤³Î
+STR_CHANNEL_VEHICLE,Vehicle channel,Â÷·® Ã¤³Î
+STR_CHANNEL_DIRECT,Direct speaking,Á÷Á¢ ¸»ÇÏ±â
+
+STR_COMMANDER, Commander,ÁöÈÖ°ü
+STR_DRIVER, Driver,Á¶Á¾¼ö
+STR_PILOT, Pilot,ÆÄÀÏ·µ
+STR_GUNNER, Gunner,»ç°Ý¼ö
+
+STR_MAP_NOTES,Notes,¸Þ½ÃÁö
+STR_MAP_PLAN,Plan,°èÈ¹
+STR_MAP_GEAR,Gear,Àåºñ
+STR_MAP_GROUP,Group,±×·ì
+STR_MAP_DNOTES,Notes,¸Þ½ÃÁö
+STR_MAP_DLOG,Summary,¿ä¾à
+
+STR_MISSION_COMPLETED,Done,¿Ï·á
+STR_MISSION_INCOMPLETED,Mission is not completed,¹Ì¼ÇÀÌ ¿Ï·áµÇÁö ¾Ê¾Ò½À´Ï´Ù.
+STR_MISSION_FAILED,Mission failed,¹Ì¼ÇÀ» ½ÇÆÐÇÏ¿´½À´Ï´Ù.
+STR_MISSION_KILLED,You are dead.,Àü»çÇÏ¿´½À´Ï´Ù.
+STR_UI_PRESSEND,Press END to exit the mission.,¹Ì¼ÇÁ¾·á¸¦ À§ÇØ END¸¦ ´©¸£½Ê½Ã¿À.
+STR_UI_PRESSENDRETRY,Press END to retry the mission.,¹Ì¼Ç Àç½ÃÀÛÀ» À§ÇØ END¸¦ ´©¸¨½Ê½Ã¿À.
+STR_LIVES_1,Your last chance!!!,¸¶Áö¸· ±âÈ¸ÀÔ´Ï´Ù!!!!
+STR_LIVES_3,Only %d attempts left!,%d È¸¸¸ÀÇ ±âÈ¸°¡ ³²¾Ò½À´Ï´Ù!
+STR_LIVES_MORE,%d more attempts.,%d ÀÇ ±âÈ¸°¡ ³²¾Ò½À´Ï´Ù.
+
+STR_MIS_STATE_INTERRUPTED,Interrupted,Áß´Ü
+STR_MIS_STATE_COMPLETED,Completed,¿Ï·á
+STR_MIS_STATE_FAILED,Failed,½ÇÆÐ
+STR_MIS_STATE_ERROR,Error,¿¡·¯ ¹ß»ý
+
+STR_OBJECTIVE_DONE,Objective completed,¸ñÇ¥ ´Þ¼º
+STR_OBJECTIVE_UPDATED,Mission plan updated,¹Ì¼Ç °èÈ¹ ¼öÁ¤
+
+STR_MSG_SELECT_GAME,Game must be selected here!,°ÔÀÓÀ» ¹Ýµå½Ã ¼±ÅÃÇØ¾ß ÇÕ´Ï´Ù!
+STR_MSG_NAME_EMPTY,Game name cannot be empty!,°ÔÀÓ¸íÀ» ¹Ýµå½Ã ÀÔ·ÂÇØ¾ß ÇÕ´Ï´Ù!
+STR_MSG_PLAYERNAME_EMPTY,Player's name cannot be empty!,ÇÃ·¹ÀÌ¾î ÀÌ¸§À» ¹Ýµå½Ã ÀÔ·ÂÇØ¾ß ÇÕ´Ï´Ù!
+STR_MSG_PLAYER_EXIST,Player already exist!,ÀÌ¹Ì ÇÃ·¹ÀÌ¾î°¡ Á¸ÀçÇÕ´Ï´Ù!
+STR_MSG_NETWORK_FAIL,Network services not found!,³×Æ®¿öÅ©¿¡ ¿¬°áÇÒ ¼ö ¾ø½À´Ï´Ù!
+STR_MSG_NO_PLAYER,No player was selected!,ÇÃ·¹ÀÌ¾î°¡ ¼±ÅÃµÇÁö ¾Ê¾Ò½À´Ï´Ù!
+STR_MSG_NO_PLAYERS,Two players are expected!,µÎ¸íÀÇ ÇÃ·¹ÀÌ¾î°¡ ¿¹Á¤µË´Ï´Ù.
+STR_MSG_ONE_SIDE,Cooperative mode is not supported!,Çù·Â ¸ðµå´Â Áö¿øÇÏÁö ¾Ê½À´Ï´Ù!
+STR_MSG_LOT_UNITS,Only %d units per group are supported!,°¢ ºÐ´ë¿¡ %d ¸íÀÇ ´ë¿ø¸¸À» Áö¿øÇÕ´Ï´Ù!
+STR_MSG_LOT_GROUPS,Only %d groups per side are supported!,°¢ ¼Ò¼Ó±º¿¡ %d °³ÀÇ ºÐ´ë¸¦ Áö¿øÇÕ´Ï´Ù!
+STR_MSG_NO_VEH_SELECT,Vehicle must be selected!,Â÷·®À» ¼±ÅÃÇØ¾ß ÇÕ´Ï´Ù!
+STR_MSG_MARKER_EMPTY,Marker name cannot be empty!,Marker ÀÇ ÀÌ¸§À» ÁöÁ¤ÇØ¾ß ÇÕ´Ï´Ù!
+STR_MSG_MARKER_EXIST,Marker with this name already exist!,Marker µ¿ÀÏÇÑ ÀÌ¸§ÀÌ ÀÌ¹Ì Á¸ÀçÇÕ´Ï´Ù!
+STR_MSG_SELECT_MISSION,"Select campaign, battle or mission!","ÀüÅõ, ¹Ì¼Ç È¤Àº Ä·ÆäÀÎ Áß ¼±ÅÃ!"
+STR_MSG_VEH_NAME,Invalid variable name!,»ç¿ë ºÒ°¡´ÉÇÑ º¯¼ö¸íÀÔ´Ï´Ù!
+STR_MSG_VEH_TEXT_USED,Variable name used!,»ç¿ëÁßÀÎ º¯¼ö¸íÀÔ´Ï´Ù!
+STR_MSG_LOAD_TEMPL_FAIL,Loading of mission failed!,¹Ì¼Ç ºÒ·¯¿À±â¸¦ ½ÇÆÐÇÏ¿´½À´Ï´Ù!
+STR_MSG_SAVE_TEMPL_FAIL,Saving of mission failed!,¹Ì¼Ç ÀúÀåÇÏ±â¸¦ ½ÇÆÐÇÏ¿´½À´Ï´Ù!
+STR_MSG_TEMPL_READONLY,Warning: File is read only!,°æ°í  :  ÀÐ±â Àü¿ë ÆÄÀÏÀÔ´Ï´Ù!
+STR_MSG_TEMPL_ACCESSDENIED,Access denied! Read only file?,Á¢±Ù ½ÇÆÐ!  ÀÐ±â Àü¿ë ÆÄÀÏ ÀÔ´Ï´Ù
+STR_MSG_MP_ASSIGN_PLAYERS,No player assigned!,ÇÃ·¹ÀÌ¾î°¡ ÁöÁ¤µÇÁö ¾Ê¾Ò½À´Ï´Ù!
+STR_MSG_MP_BAD_ADDRESS,Bad IP address!,IP ÁÖ¼Ò ¿À·ù!
+STR_MSG_MP_W_ASSIGN,West commander not assigned!,³ªÅä±º ÁöÈÖ°üÀ» ÁöÁ¤ÇÏÁö ¾Ê¾Ò½À´Ï´Ù!
+STR_MSG_MP_E_ASSIGN,East commander not assigned!,¼Ò·Ã±º ÁöÈÖ°üÀ» ÁöÁ¤ÇÏÁö ¾Ê¾Ò½À´Ï´Ù!
+STR_MSG_MP_R_ASSIGN,Resistance commander not assigned!,·¹Áö½ºÅÁ½º ÁöÈÖ°üÀ» ÁöÁ¤ÇÏÁö ¾Ê¾Ò½À´Ï´Ù!
+STR_MSG_MP_C_ASSIGN,Civilians commander not assigned!,¹Î°£ÀÎ ÁöÈÖ°üÀ» ÁöÁ¤ÇÏÁö ¾Ê¾Ò½À´Ï´Ù!
+STR_MSG_MP_SERVER_ASSIGN,You must be side commander!,¼Ò¼Ó±ºÀÇ ÁöÈÖ°üÀÌ¾î¾ß ÇÕ´Ï´Ù!
+STR_MSG_MP_PASSWORD,Password required.,ÆÐ½º¿öµå ÀÔ·Â.
+STR_MSG_MP_VERSION,"Bad version, server rejected connection.","¹öÁ¯ ¿À·ù, ¼­¹ö¿¡ ¿¬°áÇÏÁö ¸øÇß½À´Ï´Ù."
+STR_MSG_MP_CONNECT_ERROR,Connecting failed.,Á¢¼Ó ½ÇÆÐ
+
+
+COMMENT,Experience,°æÇèµµ
+STR_EXP_MISSION_COMPLETED,MISSION COMPLETED. EXPERIENCE INCREASED.,¹Ì¼Ç ¿Ï·á. °æÇèµµ »ó½Â.
+STR_EXP_MISSION_FAILED,MISSION FAILED. EXPERIENCE DECREASED.,¹Ì¼Ç ½ÇÆÐ. °æÇèµµ ÇÏ¶ô.
+STR_EXP_COMMAND_COMPLETED,COMMAND COMPLETED. EXPERIENCE INCREASED.,¸í·É ¿Ï¼ö. °æÇèµµ »ó½Â.
+STR_EXP_COMMAND_FAILED,COMMAND FAILED. EXPERIENCE DECREASED.,¸í·É ½ÇÇà ½ÇÆÐ. °æÇèµµ ÇÏ¶ô.
+
+STR_EXP_ENEMY_DESTROYED,ENEMY %s DESTROYED. EXPERIENCE INCREASED.,%s ¸íÀÇ Àû±ºÀÌ »ç¸ÁÇÏ¿´½À´Ï´Ù. °æÇèµµ Áõ°¡.
+STR_EXP_FRIENDLY_DESTROYED,FRIENDLY %s DESTROYED. EXPERIENCE DECREASED.,%s ¸íÀÇ ¾Æ±ºÀÌ »ç¸ÁÇÏ¿´½À´Ï´Ù. °æÇèµµ °¨¼Ò.
+STR_EXP_NEUTRAL_DESTROYED,NEUTRAL %s DESTROYED. EXPERIENCE DECREASED.,%s ¸íÀÇ Áß¸³±ºÀÌ »ç¸ÁÇÏ¿´½À´Ï´Ù. °æÇèµµ °¨¼Ò.
+STR_EXP_UNKNOWN_DESTROYED,UNKNOWN %s DESTROYED. EXPERIENCE DECREASED.,¼Ò¼ÓÀÌ ºÒºÐ¸íÇÑ ±ºÀÎ %s ¸íÀÌ »ç¸ÁÇÏ¿´½À´Ï´Ù. °æÇèµµ °¨¼Ò.
+
+STR_EXP_UNIT_LOST,%s LOST. EXPERIENCE DECREASED.,%s ÀÌ ÆÄ±«µÇ¾ú½À´Ï´Ù. °æÇèµµ °¨¼Ò.
+STR_EXP_FOLLOW_ME,YOU MUST FOLLOW YOUR LEADER. EXPERIENCE DECREASED.,ÁöÈÖ°üÀÇ ¸í·É¿¡ º¹Á¾ÇØ¾ß ÇÕ´Ï´Ù. °æÇèµµ °¨¼Ò.
+
+STR_STAT_KILL_CIVIL,%s Civilian killed (%s),%s ¹Î°£ÀÎ »ç¸Á (%s)
+STR_STAT_KILL_ENEMY_SOLDIER,%s Enemy soldier killed (%s),%s Àû±º º´»ç »ç¸Á (%s)
+STR_STAT_KILL_FRIENDLY_SOLDIER,%s Friendly soldier killed (%s),%s ¾Æ±º º´»ç »ç¸Á (%s)
+STR_STAT_KILL_CIVILIAN_UNIT,%s Civilian %s destroyed (%s),%s ¹Î°£ %s ÆÄ±« (%s)
+STR_STAT_KILL_ENEMY_UNIT,%s Enemy %s destroyed (%s),%s Àû %s ÆÄ±« (%s)
+STR_STAT_KILL_FRIENDLY_UNIT,%s Friendly %s destroyed (%s),%s ¾Æ±º %s ÆÄ±« (%s)
+STR_STAT_UNIT_LOST,%s %s %s killed in action (%s),%s %s %s ÀÓ¹« ¼öÇàÁß »ç¸Á (%s)
+
+STR_KILLED_BY,%s (%s %d) was killed by %s,"%s (%s %d)»ç¸Á, %s°¡ Á×ÀÓ"
+STR_KILLED,%s (%s %d) was killed,%s (%s %d) »ç¸Á
+
+COMMENT,Waypoints,¿þÀÌÆ÷ÀÎÆ®
+STR_AC_MOVE,MOVE,ÀÌµ¿
+STR_AC_DESTROY,DESTROY,ÆÄ±«
+STR_AC_GETIN,GET IN,Å¾½Â
+STR_AC_SEEKANDDESTROY,SEEK AND DESTROY,¼ö»ö ¹× ÆÄ±«
+STR_AC_JOIN,JOIN,ÇÕ·ù
+STR_AC_LEADER,JOIN AND LEAD,ÇÕ·ù ¹× ÁöÈÖ
+STR_AC_GETOUT,GET OUT,Å»Ãâ
+STR_AC_CYCLE,CYCLE,»çÀÌÅ¬
+STR_AC_LOAD,LOAD,ÀûÀç
+STR_AC_UNLOAD,UNLOAD,ÀûÇÏ
+STR_AC_TRANSPORTUNLOAD,TRANSPORT UNLOAD,¼ö¼Û ÀûÇÏ
+STR_AC_HOLD,HOLD,Á¡À¯
+STR_AC_SENTRY,SENTRY,º¸ÃÊ
+STR_AC_GUARD,GUARD,°æºñ
+STR_AC_TALK,TALK,´ëÈ­
+STR_AC_SCRIPTED,SCRIPTED,½ºÅ©¸³µÈ
+STR_AC_SUPPORT,SUPPORT,Áö¿ø
+STR_AC_AND,AND,±×¸®°í
+STR_AC_OR,OR,¶Ç´Â
+
+STR_SYNC_WAITING,WAIT FOR OTHERS,´ë±â
+
+STR_SPECIAL_NONE,None,¾øÀ½
+STR_SPECIAL_CARGO,In Cargo,È­¹°Ä­ ¾È¿¡
+STR_SPECIAL_FLYING,Flying,ºñÇàÁß
+STR_SPECIAL_FORM,In Formation,´ë¿­ ³»
+
+STR_AGE_ACTUAL,Actual,ÇöÀç
+STR_AGE_5MIN,5 Minutes,5ºÐ
+STR_AGE_10MIN,10 Minutes,10ºÐ
+STR_AGE_15MIN,15 Minutes,15ºÐ
+STR_AGE_30MIN,30 Minutes,30ºÐ
+STR_AGE_60MIN,1 Hour,1½Ã°£
+STR_AGE_120MIN,2 Hours,2½Ã°£
+STR_AGE_UNKNOWN,Unknown,¾Ë¼ö ¾øÀ½
+
+STR_SENSORACTIV_NONE,None,¾øÀ½
+STR_SENSORACTIV_ANYBODY,Anybody,´©±¸µçÁö
+STR_SENSORACTIV_ALPHA,Radio Alpha,¶óµð¿À ¾ËÆÄ
+STR_SENSORACTIV_BRAVO,Radio Bravo,¶óµð¿À ºê¶óº¸
+STR_SENSORACTIV_CHARLIE,Radio Charlie,¶óµð¿À Âû¸®
+STR_SENSORACTIV_DELTA,Radio Delta,¶óµð¿À µ¨Å¸
+STR_SENSORACTIV_ECHO,Radio Echo,¶óµð¿À ¿¡ÄÚ
+STR_SENSORACTIV_FOXTROT,Radio Foxtrot,¶óµð¿À Æø½ºÆ®·Ô
+STR_SENSORACTIV_GOLF,Radio Golf,¶óµð¿À °ñÇÁ
+STR_SENSORACTIV_HOTEL,Radio Hotel,¶óµð¿À È£ÅÚ
+STR_SENSORACTIV_STATIC,Static object,Á¤ÁöµÈ Ç¥Àû
+STR_SENSORACTIV_VEHICLE,Vehicle,Â÷·®
+STR_SENSORACTIV_GROUP,Whole group,ÀüºÐ´ë
+STR_SENSORACTIV_LEADER,Group leader,ºÐ´ëÀå
+STR_SENSORACTIV_MEMBER,Any group member,ºÐ´ë¿ø
+
+STR_SENSORTYPE_NONE,None,¾øÀ½
+STR_SENSORTYPE_GUARD_EAST,Guarded by East,¼Ò·Ã±ºÀÌ Á¡·ÉÇÏ°í ÀÖÀ½
+STR_SENSORTYPE_GUARD_WEST,Guarded by West,³ªÅä±ºÀÌ Á¡·ÉÇÏ°í ÀÖÀ½
+STR_SENSORTYPE_GUARD_GUERRILA,Guarded by Resistance,¹Ý¶õ±ºÀÌ Á¡·ÉÇÏ°í ÀÖÀ½
+STR_SENSORTYPE_SWITCH,Switch,½ºÀ§Ä¡
+STR_SENSORTYPE_END1,End #1,End #1
+STR_SENSORTYPE_END2,End #2,End #2
+STR_SENSORTYPE_END3,End #3,End #3
+STR_SENSORTYPE_END4,End #4,End #4
+STR_SENSORTYPE_END5,End #5,End #5
+STR_SENSORTYPE_END6,End #6,End #6
+STR_SENSORTYPE_LOOSE,Loose,ÇØ¹æ
+
+STR_SPEED_UNCHANGED,No change,º¯È­ ¾øÀ½
+STR_SPEED_LIMITED,Limited,Á¦ÇÑ
+STR_SPEED_NORMAL,Normal,Á¤»ó
+STR_SPEED_FULL,Full,ÃÖ´ë
+
+STR_COMBAT_UNCHANGED,No change,º¯È­ ¾øÀ½
+STR_COMBAT_CARELESS,Careless,ºÎÁÖÀÇ
+STR_COMBAT_SAFE,Safe,¾ÈÀü
+STR_COMBAT_AWARE,Aware,ÁÖÀÇ
+STR_COMBAT_COMBAT,Combat,ÀüÅõ
+STR_COMBAT_STEALTH,Stealth,¾öÆó
+
+COMMENT,Main map texts,¸ÞÀÎ Áöµµ ÅØ½ºÆ®  :  
+STR_MM_UNITS,UNITS:,À¯´Ö  :  
+STR_MM_POSITION,POSITION %s,Æ÷Áö¼Ç(POSITION) %s
+STR_MM_LOCATION,LOCATION %s,À§Ä¡(LOCATION) %s
+STR_MM_CHECKPOINT,CHECKPOINT,°Ë¹®¼Ò
+STR_MM_NORMAL, - %s, - %s
+STR_MM_AWAY, - %s (Away), - %s (ºÎÀç)
+STR_MM_CARGO, - %s (in Cargo), - %s (È­¹°Ä­)
+STR_MM_LEADERAWAY,%s (Away),%s (ºÎÀç)
+
+COMMENT,Camera effects,Ä«¸Þ¶ó È¿°ú
+STR_CAMEFFECT_NONE,NONE,¾øÀ½
+STR_CAMEFFECT_STATIC,STATIC,Á¤Áö
+STR_CAMEFFECT_TRACKING,STATIC WITH ZOOM,È®´ëµÈ »óÅÂ·Î Á¤Áö
+STR_CAMEFFECT_FOLLOW_NEAR,FOLLOW 1,µû¶ó°¡±â 1
+STR_CAMEFFECT_FOLLOW_FAR,FOLLOW 2,µû¶ó°¡±â 2
+STR_CAMEFFECT_EXTERNAL,EXTERNAL 1,¿ÜºÎ 1
+STR_CAMEFFECT_EXTERNAL_FIX,EXTERNAL 2,¿ÜºÎ 2
+STR_CAMEFFECT_ALIGNED,ALIGNED,Á¤·Ä
+STR_CAMEFFECT_ZOOMIN,ZOOM IN,È®´ëµÈ »óÅÂ·Î Á¤Áö
+STR_CAMEFFECT_ZOOMOUT,ZOOM OUT,Ãà¼Ò
+STR_CAMEFFECT_BOOMANDZOOM,BOOM AND ZOOM,°ÉÄ§´ë¿¡ ¿Ã¸®°í È®´ë
+STR_CAMEFFECT_TRANSITION,TRANSITION,º¯È¯
+STR_CAMEFFECT_TERMINATE,TERMINATE,Á¾°á
+
+STR_CAMEFFECT_TOP,TOP,»ó´Ü
+STR_CAMEFFECT_LEFT,LEFT,ÁÂÃø Àü¹æ
+STR_CAMEFFECT_RIGHT,RIGHT,¿ìÃø
+STR_CAMEFFECT_FRONT,FRONT,Àü¹æ
+STR_CAMEFFECT_BACK,BACK,ÈÄ¹æ
+STR_CAMEFFECT_LEFTFRONT,LEFT FRONT,ÁÂÃø Àü¹æ
+STR_CAMEFFECT_RIGHTFRONT,RIGHT FRONT,¿ìÃø Àü¹æ
+STR_CAMEFFECT_LEFTBACK,LEFT BACK,ÁÂÃø ÈÄ¹æ
+STR_CAMEFFECT_RIGHTBACK,RIGHT BACK,¿ìÃø ÈÄ¹æ
+STR_CAMEFFECT_LEFTTOP,LEFT TOP,ÁÂÃø »ó´Ü
+STR_CAMEFFECT_RIGHTTOP,RIGHT TOP,¿ìÃø »ó´Ü
+STR_CAMEFFECT_FRONTTOP,FRONT TOP,Àü¹æ »ó´Ü
+STR_CAMEFFECT_BACKTOP,BACK TOP,ÈÄ¹æ »ó´Ü
+STR_CAMEFFECT_BOTTOM,BOTTOM,ÇÏ´Ü
+
+STR_TITTYPE_NONE,NONE,NONE
+STR_TITTYPE_OBJECT,OBJECT,OBJECT
+STR_TITTYPE_RESOURCE,RESOURCE,RESOURCE
+STR_TITTYPE_TEXT,TEXT,TEXT
+
+STR_TITEFFECT_PLAIN,PLAIN,º¸Åë
+STR_TITEFFECT_PLAIN_DOWN,BOTTOM,¹Ù´Ú
+STR_TITEFFECT_BLACK,BLACK,ºí·¢
+STR_TITEFFECT_BLACKFADED,BLACK FADED,»ö¹Ù·£ ºí·¢
+STR_TITEFFECT_BLACKOUT,BLACK OUT,ºí·¢ ¾Æ¿ô
+STR_TITEFFECT_BLACKIN,BLACK IN,ºí·¢ ÀÎ
+STR_TITEFFECT_WHITEOUT,WHITE OUT,È­ÀÌÆ® ¾Æ¿ô
+STR_TITEFFECT_WHITEIN,WHITE IN,È­ÀÌÆ® ÀÎ
+
+STR_SECTION_MISSION,Mission,¹Ì¼Ç
+STR_SECTION_INTRO,Intro,ÀÎÆ®·Î
+STR_SECTION_OUTRO_WIN,Outro - win,¾Æ¿ìÆ®·Î - ½Â¸®
+STR_SECTION_OUTRO_LOOSE,Outro - loose,¾Æ¿ìÆ®·Î - ÆÐ¹è
+STR_SECTION_CUTSCENE,Cutscene #%d,Ä¿Æ®Àå¸é #%d
+
+COMMENT,Errors in expressions,¿¡·¯ ¹ß»ý
+STR_EVAL_GEN,Generic error in expression,ÃÑÄªÀûÀÎ ¿¡·¯ ¹ß»ý
+STR_EVAL_EXPO,Exponent out of range or invalid,¹üÀ§ ÃÊ°ú
+STR_EVAL_NUM,Invalid number in expression,¼ýÀÚ ¿¡·¯
+STR_EVAL_VAR,Undefined variable in expression,Á¤ÀÇµÇÁö ¾ÊÀº º¯¼ö
+STR_EVAL_BAD_VAR,Reserved variable in expression,»ç¿ëÁßÀÎ º¯¼ö
+STR_EVAL_DIV_ZERO,Zero divisor,0 ³ª´°¼ö
+STR_EVAL_TG90,Tangens of 90 degrees,90µµÀÇ ÅºÁ¨Æ®
+STR_EVAL_OPENB,Missing (,( ¾øÀ½
+STR_EVAL_CLOSEB,Missing ),) ¾øÀ½
+STR_EVAL_EQU,Missing =,  = ¾øÀ½
+STR_EVAL_SEMICOLON,Missing ;,; ¾øÀ½
+STR_EVAL_OPER,Unknown operator %s,¾Ë¼ö¾ø´Â ¿¬»êÀÚ %s
+STR_EVAL_LINE_LONG,Line is too long,Á¦ÇÑ ÃÊ°ú
+STR_EVAL_TYPE,"Type %s, expected %s","Á¾·ù %s, ¿¹»ó %s"
+STR_EVAL_NAMESPACE,Local variable in global space,Àü ¹üÀ§¿¡ Áö¿ª º¯¼ö »ç¿ë
+STR_EVAL_DIM,"%d elements provided, %d expected","%d ¿ä¼Ò°¡ ÀÖ´Ù¸é, %d °¡ ¿¹»óµÈ´Ù"
+
+COMMENT,Types in expressions,Ç¥Çö»óÀÇ Á¾·ù
+STR_EVAL_TYPEANY,Any,ÀÓÀÇ
+STR_EVAL_TYPESCALAR,Number,¼ýÀÚ
+STR_EVAL_TYPEBOOL,Bool,Bool
+STR_EVAL_TYPEARRAY,Array,Á¤·Ä
+STR_EVAL_TYPESTRING,String,¹®ÀÚ¿­
+STR_EVAL_TYPENOTHING,Nothing,¾Æ¹«°Íµµ ¾øÀ½
+STR_EVAL_TYPEOBJECT,Object,´ë»ó
+STR_EVAL_TYPEVECTOR,Vector,º¤ÅÍ
+STR_EVAL_TYPETRANS,Transformation,º¯È¯
+STR_EVAL_TYPEORIENT,Orientation,¹æÀ§
+STR_EVAL_TYPESIDE,Side,¼Ò¼Ó
+STR_EVAL_TYPEGROUP,Group,±×·ì
+
+COMMENT,Title texts,Title texts
+STR_TIT_BOH_INT,Bohemia Interactive Studio,Bohemia Interactive Studio
+STR_TIT_PRESENTS,presents,presents
+STR_TIT_AGAMEBY,a game by,a game by
+STR_TIT_PRODUCER,Directed by,Directed by
+STR_TIT_LEAD_PROGRAM,Lead Programmer,Lead Programmer
+STR_TIT_ADD_PROGRAM,AI Programmer,AI Programmer
+STR_TIT_LEAD_GRAPHICS,Lead Artist,Lead Artist
+STR_TIT_ADD_GRAPHICS,The Team,The Team
+
+STR_TIT_MAREK_S,Marek ?pan?l,Marek ?an?
+STR_TIT_ONDRA_S,Ond?ej ?pan?l,Ond?j ?an?
+STR_TIT_JIRKA_M,Ji?? Martinek,Ji? Martinek
+STR_TIT_HONZA_H,Jan Hovora,Jan Hovora
+STR_TIT_PETR_P,Petr Pechar - Viktor Bocan - Vojt?ch Nov?k - Honza Kraml,Petr Pechar - Viktor Bocan - Vojt?h Nov? - Honza Kraml
+STR_TIT_MICHAL_V,Michal Vondracek,Michal Vondracek
+
+COMMENT,Strings in resources,Strings in resources
+COMMENT,General items,ÀÏ¹Ý ¾ÆÀÌÅÛ
+STR_DISP_OK,OK,È®ÀÎ
+STR_DISP_CANCEL,Cancel,Ãë¼Ò
+STR_DISP_CLOSE,Close,Á¾·á
+STR_DISP_DEFAULT,Default,±âº»
+STR_DISP_NEW,New,»õ·Î¿î ¾ÆÀÌÅÛ
+STR_DISP_DELETE,Delete,»èÁ¦
+STR_DISP_EDIT,Edit,ÆíÁý
+STR_DISP_CONTINUE,Continue,°è¼Ó
+STR_DISP_ERROR,ERROR - replace,¿¡·¯-¼öÁ¤
+
+COMMENT,Main display,¸ÞÀÎ µð½ºÇÃ·¹ÀÌ
+STR_DISP_MAIN_GAME,CAMPAIGN GAME,Ä·ÆäÀÎ °ÔÀÓ
+STR_DISP_MAIN_OPTIONS,OPTIONS,¿É¼Ç
+STR_DISP_MAIN_SINGLE,SINGLE MISSION,½Ì±Û ¹Ì¼Ç
+STR_DISP_MAIN_CUSTOM,MISSION EDITOR,¹Ì¼Ç ¿¡µðÅÍ
+STR_DISP_MAIN_MULTI,MULTIPLAYER,¸ÖÆ¼ÇÃ·¹ÀÌ
+STR_DISP_MAIN_QUIT,QUIT GAME,°ÔÀÓ ³¡³»±â
+STR_DISP_MAIN_CREDITS,Credits,Credits
+STR_DISP_MAIN_ARCADE,Debug arcade,¾ÆÄÉÀÌµå µð¹ö±×
+STR_DISP_MAIN_CONTINUE,CONTINUE,°è¼Ó
+STR_DISP_MAIN_DESIGN,ALL MISSIONS (FOR DESIGNERS),¸ðµç ¹Ì¼Ç (µðÀÚÀÌ³Ê ¿ë)
+
+STR_DISP_MAIN_SAVE,Testing save,Å×½ºÆÃ ÀúÀå
+STR_DISP_MAIN_LOAD,Testing load,Å×½ºÆÃ ºÒ·¯¿À±â
+
+COMMENT,Single mission display,½Ì±Û ¹Ì¼Ç µð½ºÇÃ·¹ÀÌ
+STR_DISP_SINGLE_TITLE,Single missions,½Ì±Û ¹Ì¼Ç
+
+COMMENT,Game display,°ÔÀÓ µð½ºÇÃ·¹ÀÌ
+STR_DISP_GAME_SELECT,Select the game:,°ÔÀÓ ¼±ÅÃ  :  
+STR_DISP_GAME_NEW,New game,»õ °ÔÀÓ
+STR_DISP_GAME_NAME,Name:,ÀÌ¸§  :  
+STR_DISP_GAME_SIDE,Choose side:,Áø¿µ ¼±ÅÃ  :  
+STR_DISP_GAME_WEST,West,³ªÅä±º
+STR_DISP_GAME_EAST,East,¼Ò·Ã±º
+STR_DISP_GAME_GUERRILA,Resistance,ÀúÇ×±º
+
+COMMENT,Custom game display,»ç¿ëÀÚ Á¤ÀÇ °ÔÀÓ µð½ºÇÃ·¹ÀÌ
+STR_DISP_CUST_PLAY,Play,ÇÃ·¹ÀÌ
+STR_CUST_EDIT,Edit,ÆíÁý
+STR_CUST_NEW,New,»õ °ÔÀÓ
+
+COMMENT,Campaign display,Ä·ÆäÀÎ µð½ºÇÃ·¹ÀÌ
+STR_DISP_CAMPAIGN_REPLAY,Replay mission,Àç½ÃÀÛ
+STR_DISP_CAMPAIGN_FLASHPOINT,FLASHPOINT,FLASHPOINT
+STR_DISP_CAMPAIGN_CONTENTS,Contents:,Â÷·Ê  :  
+
+COMMENT,Arcade game display,¾ÆÄÉÀÌµå °ÔÀÓ µð½ºÇÃ·¹ÀÌ
+STR_DISP_GAME_ARCADE,Arcade game,¾ÆÄÉÀÌµå °³ÀÓ
+
+COMMENT,Options display,¿É¼Ç µð½ºÇÃ·¹ÀÌ
+STR_DISP_OPTIONS_TITLE,Options,¿É¼Ç
+STR_DISP_OPTIONS_VIDEO,Video options,ºñµð¿À ¿É¼Ç
+STR_DISP_OPTIONS_AUDIO,Audio options,¿Àµð¿À ¿É¼Ç
+STR_DISP_OPTIONS_CONFIGURE,Controls,Å° Á¶Á¤
+STR_DISP_OPTIONS_DIFFICULTY,Difficulty,³­ÀÌµµ
+
+STR_DISP_OPT_VISUALS,Visuals,ºñÁê¾ó
+STR_DISP_OPT_QUALITY,Visual quality:,È­Áú  :  
+STR_DISP_OPT_VISIBILITY,Visibility:,°¡½Ãµµ  :  
+STR_DISP_OPT_FRAMERATE,Frame rate:,ÇÁ·¹ÀÓ ·¹ÀÌÆ®  :  
+STR_DISP_OPT_TEXTURES,Texture resolution,ÅØ½ºÃÄ ÇØ»óµµ
+STR_DISP_OPT_GAMMA,Gamma correction:,°¨¸¶ ±³Á¤  :  
+STR_DISP_OPT_BRIGHT,Brightness:,¹à±â  :  
+STR_DISP_OPT_RESOLUTION,Resolution:,ÇØ»óµµ  :  
+STR_DISP_OPT_REFRESH,Refresh rate:,¸®ÇÁ·¹½¬ ¼Óµµ  :  
+STR_DISP_OPT_OBJSHADOWS,Object shadows:,»ç¹° ±×¸²ÀÚ  :  
+STR_DISP_OPT_VEHSHADOWS,Vehicle shadows:,Â÷·® ±×¸²ÀÚ  :  
+STR_DISP_OPT_CLOUDLETS,Cloudlets:,ÀÜ ±¸¸§  :  
+STR_DISP_OPT_HWTL,Hardware T&L:,ÇÏµå¿þ¾î T&L  :  
+
+STR_DISP_OPT_VOLUMES,Volume,º¼·ý
+STR_DISP_OPT_MUSIC,Music:,À½¾Ç  :  
+STR_DISP_OPT_EFFECTS,Effects:,È¿°úÀ½  :  
+STR_DISP_OPT_VOICES,Radio:,¹«Àü±â  :  
+STR_DISP_OPT_SAMPLING,Sampling rate:,»ùÇÃ¸µ ¼Óµµ  :  
+STR_DISP_OPT_HWACC,Hardware acceleration:,ÇÏµå¿þ¾î °¡¼Óµµ  :  
+STR_DISP_OPT_EAX,EAX:,EAX  :  
+STR_DISP_OPT_SINGLE_VOICE,Voices:,¸ñ¼Ò¸®  :  
+
+COMMENT,Configuration display,±¸¼º µð½ºÇÃ·¹ÀÌ  :  
+STR_DISP_CONF_NAME,Name,ÀÌ¸§
+STR_DISP_CONF_KEYS,Keys,Å°
+STR_DISP_CONF_RES,"Reserved keys: Esc, F1..F12, 1..0, Backspace","ÀÌ¹Ì »ç¿ëÁßÀÎ Å°  :   Esc, F1..F12, 1..0, Backspace"
+STR_DISP_CONF_SENS,Mouse sensitivity,¸¶¿ì½º ¹Î°¨µµ
+STR_DISP_CONF_XAXIS,X Axis,X Ãà
+STR_DISP_CONF_YAXIS,Y Axis,Y Ãà
+STR_DISP_CONF_MOUSE_BUTTON,Primary mouse button:,ÁÖ ¸¶¿ì½º ¹öÆ°  :  
+
+COMMENT,Difficulty display,³­ÀÌµµ µð½ºÇÃ·¹ÀÌ
+STR_DISP_DIFF_NAME,Name,ÀÌ¸§
+STR_DISP_DIFF_CADET,Cadet,ÈÆ·Ãº´
+STR_DISP_DIFF_VETERAN,Veteran,º£Å×¶û
+
+COMMENT,Multiplayer display,¸ÖÆ¼ÇÃ·¹ÀÌ¾î µð½ºÇÃ·¹ÀÌ
+STR_DISP_MULTI_NEW,New,»õ °ÔÀÓ
+STR_DISP_MULTI_JOIN,Join,Á¢¼Ó
+STR_DISP_MULTI_SESSIONS,Active sessions:,ÁøÇàÁßÀÎ °ÔÀÓ : 
+
+STR_DISP_PASSWORD_TITLE,Password,ÆÐ½º¿öµå
+STR_DISP_PASSWORD,Password:,ÆÐ½º¿öµå : 
+
+STR_DISP_IP_TITLE,Server IP Address,¼­¹ö IPÁÖ¼Ò
+STR_DISP_IP_ADDRESS,Address:,ÁÖ¼Ò : 
+
+STR_DISP_SERVER_TITLE,Create game,°ÔÀÓ ¸¸µé±â
+STR_DISP_SERVER_ISLAND,Island:,¼¶ : 
+STR_DISP_SERVER_MISSION,Mission:,¹Ì¼Ç : 
+STR_DISP_SERVER_EDITOR,Editor,ÆíÁý±â
+
+STR_DISP_CLIENT_TEXT,Wait for server,´ë±âÇÏ½Ê½Ã¿À
+
+STR_DISP_SRVSETUP_TITLE,Server setup,¼­¹ö ¼Â¾÷
+STR_DISP_CLISETUP_TITLE,Client setup,Å¬¶óÀÌ¾ðÆ® ¼Â¾÷
+STR_DISP_SRVSETUP_PLAYERS,Players,ÇÃ·¹ÀÌ¾î
+STR_DISP_SRVSETUP_UNITS,Units,´ë¿ø
+STR_DISP_SRVSETUP_ISLAND,Island:,¼¶ : 
+STR_DISP_SRVSETUP_NAME,Mission:,¹Ì¼Ç : 
+STR_DISP_SRVSETUP_DESC,Description:,»ó¼¼»çÇ× : 
+STR_DISP_SRVSETUP_ASSIGN,Assign,¼±Á¤
+STR_DISP_SRVSETUP_UNASSIGN,Unassign,ÇØÁ¦
+STR_DISP_SRVSETUP_RANDOM,Random,·£´ý
+
+STR_DISP_SRVSIDE_POOL,Pool:,Ç® : 
+STR_DISP_SRVSIDE_WEST,West:,³ªÅä±º : 
+STR_DISP_SRVSIDE_EAST,East:,¼Ò·Ã±º : 
+STR_DISP_SRVSIDE_RESIST,Resistance:,·¹Áö½ºÅÁ½º : 
+STR_DISP_SRVSIDE_CIVIL,Civilians:,¹Î°£ÀÎ : 
+
+STR_DISP_MPROLE_ROLES,Roles:,¿ªÇÒ : 
+
+STR_DISP_SERVER_READY,Start game,°ÔÀÓ ½ÃÀÛ
+STR_DISP_CLIENT_READY,I'm ready,ÁØºñ¿Ï·á
+
+STR_DISP_CLIENT_WAIT_TEXT,"Game in progress, wait please",°ÔÀÓÀÌ ÁøÇàÁßÀÔ´Ï´Ù. ±â´Ù·ÁÁÖ½Ê½Ã¿À.
+
+STR_DISP_MP_PLAYERS,Players:,ÇÃ·¹ÀÌ¾î : 
+STR_DISP_MP_PLAYERS_TITLE,Players,ÇÃ·¹ÀÌ¾î
+STR_DISP_MP_PL,Player:,ÇÃ·¹ÀÌ¾î : 
+STR_DISP_MP_PL_NAME,Name:,ÀÌ¸§ : 
+STR_DISP_MP_PL_MAIL,E-mail:,E-mail : 
+STR_DISP_MP_PL_ICQ,ICQ:,ICQ : 
+STR_DISP_MP_PL_REMARK,Remark:,ºñ°í : 
+STR_DISP_MP_SQ,Squad:,ºÐ´ë : 
+STR_DISP_MP_SQ_NAME,Name:,ÀÌ¸§ : 
+STR_DISP_MP_SQ_ID,Id:,Id : 
+STR_DISP_MP_SQ_MAIL,E-mail:,E-mail : 
+STR_DISP_MP_SQ_WEB,Web:,Web : 
+STR_DISP_MP_SQ_PICTURE,Picture:,»çÁø : 
+STR_DISP_MP_SQ_TITLE,Title:,Á¦¸ñ : 
+
+COMMENT,Testing save display,Å×½ºÆÃ ÀúÀå µð½ºÇÃ·¹ÀÌ
+STR_DISP_SAVE_NAME,Testing,Å×½ºÆÃ  
+
+COMMENT,Briefing display,º¸°í µð½ºÇÃ·¹ÀÌ
+STR_DISP_BRIEF_TITLE,Mission briefing,¹Ì¼Ç º¸°í
+IDS_LOADING,Receiving mission status,¹Ì¼Ç »óÈ² Á¢¼öÁß
+
+COMMENT,Start of turn display,È¸Àü µð½ºÇÃ·¹ÀÌ ½ÃÀÛ
+STR_DISP_TURN_TITLE,Turn,È¸Àü
+
+COMMENT,Total win display,ÀüÃ¼ ½Â¸® µð½ºÇÃ·¹ÀÌ
+STR_DISP_WIN_TITLE,TESTING SCREEN-PRESS CONTINUE TO CONTINUE,½ÃÇè È­¸é- °è¼ÓÇÏ±â À§ÇØ¼­ CONTINUE¸¦ ´©¸£½Ê½Ã¿À.
+
+COMMENT,Total loss display,ÀüÃ¼ ÆÐ¹è µð½ºÇÃ·¹ÀÌ
+STR_DISP_LOSS_TITLE,CONTINUE,°è¼Ó
+
+COMMENT,Get ready display,ÁØºñ µð½ºÇÃ·¹ÀÌ
+STR_DISP_STAT_KILLED,DESTROYED,ÆÄ±«µÇ¾ú½À´Ï´Ù
+STR_DISP_STAT_BY_YOU,BY YOU,´ç½Å¿¡ ÀÇÇØ
+STR_DISP_STAT_BY_GRP,BY YOUR GROUP,´ç½ÅÀÇ ±×·ì¿¡ ÀÇÇØ
+STR_DISP_STAT_TOTAL,TOTAL,ÅäÅ»
+
+STR_DISP_BRIEFING,Briefing,»óÈ²º¸°í
+STR_DISP_DEBRIEFING,Debriefing,°á°úº¸°í
+STR_DISP_DEBRIEFING_RESTART,Restart,Àç½ÃÀÛ
+
+COMMENT,Player killed display,ÇÃ·¹ÀÌ¾î Àü»ç µð½ºÇÃ·¹ÀÌ
+STR_DISP_KILL_TITLE,YOU ARE KILLED,Àü»çÇÏ¿´½À´Ï´Ù.
+STR_DISP_KILL_RETRY,Retry,Àç½ÃÀÛ
+STR_DISP_KILL_CONTINUE,Continue,°è¼Ó
+
+COMMENT,Select island display,¼¶ ¼±ÅÃ È­¸é
+STR_DISP_MISSION_EDITOR,Mission editor,¹Ì¼Ç ¿¡µðÅÍ
+STR_DISP_SELECT_ISLAND,Select island,¼¶ ¼±ÅÃ
+
+COMMENT,Custom arcade display,»ç¿ëÀÚ Á¤ÀÇ ¾ÆÄÉÀÌµå µð½ºÇÃ·¹ÀÌ
+STR_DISP_ARCMAP_INTEL,Intel,Á¤º¸
+STR_DISP_ARCMAP_LOAD,Load,ºÒ·¯¿À±â
+STR_DISP_ARCMAP_MERGE,Merge,ÇÕÄ¡±â
+STR_DISP_ARCMAP_SAVE,Save,ÀúÀå
+STR_DISP_ARCMAP_CLEAR,Clear,»èÁ¦
+STR_DISP_ARCMAP_ADD_SECTION,Add cutscene,Ä¿Æ®Àå¸é Ãß°¡
+STR_DISP_ARCMAP_PREVIEW,Preview,¹Ì¸®º¸±â
+STR_DISP_ARCMAP_CONTINUE,Continue,°è¼Ó
+STR_DISP_ARCMAP_UNITS,Units (F1),´ë¿ø (F1)
+STR_DISP_ARCMAP_GROUPS,Groups (F2),ºÐ´ë (F2)
+STR_DISP_ARCMAP_SENSORS,Triggers (F3),¹æ¾Æ¼è (F3)
+STR_DISP_ARCMAP_WAYPOINTS,Waypoints (F4),¿þÀÌÆ÷ÀÎÆ® (F4)
+STR_DISP_ARCMAP_SYNCHRONIZE,Synchronize (F5),ÀÏÄ¡½ÃÅ°±â (F5)
+STR_DISP_ARCMAP_MARKERS,Markers (F6),¸¶Ä¿ (F6)
+STR_DISP_ARCMAP_EXIT,Exit,³ª°¡±â
+
+STR_DISP_ARCUNIT_SIDE,Side:,¼Ò¼Ó : 
+STR_DISP_ARCUNIT_CLASS,Class:,µî±Þ : 
+STR_DISP_ARCUNIT_VEHICLE,Unit:,ºÎ´ë : 
+STR_DISP_ARCUNIT_RANK,Rank:,°è±Þ : 
+STR_DISP_ARCUNIT_AZIMUT,Azimut:,¹æÀ§ : 
+STR_DISP_ARCUNIT_CTRL,Control:,Á¶Á¾ : 
+STR_DISP_ARCUNIT_HEALTH,Health/armor,°Ç°­/Àå°©
+STR_DISP_ARCUNIT_FUEL,Fuel,¿¬·á
+STR_DISP_ARCUNIT_AMMO,Ammunition,Åº¾à
+STR_DISP_ARCUNIT_SPECIAL,Special:,Æ¯¼ö : 
+STR_DISP_ARCUNIT_AGE,Info age:,³ªÀÌ Á¤º¸ : 
+STR_DISP_ARCUNIT_PLACE,Placement radius:,¹èÄ¡ ¹Ý°æ : 
+STR_DISP_ARCUNIT_PRESENCE,Probability of presence:,½ÇÁ¸ °¡´É¼º : 
+STR_DISP_ARCUNIT_PRESENCE_COND,Condition of presence:,½ÇÁ¸ »óÈ² : 
+STR_DISP_ARCUNIT_TEXT,Name:,ÀÌ¸§ : 
+STR_DISP_ARCUNIT_LOCK,Vehicle lock:,Â÷·® °íÁ¤ : 
+STR_DISP_ARCUNIT_INIT,Initialization:,ÃÊ±âÈ­ : 
+STR_DISP_ARCUNIT_SKILL,Skill:,±â¼ú : 
+
+STR_DISP_ARCGRP_TITLE,Insert group,±×·ì Áý¾î³Ö±â
+STR_DISP_ARCGRP_SIDE,Side:,¼Ò¼Ó : 
+STR_DISP_ARCGRP_TYPE,Type:,Á¾·ù : 
+STR_DISP_ARCGRP_NAME,Name:,ÀÌ¸§ : 
+
+STR_DISP_ARCWP_TYPE,Select type:,Á¾·ù ¼±ÅÃ : 
+STR_DISP_ARCWP_SEQ,Waypoint order:,¿þÀÌÆ÷ÀÎÆ® ¸í·É : 
+STR_DISP_ARCWP_DESC,Description:,»ó¼¼»çÇ× : 
+STR_DISP_ARCWP_SEMAPHORE,Combat mode:,ÀüÅõ ¸ðµå : 
+STR_DISP_ARCWP_FORM,Formation:,´ë¿­ : 
+STR_DISP_ARCWP_SPEED,Speed:,¼Óµµ : 
+STR_DISP_ARCWP_COMBAT,Behaviour:,Çàµ¿ : 
+STR_DISP_ARCWP_PLACE,Placement radius:,¹èÄ¡ ¹Ý°æ : 
+STR_DISP_ARCWP_EFFECTS,Effects,È¿°ú
+STR_DISP_ARCWP_TIMEOUT,Timeout,½Ã°£ÃÊ°ú
+STR_DISP_ARCWP_TIMEOUT_MIN,Min:,ÃÖ¼Ò : 
+STR_DISP_ARCWP_TIMEOUT_MAX,Max:,ÃÖ´ë : 
+STR_DISP_ARCWP_TIMEOUT_MID,Mid:,Áß°£ : 
+STR_DISP_ARCWP_HOUSEPOS,Position in house:,ÁÖÅÃ ³» À§Ä¡ : 
+STR_DISP_ARCWP_EXPACTIV,On Activation:,È°¼ºÈ­½Ã : 
+STR_DISP_ARCWP_EXPCOND,Condition:,»óÅÂ : 
+STR_DISP_ARCWP_SHOW_NEVER,Never show,¾È º¸¿©ÁÖ±â
+STR_DISP_ARCWP_SHOW_EASY,Show in cadet mode,ÈÆ·Éº´ ¸ðµå¿¡¼­ º¸¿©ÁÖ±â
+STR_DISP_ARCWP_SHOW_ALWAYS,Always show,Ç×»ó º¸¿©ÁÖ±â
+STR_DISP_ARCWP_SCRIPT,Script:,½ºÅ©¸³Æ® : 
+
+STR_DISP_ARCEFF_TITLE,Edit effects,È¿°ú ÆíÁý
+STR_DISP_ARCEFF_CAMERA,Camera:,Ä«¸Þ¶ó : 
+STR_DISP_ARCEFF_CAMTYPE,Effect:,È¿°ú : 
+STR_DISP_ARCEFF_CAMPOS,Position:,À§Ä¡ : 
+STR_DISP_ARCEFF_SOUNDS,Sounds:,»ç¿îµå : 
+STR_DISP_ARCEFF_SOUND_ANON,Anonymous:,ÀÍ¸í : 
+STR_DISP_ARCEFF_VOICE,Voice:,¸ñ¼Ò¸® : 
+STR_DISP_ARCEFF_MUSIC,Music:,À½¾Ç : 
+STR_DISP_ARCEFF_SOUND_ENV,Environment:,È¯°æ : 
+STR_DISP_ARCEFF_SOUND_DET,Trigger:,Æ®¸®°Å : 
+STR_DISP_ARCEFF_TRACK,Track:,Æ®·¢ : 
+STR_DISP_ARCEFF_TITLES,Titles:,Å¸ÀÌÆ² : 
+STR_DISP_ARCEFF_TITTYPE,Type:,Á¾·ù : 
+STR_DISP_ARCEFF_TITEFF,Effect:,È¿°ú : 
+STR_DISP_ARCEFF_TITTEXT,Text:,ÅØ½ºÆ® : 
+STR_DISP_ARCEFF_ACTIVATION,Activation:,È°¼ºÈ­ : 
+STR_DISP_ARCEFF_EVERYBODY,Everybody,¸ðµÎ
+STR_DISP_ARCEFF_PLAYERONLY,Player only,ÇÃ·¹ÀÌ¾î¸¸
+
+STR_DISP_ARCSENS_TITLE,Edit trigger,Æ®¸®°Å ÆíÁý : 
+STR_DISP_ARCSENS_A,Axis a,a Ãà
+STR_DISP_ARCSENS_B,Axis b,b Ãà
+STR_DISP_ARCSENS_ANGLE,Angle,°¢µµ
+STR_DISP_ARCSENS_ELLIPSE,Ellipse,Å¸¿ø
+STR_DISP_ARCSENS_RECT,Rectangle,Á÷»ç°¢Çü
+STR_DISP_ARCSENS_ACTIV,Activation,È°¼ºÈ­ 
+STR_DISP_ARCSENS_PRESYES,Present,Á¸Àç
+STR_DISP_ARCSENS_PRESNO,Not present,Á¸ÀçÇÏÁö ¾ÊÀ½
+STR_DISP_ARCSENS_DETWEST,Detected by West,³ªÅä±º¿¡ Å½Áö
+STR_DISP_ARCSENS_DETEAST,Detected by East,¼Ò·Ã±º¿¡ Å½Áö
+STR_DISP_ARCSENS_DETGUERRILA,Detected by Resistance,·¹Áö½ºÅÁ½º¿¡ Å½Áö
+STR_DISP_ARCSENS_DETCIVILIAN,Detected by Civilians,¹Î°£ÀÎ¿¡ Å½Áö
+STR_DISP_ARCSENS_ONCE,Once,ÇÑ¹ø
+STR_DISP_ARCSENS_REPEAT,Repeatedly,¹Ýº¹ÀûÀ¸·Î
+STR_DISP_ARCSENS_COUNTDOWN,Countdown,Ä«¿îÆ®´Ù¿î
+STR_DISP_ARCSENS_TIMEOUT,Timeout,½Ã°£ÃÊ°ú
+STR_DISP_ARCSENS_TIMEOUT_MIN,Min:,ºÐ : 
+STR_DISP_ARCSENS_TIMEOUT_MAX,Max:,ÃÖ´ë : 
+STR_DISP_ARCSENS_TIMEOUT_MID,Mid:,ÃÖ¼Ò : 
+STR_DISP_ARCSENS_TYPE,Type,Á¾·ù
+STR_DISP_ARCSENS_OBJECT,Object,¸ñÇ¥
+STR_DISP_ARCSENS_TEXT,Text,ÅØ½ºÆ®
+STR_DISP_ARCSENS_EFFECTS,Effects,È¿°ú
+STR_DISP_ARCSENS_EXPCOND,Condition,»óÅÂ
+STR_DISP_ARCSENS_EXPACTIV,On Activation,È°¼ºÈ­½Ã
+STR_DISP_ARCSENS_EXPDESACTIV,On Deactivation,ºñÈ°¼ºÈ­½Ã
+STR_DISP_ARCSENS_NAME,Name:,ÀÌ¸§ : 
+
+STR_DISP_ARCMARK_NAME,Name:,ÀÌ¸§ : 
+STR_DISP_ARCMARK_COLOR,Color:,»ö»ó : 
+STR_DISP_ARCMARK_ICON,Icon,¾ÆÀÌÄÜ
+STR_DISP_ARCMARK_RECT,Rectangle,Á÷»ç°¢Çü
+STR_DISP_ARCMARK_ELLIPSE,Ellipse,Å¸¿ø
+STR_DISP_ARCMARK_A,Axis a,a Ãà
+STR_DISP_ARCMARK_B,Axis b,b Ãà
+STR_DISP_ARCMARK_ANGLE,Angle:,°¢µµ : 
+STR_DISP_ARCMARK_TEXT,Text:,ÅØ½ºÆ® : 
+
+STR_DISP_TEMPL_SAVE,Save mission,¹Ì¼Ç ÀúÀå
+STR_DISP_TEMPL_LOAD,Load mission,¹Ì¼Ç ºÒ·¯¿À±â
+STR_DISP_TEMPL_NAME,Mission name:,¹Ì¼Ç¸í : 
+STR_DISP_TEMPL_MODE,Save as:,´Ù¸¥ ÀÌ¸§À¸·Î ÀúÀå : 
+STR_DISP_TEMPL_ISLAND,Island:,¼¶ : 
+
+STR_DISP_INTEL_TITLE,Intel,Á¤º¸
+STR_DISP_INTEL_WEATHER,Weather,±â»ó
+STR_DISP_INTEL_FORECAST,Forecast,¿¹º¸
+STR_DISP_INTEL_DATE,Date:,ÀÏÀÚ : 
+STR_DISP_INTEL_TIME,Time:,½Ã°£ : 
+STR_DISP_INTEL_BRIEFING,Briefing,º¸°í
+STR_DISP_INTEL_NAME,Name:,ÀÌ¸§ : 
+STR_DISP_INTEL_DESC,Description:,¼¼ºÎ»çÇ× : 
+STR_DISP_INTEL_RESISTANCE,Resistance friendly to,¿¡ ¿ìÈ£ÀûÀÎ ·¹Áö½ºÅÁ½º
+STR_DISP_INTEL_NONE_FRIENDLY,Nobody,¾Æ¹«µµ ¾øÀ½
+STR_DISP_INTEL_WEST_FRIENDLY,West,³ªÅä±º
+STR_DISP_INTEL_EAST_FRIENDLY,East,¼Ò·Ã±º
+STR_DISP_INTEL_BOTH_FRIENDLY,Everybody,¸ðµÎ
+
+STR_DISP_GR_WAYPOINTS,Waypoints (F1),¿þÀÌÆ÷ÀÎÆ® (F1)
+STR_DISP_GR_SYNCHRONIZE,Synchronize (F2),ÀÏÄ¡½ÃÅ°±â (F2)
+
+COMMENT,Player login display,ÇÃ·¹ÀÌ¾î ·Î±×ÀÎ µð½ºÇÃ·¹ÀÌ
+STR_DISP_LOGIN_TITLE,Select player,ÇÃ·¹ÀÌ¾î ¼±ÅÃ
+STR_DISP_LOGIN_USER,Players:,ÇÃ·¹ÀÌ¾î : 
+
+STR_DISP_NEW_USER_NAME,Player name:,ÇÃ·¹ÀÌ¾î ÀÌ¸§ : 
+STR_DISP_NEW_USER_FACE,Face:,¾ó±¼ : 
+STR_DISP_NEW_USER_GLASSES,Glasses:,¾È°æ : 
+STR_DISP_NEW_USER_SPEAKER,Speaker:,¸ñ¼Ò¸® : 
+STR_DISP_NEW_USER_PITCH,Pitch:,À½Á¶ : 
+STR_DISP_NEW_USER_SQUAD,Squad URL:,ºÐ´ë URL : 
+
+COMMENT,Chat display,Ã¤ÆÃ µð½ºÇÃ·¹ÀÌ
+STR_DISP_CHAT_TITLE,Chat,Ã¤ÆÃ
+STR_DISP_CHAT_SEND,Send,º¸³»±â
+
+COMMENT,Interrupt display,ÀÎÅÍ·´Æ® µð½ºÇÃ·¹ÀÌ
+STR_DISP_INT_TITLE,Paused,¸ØÃã
+STR_DISP_INT_ABORT,Abort,³¡³»±â
+STR_DISP_INT_CONTINUE,Continue,°è¼Ó
+STR_DISP_INT_OPTIONS,Options,¿É¼Ç
+STR_DISP_INT_LOAD,Load,ºÒ·¯¿À±â
+STR_DISP_INT_SAVE,Save,ÀúÀå
+STR_DISP_INT_RETRY,Retry,Àç½ÃÀÛ
+
+COMMENT,Mission end display,¹Ì¼Ç Á¾°á µð½ºÇÃ·¹ÀÌ
+STR_DISP_ME_ABORT,End,³¡³»±â
+STR_DISP_ME_RETRY,Retry,Àç½ÃÀÛ
+STR_DISP_ME_LOAD,Load,ºÒ·¯¿À±â
+
+COMMENT,HintC display,ÈùÆ®C µð½ºÇÃ·¹ÀÌ
+STR_DISP_HINTC_CONTINUE,Continue,°è¼Ó
+
+COMMENT,Menu commands,¸Þ´º Ä¿¸Çµå
+STR_REPLY,Reply,ÀÀ´ä
+STR_MENU_STATUS,Status,»óÅÂ
+STR_REPLY_MENU,Reply,ÀÀ´ä
+STR_REPLY_DONE,Done,¿Ï·á
+STR_REPLY_FAIL,Fail,½ÇÆÐ
+STR_REPLY_COPY,Copy,¾Ë¾Ò´Ù
+STR_REPLY_REPEAT,Repeat,¹Ýº¹ÇÏ¶ó
+STR_REPLY_WHERE_ARE_YOU,Where Are You?,ÇöÀç À§Ä¡´Â?
+STR_REPLY_ENGAGING,Attacking,°ø°ÝÁß
+STR_REPLY_UNDER_FIRE,I'm under fire,°ø°ÝÀ» ¹Þ°í ÀÖ´Ù
+STR_REPLY_HIT,I'm hit,¸Â¾Ò´Ù.
+STR_REPLY_ONE_LESS,One Less,ÇÑ¸í Á¦°Å
+STR_REPLY_FIREREADY,Ready to fire,»ç°Ý ÁØºñ ¿Ï·á
+STR_REPLY_FIRENOTREADY,Cannot fire,»ç°Ý ºÒ°¡
+STR_REPLY_KILLED,... is down,... (ÀÌ)°¡ ¾²·¯Á³´Ù
+STR_REPLY_INJURED,Injured,ºÎ»ó
+STR_REPLY_FUEL_LOW,Fuel low,¿¬·á ºÎÁ·
+STR_REPLY_AMMO_LOW,Ammo low,Åº¾à ºÎÁ·
+
+STR_CALL_SUPPORT,Call support,Áö¿ø ¿äÃ»
+STR_SUPPORT_MENU,Call support,Áö¿ø ¿äÃ»
+STR_SUPPORT_MEDIC,Medic,ÀÇ¹«º´
+STR_SUPPORT_REPAIR,Repair truck,¼ö¸® Æ®·°
+STR_SUPPORT_REARM,Rearm truck,Åº¾à Æ®·°
+STR_SUPPORT_REFUEL,Refuel truck,¿¬·á Æ®·°
+STR_SUPPORT_DONE,Done,¿Ï·á
+
+STR_COMMAND,Command,¸í·É
+STR_MOVE_OTHER,Other,±âÅ¸
+STR_MOVE_DIR,Move Direction,ÀÌµ¿ ¹æÇâ
+STR_WATCH_DIR,Watch Direction,½Ã¾ß ¹æÇâ
+STR_MOVE_N,N,ºÏ
+STR_MOVE_NE,NE,µ¿ºÏ
+STR_MOVE_E,E,µ¿ºÏ
+STR_MOVE_SE,SE,µ¿³²
+STR_MOVE_S,S,³²
+STR_MOVE_SW,SW,³²¼­
+STR_MOVE_W,W,¼­
+STR_MOVE_NW,NW,ºÏ¼­
+STR_MOVE_DIST,Move Distance,ÀÌµ¿ °Å¸®
+STR_MOVE_50,50 m,50 m
+STR_MOVE_100,100 m,100 m
+STR_MOVE_200,200 m,200 m
+STR_MOVE_500,500 m,500 m
+STR_MOVE_1000,1 km,1 km
+STR_MOVE_2000,2 km,2 km
+STR_TEAM,Team,ÆÀ
+STR_TEAM_MAIN,White,È­ÀÌÆ®
+STR_TEAM_RED,Red,·¹µå
+STR_TEAM_GREEN,Green,±×¸°
+STR_TEAM_BLUE,Blue,ºí·ç
+STR_TEAM_YELLOW,Yellow,¿»·Î¿ì
+STR_ASSIGN,Assign,ÇÒ´ç
+STR_ASSIGN_MAIN,Assign White,È­ÀÌÆ® ÇÒ´ç
+STR_ASSIGN_RED,Assign Red,·¹µå ÇÒ´ç
+STR_ASSIGN_GREEN,Assign Green,±×¸° ÇÒ´ç
+STR_ASSIGN_BLUE,Assign Blue,ºí·ç ÇÒ´ç
+STR_ASSIGN_YELLOW,Assign Yellow,¿»·Î¿ì ÇÒ´ç
+STR_FORMATION,Formation,´ë¿­
+STR_STATUS,Status,»óÅÂ
+COMMENT,STR_MENU_TANK,STR_MENU_TANK
+STR_MENU_TARGET,Target,Ç¥Àû
+
+STR_WATCH_TARGET,Target,Ç¥Àû
+STR_LOOK_AROUND,Scan horizon,ÁöÆò¼± Á¶»ç
+
+STR_HIDE_MENU,Hide menu,¸Å´º ¼û±â±â
+STR_CANCEL_MENU,,
+STR_MORE_MENU,More,Ãß°¡ º¸±â
+STR_TARGET_MENU,%s at %d o'clock,"%s, %d½Ã ¹æÇâ"
+STR_TARGET_MENU_SENSOR,"%s, %d at %d o'clock","%s, %d, %d½Ã ¹æÇâ"
+STR_TARGET_MENU_GROUP,"%s, %s (%d)","%s, %s (%d)"
+
+STR_GETIN_POS,Where,¾îµð
+STR_GETIN_POS_ANY,Anywhere,¾îµðµçÁö
+STR_GETIN_POS_DRIVER,Driver,Á¶Á¾¼ö
+STR_GETIN_POS_PILOT,Pilot,ÆÄÀÏ·µ
+STR_GETIN_POS_COMM,Commander,ÁöÈÖ°ü
+STR_GETIN_POS_GUNN,Gunner,»ç°Ý¼ö
+STR_GETIN_POS_CARGO,Ride in back,µÚ¿¡ Å¾½Â
+
+COMMENT,STR_TANK_NEXTWP,STR_TANK_NEXTWP
+COMMENT,STR_TANK_MANUAL,STR_TANK_MANUAL
+COMMENT,STR_TANK_COMMAND,STR_TANK_COMMAND
+
+COMMENT,Status submenu,»óÅÂ ÇÏÀ§¸Þ´º
+
+STR_REPORT,Report Status,»óÅÂ º¸°í
+
+COMMENT,STR_ANS_MIS_FAIL,STR_ANS_MIS_FAIL
+COMMENT,STR_PREV_WAYPOINT,STR_PREV_WAYPOINT
+COMMENT,STR_NEXT_WAYPOINT,STR_NEXT_WAYPOINT
+
+COMMENT,Progress bar,Progress bar
+
+STR_LOAD_INIT,The countdown begins...,Ä«¿îÆ®´Ù¿î ½ÃÀÛ...
+STR_LOAD_WORLD,Receiving...,·ÎµùÁß....
+STR_LOAD_MISSION,Get ready...,ÁØºñ...
+STR_LOAD_INTRO,Wait a moment...,´ë±â...
+STR_LOAD_GAME,Receiving mission status...,¹Ì¼Ç »óÅÂ ¼ö½ÅÁß....
+STR_SAVE_GAME,Saving mission status...,¹Ì¼Ç »óÅÂ ÀúÀåÁß....
+STR_AUTOSAVE_GAME,Updating retry position...,Àç½ÃÀÛ À§Ä¡ ¾÷µ¥ÀÌÆ® Áß...
+STR_WAIT_NETWORK,Waiting for opponent...,»ó´ë¹æ ±â´Ù¸®´ÂÁß....
+STR_NETWORK_SEND,Sending data...,µ¥ÀÌÅÍ ¼Û½ÅÁß...
+STR_NETWORK_RECEIVE,Receiving data...,µ¥ÀÌÅÍ ·ÎµùÁß...
+STR_NETWORK_RECEIVE_MISSION,Receiving mission file (%d KB / %d KB),¹Ì¼Ç ÆÄÀÏ ·ÎµùÁß (%d KB / %d KB)
+STR_CREATE_SERVER,Creating server...,¼­¹ö ±¸¼ºÁß..
+STR_CREATE_CLIENT,Creating client...,Å¬¶óÀÌ¾ðÆ® ±¸¼ºÁß..
+STR_SHUTDOWN,Shutdown...,Á¾·á...
+
+COMMENT,Radio protocol,¹«Àü±â ÇÁ·ÎÅäÄÝ
+STR_WORD_ALL,ALL,Àü¿ø
+STR_WORD_ALLGROUP,GROUP,±×·ì
+STR_WORD_ENEMY,ENEMY,Àû±º
+STR_WORD_FRIENDLY,FRIENDLY,¾Æ±º
+STR_WORD_NEUTRAL,NEUTRAL,Áß¸³±º
+STR_WORD_UNKNOWN,UNKNOWN,¹Ì»ó
+STR_WORD_TEAM_MAIN,WHITE,È­ÀÌÆ® ÆÀ
+STR_WORD_TEAM_RED,TEAM RED,·¹µå ÆÀ
+STR_WORD_TEAM_GREEN,TEAM GREEN,±×¸° ÆÀ
+STR_WORD_TEAM_BLUE,TEAM BLUE,ºí·ç ÆÀ
+STR_WORD_TEAM_YELLOW,TEAM YELLOW,¿»·Î¿ì ÆÀ
+
+STR_WORD_AT1,1 O'CLOCK,1½Ã ¹æÇâ
+STR_WORD_AT2,2 O'CLOCK,2½Ã ¹æÇâ
+STR_WORD_AT3,3 O'CLOCK,3½Ã ¹æÇâ
+STR_WORD_AT4,4 O'CLOCK,4½Ã ¹æÇâ
+STR_WORD_AT5,5 O'CLOCK,5½Ã ¹æÇâ
+STR_WORD_AT6,6 O'CLOCK,6½Ã ¹æÇâ
+STR_WORD_AT7,7 O'CLOCK,7±â ¹æÇâ
+STR_WORD_AT8,8 O'CLOCK,8½Ã ¹æÇâ
+STR_WORD_AT9,9 O'CLOCK,9½Ã ¹æÇâ
+STR_WORD_AT10,10 O'CLOCK,10½Ã ¹æÇâ
+STR_WORD_AT11,11 O'CLOCK,11½Ã ¹æÇâ
+STR_WORD_AT12,12 O'CLOCK,12½Ã ¹æÇâ
+
+STR_WORD_DIST50,50,50
+STR_WORD_DIST100,100,100
+STR_WORD_DIST200,200,200
+STR_WORD_DIST500,500,500
+STR_WORD_DIST1000,1000,1000
+STR_WORD_DIST2000,2000,2000
+STR_WORD_DISTFAR,Very Far,¸Å¿ì ¸Ö¸®
+
+STR_1_TO_LEADER,1 TO LEADER,1 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_2_TO_LEADER,2 TO LEADER,2 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_3_TO_LEADER,3 TO LEADER,3 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_4_TO_LEADER,4 TO LEADER,4 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_5_TO_LEADER,5 TO LEADER,5 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_6_TO_LEADER,6 TO LEADER,6 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_7_TO_LEADER,7 TO LEADER,7 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_8_TO_LEADER,8 TO LEADER,8 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_9_TO_LEADER,9 TO LEADER,9 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_10_TO_LEADER,10 TO LEADER,10 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_11_TO_LEADER,11 TO LEADER,11 ¿¡¼­ ¸®´õ¿¡°Ô
+STR_12_TO_LEADER,12 TO LEADER,12 ¿¡¼­ ¸®´õ¿¡°Ô
+
+COMMENT,Vehicle's display names,Â÷·® µð½ºÇÃ·¹ÀÌ ¸íÄª
+STR_DN_UNKNOWN,Unknown,Á¤Ã¼ºÒ¸íÀÇ
+STR_DN_VEHICLE,Vehicle,Â÷·®
+STR_DN_CAR,Car,Â÷·®
+STR_DN_TANK,Tank,ÀüÂ÷
+STR_DN_APC,APC,º´·Â ¼ö¼Û Àå°©Â÷
+STR_DN_MAN,Man,»ç¶÷
+STR_DN_MAN2,Man 2,»ç¶÷ 2
+STR_DN_MAN3,Man 3,»ç¶÷ 3
+STR_DN_CIVILIAN,Civilian,¹Î°£ÀÎ
+STR_DN_SOLDIER,Soldier,º´»ç
+STR_DN_SOLDIERFAKE,Soldier (E. uniform),º´»ç (¼Ò·Ã±º. ±ºº¹)
+STR_DN_ESOLDIERFAKE,Soldier (W. uniform),º´»ç (³ªÅä±º. ±ºº¹)
+STR_DN_CIVILFAKE,Soldier (Civil),º´»ç (¹Î°£ÀÎ)
+STR_DN_SOLDIERCAPTIVE,Captive,Æ÷·Î
+STR_DN_CREW,Crew,½Â¹«¿ø
+STR_DN_PILOT,Pilot,ÆÄÀÏ·µ
+STR_DN_LAW_SOLDIER,LAW Soldier,LAW º´
+STR_DN_CG_SOLDIER,AT Soldier,ATº´
+STR_DN_AA_SOLDIER,AA Soldier,AAº´
+STR_DN_GRENADIER,Grenadier,À¯Åº¹ß»ç±â»ç¼ö
+STR_DN_MEDIC,Medic,ÀÇ¹«º´
+STR_DN_MGUNNER,Machine Gunner,±â°üÃÑ »ç¼ö
+STR_DN_MORTAR,Mortar,ÃÑ·ùÅº»ç¼ö
+STR_DN_SNIPER,Sniper,Àú°Ý¼ö
+STR_DN_AT4_SNIPER,AT Sniper,´ëÀüÂ÷ Àú°Ý¼ö
+STR_DN_SABOTEUR,Saboteur,Æ¯¼öºÎ´ë
+STR_DN_SABOTEURDAY,Saboteur (day),Æ¯¼öºÎ´ë(³·)
+STR_DN_PIPE_SABOTEUR,Saboteur (pipe bomb),Æ¯¼ö(ÆÄÀÌÇÁ ÆøÅº)
+STR_DN_MINER,Miner,Áö·Ú °øº´
+STR_DN_GENERAL,General,Àå±º
+STR_DN_ANGELINA,Angelina,¾ÈÁ©¸®³ª
+STR_DN_HELICOPTER,Helicopter,Çï±â
+STR_DN_PLANE,Plane,Ç×°ø±â
+STR_DN_SHIP,Ship,ÇÔ¼±
+STR_DN_SMALL_SHIP,Small Ship,¼ÒÇü ÇÔ¼±
+STR_DN_BIG_SHIP,Big Ship,´ëÇü ÇÔ¼±
+STR_DN_JEEP,Jeep,ÁöÇÁ
+STR_DN_JEEP_MG,Jeep with Machine Gun,±â°üÃÑ Å¾Àç ÁöÇÁ
+STR_DN_ASTON,Sport Car,½ºÆ÷Ã÷Ä«
+STR_DN_SKODA,Car,Â÷·®
+STR_DN_SKODA_YELLOW,Car (yellow),½Â¿ëÂ÷(³ë¶õ»ö)
+STR_DN_SKODA_BLUE,Car (blue),½Â¿ëÂ÷(ÆÄ¶õ»ö)
+STR_DN_SKODA_RED,Car (red),½Â¿ëÂ÷(»¡°£»ö)
+STR_DN_SKODA_GREEN,Car (green),½Â¿ëÂ÷(ÃÊ·Ï»ö)
+STR_DN_5T_TRUCK,5t Truck,5Åæ Æ®·°
+STR_DN_5T_TRUCK_OPEN,5t Truck Open,5Åæ Æ®·° °³¹æÇü
+STR_DN_REPAIT_TRUCK,Repair Truck,¼ö¸® Æ®·°
+STR_DN_REAMMO_TRUCK,Ammo Truck,Åº¾à Æ®·°
+STR_DN_REFUEL_TRUCK,Refuel Truck,¿¬·á º¸±Þ Æ®·°
+STR_DN_OFFICER,Officer,Àå±³
+STR_DN_OFFICERNIGHT,Officer (night eq.),Àå±³ (night eq.)
+STR_DN_M1A1,M1A1,M1A1
+STR_DN_M1A1_AUTO,M1A1 Auto,M1A1ÀÚµ¿
+STR_DN_M60,M60,M60
+STR_DN_M113,M113,M113
+STR_DN_M113_AMB,M113 Ambulance,M113 ±¸±ÞÀå°©Â÷
+STR_DN_M2_MG,M2 Machine Gun,M2 ±â°üÆ÷
+STR_DN_LST,LST,LST
+STR_DN_MARK_II,Mark II PBR,Mark II PBR
+STR_DN_MARK_II_AUTO,Mark II PBR Auto,Mark II PBR ÀÚµ¿
+STR_DN_AH1,AH1,AH1
+STR_DN_PARACHUTE,Parachute,³«ÇÏ»ê
+STR_DN_UH60,UH60,UH60
+STR_DN_UH60_MG,UH60-MG,UH60-MG
+STR_DN_A10,A10,A10
+STR_DN_UAZ,UAZ,UAZ
+STR_DN_URAL,Ural,Ural
+STR_DN_URAL_REPAIR,Ural Repair,Ural ¼ö¸®
+STR_DN_URAL_AMMO,Ural Ammo,Ural Åº¾à
+STR_DN_URAL_FUEL,Ural Fuel,Ural ¿¬·á
+STR_DN_SCUD,Scud,Scud
+STR_DN_RPG_SOLDIER,RPG Soldier,RPG »ç¼ö
+STR_DN_AT4_SOLDIER,AT Soldier,AT »ç¼ö
+STR_DN_BMP,BMP,BMP
+STR_DN_BMP_AMB,BMP Ambulance,BMP ±¸±ÞÀå°©Â÷
+STR_DN_T72,T72,T72
+STR_DN_T80,T80,T80
+STR_DN_T80_AUTO,T80 Auto,T80 ÀÚµ¿
+STR_DN_ZSU,Shilka,Shilka
+STR_DN_MI24,Mi24,Mi24
+STR_DN_MI17,Mi17,Mi17
+STR_DN_BOAT,Boat,Boat
+STR_DN_PV3S,PV3S,PV3S
+STR_DN_PV3S_REPAIR,PV3S Repair,PV3S ¼ö¸®
+STR_DN_PV3S_AMMO,PV3S Ammo,PV3S Åº¾à
+STR_DN_PV3S_FUEL,PV3S Fuel,PV3S ¿¬·á
+STR_DN_PV3S_CIVIL,PV3S Civil,PV3S Civil
+STR_DN_PAPER_CAR,Paper Car,Paper Car
+STR_DN_UAZG,UAZG,UAZG
+STR_DN_T55,T55,T55
+STR_DN_BOFORS,Bofors,Bofors
+STR_DN_BUNKER,Bunker,º¡Ä¿
+STR_DN_BUILDING,Building,°Ç¹°
+STR_DN_HOUSE,House,ÁÖÅÃ
+STR_DN_TOWER,Tower,Å¸¿ö
+STR_DN_TARGET,Target,Ç¥Àû
+STR_DN_ARMORED_TARGET,Armored Target,Àå°© Ç¥Àû
+STR_DN_CHURCH,Church,±³È¸
+STR_DN_CHAPEL,Chapel,¼º´ç
+STR_DN_HOSPITAL,Hospital,º´¿ø
+STR_DN_FUEL_STATION,Fuel station,ÁÖÀ¯¼Ò
+STR_DN_FUEL_STATION_2,Fuel station (2),ÁÖÀ¯¼Ò(2)
+STR_DN_FUEL_STATION_3,Fuel station (3),ÁÖÀ¯¼Ò(3)
+STR_DN_DEPOT,Depot,ÀúÀå¼Ò
+STR_DN_AMMO_DEPOT,Ammo Depot,Åº¾à°í
+STR_DN_REPAIR_DEPOT,Repair Centre,¼¾ÅÍ ¼ö¸®
+STR_DN_LOGIC,Game Logic,°ÔÀÓ ·ÎÁ÷
+STR_DN_FX_EXPLO_GROUND_1,FxExploGround1,FxExploGround1
+STR_DN_FX_EXPLO_GROUND_2,FxExploGround2,FxExploGround2
+STR_DN_FX_CARTRIDGE,FxCartridge,FxÅºÃ¢
+STR_DN_AMMO_CRATES,Ammo Crates,Åº¾à »óÀÚ
+STR_DN_AMMO_CRATES_WEST,Ammo Crates (West),Åº¾à »óÀÚ(³ªÅä±º)
+STR_DN_AMMO_CRATES_EAST,Ammo Crates (East),Åº¾à »óÀÚ(¼Ò·Ã±º)
+STR_DN_AMMO_CRATES_RES,Ammo Crates (Res),Åº¾à »óÀÚ(¹Ý¶õ±º)
+STR_DN_MACHINE_GUN,Machine gun,±â°üÃÑ
+STR_DN_FLAG,Flag,±ê¹ß
+STR_DN_FIRE,Fire,»ç°Ý
+STR_DN_TARGET_EAST,Target E,E Ç¥Àû
+STR_DN_CESSNA_CRASH,Crashed plane,Ãß¶ôÇÑ ºñÇà±â
+STR_DN_TENT,Tent,ÅÙÆ®
+STR_DN_TENT_A,Tent A,ÅÙÆ® A
+STR_DN_TENT_OPEN,Tent (Open),ÅÙÆ®(°³¹æ)
+STR_DN_TENT_EAST,Tent East,ÅÙÆ® µ¿
+STR_DN_TENT_EAST_C,Tent East C,ÅÙÆ® µ¿ C
+STR_DN_MASH,Field Hospital,¾ßÀü º´¿ø
+STR_DN_DEBUG_CUBE,Debug cube,Debug cube
+STR_DN_FORTRESS_1,Fortress 1,¿ä»õ 1
+STR_DN_GRAVE,Grave,¹¦Áö
+STR_DN_GRAVE_CROSS_1,Grave Cross 1,¹¦Áö ½ÊÀÚ°¡ 1
+STR_DN_GRAVE_CROSS_2,Grave Cross 2,¹¦Áö ½ÊÀÚ°¡ 2
+STR_DN_GRAVE_CROSS_HELMET,Grave Cross Helmet,¹¦Áö ½ÊÀÚ°¡ Çï¸ä
+STR_DN_FENCE,Fence,´ã
+STR_DN_FENCE_WOOD,Wood Fence,¸ñÀç ´ãÀå
+STR_DN_WIRE,Wire,Ã¶»ç
+STR_DN_FENCE_WIRE,Fence barbedwire,°¡½Ã Ã¶»ç
+STR_DN_BARREL,Barrel,¹è·²
+STR_DN_BARRELS,Barrels,¹è·²
+STR_DN_BARREL_RED,Barrel (red),¹è·²(»¡°£»ö)
+STR_DN_BARREL_BROWN,Barrel (brown),¹è·²(°¥»ö)
+STR_DN_BARREL_WHITE,Barrel (white),¹è·²(ÇÏ¾á»ö)
+STR_DN_TABLE,Table,Å¹ÀÚ
+STR_DN_TABLEMAP,Table with map,Áöµµ°¡ ³õÀÎ Å¹ÀÚ
+STR_DN_TABLE_PUB, Table (pub),Å¹ÀÚ(¼úÁý)
+STR_DN_CHAIR,Chair,ÀÇÀÚ
+STR_DN_CHAIR_HANGAR,Chair Hangar,°Ý³³°í ÀÇÀÚ
+STR_DN_CHAIR_SMALL,Chair Small,¼ÒÇü ÀÇÀÚ
+STR_DN_DANGER,Danger!,À§Çè!
+STR_DN_CHAIR_X, Chair X,ÀÇÀÚ X
+STR_DN_VIDEO,Video Table,ºñµð¿À Å¹ÀÚ
+STR_DN_RADIO,Radio,¶óµð¿À
+STR_DN_PHONEHANG,Phone,ÀüÈ­
+STR_DN_PHONEBASE, Phone base,ÀüÈ­ ¹ÞÄ§
+STR_DN_CAMERA, Camera,Ä«¸Þ¶ó
+STR_DN_COMPUTER, Computer,ÄÄÇ»ÅÍ
+STR_DN_TRIPOD,Tripod,»ï°¢´ë
+STR_DN_REST,Rest,¹ÞÄ§´ë
+STR_DN_BALL,Ball,°ø
+STR_DN_SPHERE_10000,Sphere 10000,Sphere 10000
+STR_DN_CRAWLING,Crawling training,Æ÷º¹ ÈÆ·Ã
+STR_DN_TRAINING_2,Training 2,ÈÆ·Ã 2
+STR_DN_TRAINING_3,Training 3,ÈÆ·Ã 3
+STR_DN_TRAINING_4,Training 4,ÈÆ·Ã 4
+STR_DN_PALLET,Pallet,ÆÈ·¹Æ®
+STR_DN_PALLET_A,Pallet A,ÆÈ·¹Æ® A
+STR_DN_PALLETS_C,Pallets,ÆÈ·¹Æ®
+STR_DN_JEEP_WRECK_1,Jeep Wreck 1,ÁöÇÁ ÀÜÇØ 1
+STR_DN_JEEP_WRECK_2,Jeep Wreck 2,ÁöÇÁ ÀÜÇØ 2
+STR_DN_JEEP_WRECK_3,Jeep Wreck 3,ÁöÇÁ ÀÜÇØ 3
+STR_DN_M113_WRECK,M113 Wreck,M113 ÀÜÇØ
+STR_DN_URAL_WRECK,Ural Wreck,Ural ÀÜÇØ
+STR_DN_BODY,Body,½Ã½Å
+STR_DN_SHED,Shed,¿ÀµÎ¸·
+STR_DN_OFFICE,Office,»ç¹«½Ç
+STR_DN_BARRACKS,Barracks,¸·»ç
+STR_DN_HANGAR,Hangar,°Ý³³°í
+STR_DN_HANGAR_HALL,Hangar Hall,°Ý³³°í È¦
+STR_DN_HANGAR_OFFICE,Hangar Office,°Ý³³°í »ç¹«½Ç
+STR_DN_SHED_SMALL,Small Shad,Small Shad
+STR_DN_FOUNTAIN,Fountain,ºÐ¼ö
+STR_DN_HELI_H,H,H
+STR_DN_HELI_H_EMPTY,H (Invisible),H (Åõ¸í)
+STR_DN_OF_LOGO,OF Logo,OF ·Î°í
+STR_DN_EMPTY,No object,»ç¹° ¾øÀ½
+
+STR_DN_FROG,Frog,°³±¸¸®
+STR_DN_FROGS,Frogs,°³±¸¸®
+STR_DN_ALARM,Alarm,¾Ë¶÷
+STR_DN_BIRDSING,Bird singing,ÁöÀú±Í´Â »õ
+STR_DN_CRICKET1,Cricket 1,±Í¶Ñ¶ó¹Ì 1
+STR_DN_CRICKET2,Cricket 2,±Í¶Ñ¶ó¹Ì 2
+STR_DN_CRICKET3,Cricket 3,±Í¶Ñ¶ó¹Ì 3
+STR_DN_CRICKET4,Cricket 4,±Í¶Ñ¶ó¹Ì 4
+STR_DN_DOG,Dog,°³±¸¸®
+STR_DN_COCK,Cock,¼öÅ¼
+STR_DN_CHICKEN,Chicken,º´¾Æ¸®
+STR_DN_STREAM,Stream,½Ã³»
+STR_DN_OWL,Owl,ºÎ¾ûÀÌ
+STR_DN_COW,Cow,¾Ï¼Ò
+STR_DN_SORROW_DOG,Sorrow Dog,½½ÇÂ °³
+STR_DN_BAD_DOG,Bad Dog,¹«¼­¿î °³
+STR_DN_LITTLE_DOG,Little Dog,ÀÛÀº °³
+STR_DN_RAIN,Rain,ºñ
+STR_DN_SEA,Sea,¹Ù´Ù
+STR_DN_MEADOWS,Meadows,ÃÊ¿ø
+STR_DN_TREES,Trees,³ª¹«
+STR_DN_HILLS,Hills,¾ð´ö
+STR_DN_TRACTOR,Tractor,Æ®·¢ÅÍ
+STR_DN_WOLF,Wolf,´Á´ë
+STR_DN_CROW,Crow,±î¸¶±Í
+STR_DN_MUSIC,Flasinet,Flasinet
+
+COMMENT,Object display names,»ç¹° µð½ºÇÃ·¹ÀÌ ¸íÄª
+STR_DN_TREE,Tree,³ª¹«
+STR_DN_BUSH,Bush,´ýºÒ
+STR_DN_CROSS,Cross,½ÊÀÚ°¡
+STR_DN_ROCK,Rock,¹ÙÀ§
+STR_DN_FOREST,Forest,½£
+
+COMMENT,Weapons display names,¹«±â µð½ºÇÃ·¹ÀÌ ¸íÄª
+STR_DN_GUN,Gun,ÃÑ
+STR_DN_SHELL,HEAT,HEAT
+STR_MN_SHELL,HEAT,HEAT
+STR_SN_SHELL,HEAT,HEAT
+STR_DN_HEAT,Sabot,Sabot
+STR_MN_HEAT,Sabot,Sabot
+STR_SN_HEAT,Sabot,Sabot
+STR_DN_MGUN,MGun,±â°üÃÑ
+STR_MN_MGUN,MGun,±â°üÃÑ
+STR_SN_MGUN,MGun,±â°üÃÑ
+STR_DN_RIFLE,Rifle,¼ÒÃÑ
+STR_MN_RIFLE,Rifle Mag.,¼ÒÃÑ ÅºÃ¢
+STR_SN_RIFLE,Rifle,¼ÒÃÑ
+STR_DN_FIST,Fist,ÁÖ¸Ô
+STR_MN_FIST,Fist,ÁÖ¸Ô
+STR_SN_FIST,Fist,ÁÖ¸Ô
+STR_DN_STRIKE,Strike,°ø°Ý
+STR_MN_STRIKE,Strike,°ø°Ý
+STR_SN_STRIKE,Strike,°ø°Ý
+STR_DN_M16,M16,M16
+STR_MN_M16,M16 Mag.,M16 ÅºÃ¢
+STR_SN_M16,M16,M16
+STR_DN_M16_BURST,M16 Burst,M16 Á¡»ç
+STR_DN_M4,XM-177E2,XM-177E2
+STR_MN_M4,XM-177E2 Mag.,XM-177E2 ÅºÃ¢
+STR_SN_M4,XM,XM
+STR_DN_M4_AUTO,XM-177E2 Full Auto,XM-177E2 ÀÚµ¿
+STR_DN_AK47,AK47,AK47
+STR_MN_AK47,AK47 Mag.,AK47 ÅºÃ¢
+STR_SN_AK47,AK47,AK47
+STR_DN_AK47_BURST,AK47 Burst,AK47 Á¡»ç
+STR_DN_AK47_AUTO,AK47 Full Auto,AK47 ÀÚµ¿
+STR_DN_AK47_CZ,AK47 CZ,AK47 CZ
+STR_DN_AK74,AK74,AK74
+STR_MN_AK74,AK74 Mag.,AK74 ÅºÃ¢
+STR_SN_AK74,AK74,AK74
+STR_DN_AK74_BURST,AK74 Burst,AK74 Á¡»ç
+STR_DN_AK74_AUTO,AK74 Full Auto,AK74 ÀÚµ¿
+STR_DN_AK74_SU,AK74 SU,AK74 SU
+STR_DN_HK,HK,HK
+STR_MN_HK,HK Mag.,HK ÅºÃ¢
+STR_SN_HK,HK,HK
+STR_DN_HK_AUTO,HK Full Auto,HK ÀÚµ¿
+STR_DN_SNIPER_RIFFLE,Sniper,Àú°Ý¼ö
+STR_DN_M21,M21,M21
+STR_MN_M21,M21 Mag.,M21 ÅºÃ¢
+STR_SN_M21,M21,M21
+STR_DN_SVD,SVD Dragunov,SVD Dragunov
+STR_MN_SVD,SVD Dragunov Mag.,SVD Dragunov ÅºÃ¢
+STR_SN_SVD,SVD,SVD
+STR_DN_BINOCULAR,Binocular,½Ö¾È°æ
+STR_DN_NV_GOGGLES,NV Goggles,NV °í±Û
+STR_DN_M60_MG,M60,M60
+STR_MN_M60_MG,M60 Mag.,M60 ÅºÃ¢
+STR_SN_M60_MG,M60,M60
+STR_DN_PK,PK,PK
+STR_MN_PK,PK Mag.,PK ÅºÃ¢
+STR_SN_PK,PK,PK
+STR_DN_MG30,30mm Cannon,30mm Æ÷
+STR_MN_MG30,30mm Cannon,30mm Æ÷
+STR_SN_MG30,30mm Cannon,30mm Æ÷
+STR_DN_AZP23,AZP-23,AZP-23
+STR_MN_AZP23,AZP-23,AZP-23
+STR_SN_AZP23,AZP-23,AZP-23
+STR_DN_GRENADE,Grenade,À¯Åº
+STR_MN_GRENADE,Grenade,À¯Åº
+STR_SN_GRENADE,Grenade,À¯Åº
+STR_DN_RIFLE_GRENADE,Rifle + Grenades,¼ÒÃÑ + À¯Åº¹ß»ç±â
+STR_DN_M16_GRENADE,M16 + M203,M16 + M203
+STR_DN_M203,M203 Launcher,M203 ¹ß»ç±â
+STR_DN_AK47_GRENADE,AK47 + Grenades,AK47 + À¯Åº
+STR_DN_AK74_GRENADE,AK74 + Grenades,AK74 + À¯Åº
+STR_DN_MORTAR_W,Mortar,ÃÑ·ùÅº
+STR_MN_MORTAR_W,Mortar,ÃÑ·ùÅº
+STR_SN_MORTAR_W,Mortar,ÃÑ·ùÅº
+STR_DN_FLARE,Flare,Á¶¸íÅº
+STR_MN_FLARE,Flare,Á¶¸íÅº
+STR_SN_FLARE,Flare,Á¶¸íÅº
+STR_DN_FLARE_GREEN,Flare (Green),Á¶¸íÅº (ÃÊ·Ï»ö)
+STR_MN_FLARE_GREEN,Flare (Green),Á¶¸íÅº (ÃÊ·Ï»ö)
+STR_SN_FLARE_GREEN,Flare,Á¶¸íÅº
+STR_DN_FLARE_RED,Flare (Red),Á¶¸íÅº (»¡°£»ö)
+STR_MN_FLARE_RED,Flare (Red),Á¶¸íÅº (»¡°£»ö)
+STR_SN_FLARE_RED,Flare,Á¶¸íÅº
+STR_DN_FLARE_YELLOW,Flare (Yellow),Á¶¸íÅº (³ë¶õ»ö)
+STR_MN_FLARE_YELLOW,Flare (Yellow),Á¶¸íÅº (³ë¶õ»ö)
+STR_SN_FLARE_YELLOW,Flare,Á¶¸íÅº
+STR_DN_THROW,Throw,ÅõÃ´
+STR_DN_HAND_GRENADE,Hand Grenade,¼ö·ùÅº
+STR_MN_HAND_GRENADE,Hand Grenade,¼ö·ùÅº
+STR_SN_HAND_GRENADE,H.Gr.,H.Gr.
+STR_DN_SMOKE,Smoke Shell,¿¬¸·Åº
+STR_MN_SMOKE,Smoke Shell,¿¬¸·Åº
+STR_SN_SMOKE,Smoke,¿¬¸·Åº
+STR_DN_SMOKE_RED,Smoke Shell (Red),¿¬¸·Åº(»¡°£»ö)
+STR_MN_SMOKE_RED,Smoke Shell (Red),¿¬¸·Åº(»¡°£»ö)
+STR_SN_SMOKE_RED,Smoke,¿¬¸·
+STR_DN_SMOKE_GREEN,Smoke Shell (Green),¿¬¸·Åº(ÃÊ·Ï»ö)
+STR_MN_SMOKE_GREEN,Smoke Shell (Green),¿¬¸·Åº(ÃÊ·Ï»ö)
+STR_SN_SMOKE_GREEN,Smoke,¿¬¸·
+STR_DN_PUT,Put,¼³Ä¡
+STR_DN_TIME_BOMB,Time bomb,½ÃÇÑ ÆøÅº
+STR_MN_TIME_BOMB,Time bomb,½ÃÇÑ ÆøÅº
+STR_SN_TIME_BOMB,Time,½Ã°£
+STR_DN_MINE,Mine,Áö·Ú
+STR_MN_MINE,Mine,Áö·Ú
+STR_SN_MINE,Mine,Áö·Ú
+STR_DN_PIPE_BOMB,Satchel Charges,ÆøÅº
+STR_MN_PIPE_BOMB,Satchel Charges,ÆøÅº
+STR_SN_PIPE_BOMB,Bomb,ÆøÅº
+STR_DN_LAW,LAW Launcher,LAW ¹ß»ç±â
+STR_MN_LAW,LAW,LAW
+STR_SN_LAW,LAW,LAW
+STR_DN_RPG,RPG Nh-75 Launcher,RPG Nh-75 ¹ß»ç±â
+STR_MN_RPG,RPG Nh-75,RPG Nh-75 
+STR_SN_RPG,RPG Nh-75,RPG Nh-75 
+STR_DN_CARL_GUSTAV,Carl Gustav Launcher,Ä® ±¸½ºÅ¸ÇÁ ¹ß»ç±â
+STR_MN_CARL_GUSTAV,Carl Gustav,Ä® ±¸½ºÅ¸ÇÁ
+STR_SN_CARL_GUSTAV,Carl Gustav,Ä® ±¸½ºÅ¸ÇÁ
+STR_DN_AT4,AT4 Launcher,AT4 ¹ß»ç±â
+STR_MN_AT4,AT4,AT4
+STR_SN_AT4,AT4,AT4
+STR_DN_AA,AA Launcher,AA ¹ß»ç±â
+STR_MN_AA,AA,AA
+STR_SN_AA,AA,AA
+STR_DN_9K32,9K32 Strela Launcher,9K32 Strela ¹ß»ç±â
+STR_MN_9K32,9K32 Strela,9K32 Strela
+STR_SN_9K32,9K32,9K32
+STR_DN_AT3,AT3 Launcher,AT3 ¹ß»ç±â
+STR_MN_AT3,AT3,AT3
+STR_SN_AT3,AT3,AT3
+STR_DN_TOW,TOW,Åä¿ì ¹Ì»çÀÏ
+STR_MN_TOW,TOW,Åä¿ì ¹Ì»çÀÏ
+STR_SN_TOW,TOW,Åä¿ì ¹Ì»çÀÏ
+STR_DN_FFAR,FFAR,·ÎÄÏ
+STR_MN_FFAR,FFAR,·ÎÄÏ
+STR_SN_FFAR,FFAR,·ÎÄÏ
+STR_DN_ROCKET_57,57mm Rocket,57mm ·ÎÄÏ
+STR_MN_ROCKET_57,57mm Rocket,57mm ·ÎÄÏ
+STR_SN_ROCKET_57,57mm Rocket,57mm ·ÎÄÏ
+STR_DN_AT6,AT6,AT6
+STR_MN_AT6,AT6,AT6
+STR_SN_AT6,AT6,AT6
+STR_DN_MAVERICK,Maverick,¸Å¹ö¸¯
+STR_MN_MAVERICK,Maverick,¸Å¹ö¸¯
+STR_SN_MAVERICK,Maverick,¸Å¹ö¸¯
+STR_DN_HORN,Horn,È£¸¥
+STR_DN_PHONE,Phone,ÀüÈ­
+
+COMMENT,Quarters,¹æÀ§
+STR_Q_NORTH,North,ºÏ
+STR_Q_NORTH_EAST,North-east,µ¿ºÏ
+STR_Q_EAST,East,µ¿ºÏ
+STR_Q_SOUTH_EAST,South-east,µ¿³²
+STR_Q_SOUTH,South,³²
+STR_Q_SOUTH_WEST,South-west,³²¼­
+STR_Q_WEST,West,¼­ 
+STR_Q_NORTH_WEST,North-west,ºÏ¼­
+
+COMMENT,Radio sentences,¹«Àü±â ´ëÈ­
+STR_SENT_UNIT_KILLED_1,%1.1 IS DOWN,%1.1 (ÀÌ)°¡ ¸Â¾Ò´Ù
+STR_SENT_UNIT_KILLED_2,DAMN %1.1 IS DOWN,Á¦±æ %1.1 (ÀÌ)°¡ ¸Â¾Ò´Ù
+STR_SENT_UNIT_KILLED_3,OH NO.... %1.1... IS DOWN!,¾ÈµÅ... %1.1... (ÀÌ)°¡ ¾²·¯Á³´Ù!
+STR_SENT_SUPPORT_ASK_HEAL_1,MEDIC! POSITION %1,ÀÇ¹«º´! ÇöÀç À§Ä¡ %1
+STR_SENT_SUPPORT_ASK_REPAIR_1,"NEED REPAIRS, POSITION %1","¼ö¸® ¿äÃ», ÇöÀç À§Ä¡ %1"
+STR_SENT_SUPPORT_ASK_REFUEL_1,"NEED FUEL, POSITION %1","¿¬·á ¿äÃ», ÇöÀç À§Ä¡ %1"
+STR_SENT_SUPPORT_ASK_REARM_1,"NEED AMMO, POSITION %1","Åº¾à ¿äÃ», ÇöÀç À§Ä¡ %1"
+STR_SENT_SUPPORT_CONFIRM_1,"%1, SUPPORTING. POSITION %2","%1, Áö¿øÁß. ¿¬Àç À§Ä¡%2"
+STR_SENT_SUPPORT_READY_1,"POSITION %2, SUPPORTING %1","ÇöÀçÀ§Ä¡ %2, %1 Áö¿øÁß"
+STR_SENT_SUPPORT_DONE_1,SUPPORT DONE,Áö¿ø ¿Ï·á
+STR_SENT_HEALTH_CRITICAL_1,INJURED,ºÎ»ó
+STR_SENT_DAMMAGE_CRITICAL_1,STATUS RED,Àû»ö »óÅÂ
+STR_SENT_FUEL_CRITICAL_1,OUT OF FUEL,¿¬·á ¼Ò¸ð
+STR_SENT_FUEL_LOW_1,FUEL LOW,¿¬·á ºÎÁ·
+STR_SENT_AMMO_CRITICAL_1,OUT OF AMMO,Åº¾à ¾øÀ½
+STR_SENT_AMMO_LOW_1,AMMO LOW,Åº¾à ºÎÁ·
+STR_SENT_REPORT_POSITION_1,POSITION %2,ÇöÀç À§Ä¡ %2
+STR_SENT_IS_LEADER_1,TAKING COMMAND,ÁöÈÖ¸¦ ¸Ã´Â´Ù
+STR_SENT_IS_LEADER_2,THIS IS %1: TAKING COMMAND. I SAY AGAIN. %1 TAKING COMMAND. OUT.,%1 ÀÌ´Ù :  ³»°¡ ÁöÈÖ¸¦ ¸Ã´Â´Ù. ¹Ýº¹ÇÑ´Ù. %1ÀÌ ÁöÈÖ¸¦ ¸Ã´Â´Ù. ÀÌ»ó.
+STR_SENT_COMMAND_COMPLETED_1,READY,ÁØºñ
+STR_SENT_COMMAND_COMPLETED_2,WAITING,´ë±â
+STR_SENT_FIRE_READY_1,READY TO FIRE,»ç°Ý ÁØºñ ¿Ï·á
+STR_SENT_FIRE_NEGATIVE_1,CANNOT FIRE,»ç°Ý ºÒ°¡
+STR_SENT_COMMAND_FAILED_1,NEGATIVE,¾ÈµÈ´Ù
+STR_SENT_DESTINATION_UNREACHEABLE_1,CAN'T GET THERE,±×°÷¿¡ Á¢±ÙºÒ´É
+STR_SENT_ENEMY_DETECTED_1,"%3, %4 %2, %5","%3, %4 %2, %5"
+STR_SENT_ENEMY_DETECTED_2,"%3, %2, %5","%3, %2, %5"
+STR_SENT_ENEMY_DETECTED_FAR_1,"%3, %4 %2, %5","%3, %4 %2, %5"
+STR_SENT_ENEMY_DETECTED_FAR_2,"%3, %2, %5","%3, %2, %5"
+STR_SENT_ENEMY_DETECTED_SIMPLE_1,"%3, %2, %5","%3, %2, %5"
+STR_SENT_ENEMY_DETECTED_SIMPLE_FAR_1,"%3, %2","%3, %2"
+STR_SENT_OBJECT_DESTROYED_1,I'VE GOT HIM,Ã£¾Ò´Ù
+STR_SENT_OBJECT_DESTROYED_2,%2 IS HISTORY,%2 (Àº)´Â ³¡Àå³µ´Ù
+STR_SENT_OBJECT_DESTROYED_UNKNOWN_1,I'VE GOT HIM,³»°¡ Ã³¸®Çß´Ù
+STR_SENT_CONTACT_1,CONTACT,Àû¹ß°ß
+STR_SENT_UNDER_FIRE_1,UNDER FIRE,°ø°Ý¹Þ°í ÀÖ´Ù
+STR_SENT_CLEAR_1,CLEAR,¾Ë¾Ò´Ù
+STR_SENT_REPEAT_COMMAND_1,REPEAT,¹Ýº¹ÇÏ¶ó
+STR_SENT_WHERE_ARE_YOU_1,WHERE ARE YOU?,ÇöÀç À§Ä¡´Â?
+STR_SENT_RETURN_TO_FORMATION_1,"%1, RETURN TO FORMATION","%1, ´ë¿­·Î º¹±ÍÇÏ¶ó"
+STR_SENT_RETURN_TO_FORMATION_2,"%1, FALL BACK INTO FORMATION","%1, ´ë¿­·Î º¹±ÍÇÏ¶ó"
+STR_SENT_FORM_COLUMN_1,FORM COLUMN,Á¾´ë·Î ÇìÃÄ¸ð¿©
+STR_SENT_FORM_STAGGERED_COLUMN_1,FORM STAGGERED COLUMN,±³Â÷Çü Á¾´ë·Î ÇìÃÄ¸ð¿©
+STR_SENT_FORM_WEDGE_1,FORM WEDGE,½û±âÇü ´ë¿­·Î ÇìÃÄ¸ð¿©
+STR_SENT_FORM_ECHOLON_LEFT_1,FORM ECHELON LEFT,ÁÂÃø Á¦Çü ´ë¿­·Î ÇìÃÄ¸ð¿©
+STR_SENT_FORM_ECHOLON_RIGHT_1,FORM ECHELON RIGHT,¿ìÃø Á¦Çü ´ë¿­·Î ÇìÃÄ¸ð¿©
+STR_SENT_FORM_VEE_1,FORM VEE,VÀÚÇü ´ë¿­·Î ÇìÃÄ¸ð¿©
+STR_SENT_FORM_LINE_1,FORM LINE,ÀÏ·ÄÈ¾´ë·Î ÇìÃÄ¸ð¿©
+STR_SENT_BEHAVIOUR_CARELESS_1,"%1, STAND DOWN","%1, ÇØ»ê"
+STR_SENT_BEHAVIOUR_SAFE_1,"%1, AT EASE!","%1, ½¬¾î!"
+STR_SENT_BEHAVIOUR_AWARE_1,"%1, STAY ALERT","%1, ÁÖÀÇÇÏ¶ó"
+STR_SENT_BEHAVIOUR_COMBAT_1,"%1, DANGER","%1, À§ÇèÇÏ´Ù"
+STR_SENT_BEHAVIOUR_STEALTH_1,"%1, STEALTH","%1, Àº¹ÐÇÏ°Ô Çàµ¿ÇÏ¶ó"
+STR_SENT_OPEN_FIRE_1,"%1.1, FIRE AT WILL",
+STR_SENT_OPEN_FIRE_2,"%1.1, WEAPONS FREE","%1.1, »ç°ÝÇØµµ ÁÁ´Ù"
+STR_SENT_OPEN_FIRE_IN_COMBAT_1,"%1.1, GO, GO, GO!","%1.1, µ¹°Ý, µ¹°Ý, µ¹°Ý!"
+STR_SENT_HOLD_FIRE_1,"%1.1, HOLD FIRE","%1.1, »ç°Ý ±ÝÁö"
+STR_SENT_HOLD_FIRE_IN_COMBAT_1,"%1.1, CEASE FIRE","%1.1, »ç°Ý ÁßÁö"
+STR_SENT_HOLD_FIRE_IN_COMBAT_2,"%1.1, DON'T FIRE","%1.1, »ç°Ý ÁßÁö"
+STR_SENT_CEASE_FIRE_INSIDE_GROUP_1,"%1.1, CEASE FIRE","%1.1, »ç°Ý ÁßÁö"
+STR_SENT_CEASE_FIRE_1,"%1 %2.1, CEASE FIRE","%1 %2.1, »ç°Ý ÁßÁö"
+STR_SENT_LOOSE_FORMATION_1,"%1.1, ENGAGE AT WILL","%1.1, °¡±îÀÌ Á¢±ÙÇØ¼­ ¹üÀ§³»¿¡ µé¾î¿À¸é °ø°ÝÇÏ¶ó"
+STR_SENT_KEEP_FORMATION_1,"%1.1, DISENGAGE","%1.1, Åð°¢ÇÏ¶ó"
+STR_SENT_UNIT_POS_DOWN_1,"%1.1, GO PRONE","%1.1, Æ÷º¹À¸·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_UNIT_POS_DOWN_2,"%1.1, HIT THE DIRT!","%1.1, ¶¥¿¡ ¾þµå·Á!"
+STR_SENT_UNIT_POS_DOWN_3,"%1.1, GET DOWN","%1.1, ÀÚ¼¼¸¦ ³·Ãç¶ó"
+STR_SENT_UNIT_POS_UP_1,"%1.1, STAND UP","%1.1, ÀÏ¾î¼¸"
+STR_SENT_UNIT_POS_AUTO_1,"%1.1, KEEP LOW","%1.1, ÀÚ¼¼¸¦ ³·Ãç¶ó"
+STR_SENT_FORM_POS_ADVANCE_1,"%1.1, ADVANCE","%1.1, Áø°Ý"
+STR_SENT_FORM_POS_STAY_BACK_1,"%1.1, STAY BACK","%1.1, µÚ¿¡¼­ ´ë±â"
+STR_SENT_FORM_POS_FLANK_LEFT_1,"%1.1, FLANK LEFT","%1.1, ÁÂÃøÀ¸·Î"
+STR_SENT_FORM_POS_FLANK_RIGHT_1,"%1.1, FLANK RIGHT","%1.1, ¿ìÃøÀ¸·Î"
+STR_SENT_REPORT_STATUS_1,"%1.1, REPORT STATUS","%1.1, Çö»óÅÂ¸¦ º¸°íÇÏ¶ó"
+STR_SENT_TEAM_1,%1.1 IS %2,%2´Â %1. 1ÀÌ´Ù
+STR_SENT_WATCH_TGT_1,"%1.1, WATCH %2","%1.1, %2¸¦ °¨½ÃÇÏ¶ó"
+STR_SENT_WATCH_DIR_1,"%1.1, WATCH %2","%1.1, %2¸¦ °¨½ÃÇÏ¶ó"
+STR_SENT_WATCH_POS_1,"%1.1, WATCH %2","%1.1, %2¸¦ °¨½ÃÇÏ¶ó"
+STR_SENT_WATCH_AROUND_1,"%1.1, SCAN HORIZON","%1.1, »çÁÖ°æ°èÇÏ¶ó"
+STR_SENT_NO_TARGET_1,"%1.1, NO TARGET","%1.1, Ç¥Àû ¾ø´Ù"
+STR_SENT_TARGET_1,"%1, TARGET %2","%1, %2(À»)¸¦ Á¶ÁØÇÏ¶ó"
+STR_SENT_ENGAGE_1,"%1, ENGAGE %2","%1, %2(¿Í)°ú ±³ÀüÇÏ¶ó"
+STR_SENT_FIRE_1,"%1, FIRE AT %2","%1, %2¿¡ »ç°Ý°³½Ã"
+STR_SENT_ENGAGE_NO_TARGET_1,"%1, ENGAGE","%1, ±³ÀüÇÏ¶ó"
+STR_SENT_FIRE_NO_TARGET_1,"%1, FIRE","%1, »ç°ÝÇÏ¶ó"
+STR_SENT_CMD_MOVE_1,"%1.1, MOVE TO %2 %3","%1.1, %2 %3(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_MOVE_2,"%1.1, GO TO %2 %3","%1.1, %2 %3(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_MOVE_FAR_1,"%1.1, MOVE TO %2","%1.1, %2(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_MOVE_FAR_2,"%1.1, GO TO %2","%1.1, %2(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_MOVE_TO_1,"%1.1, MOVE TO %2 %3","%1.1, %2 %3(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_MOVE_TO_2,"%1.1, GO TO %2 %3","%1.1, %2 %3(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_MOVE_NEAR_1,"%1.1, MOVE TO %2 %3","%1.1, %2 %3(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_HEAL_1,"%1.1, HEAL AT %2 %3","%1.1, %2 %3¿¡¼­ »óÃ³¸¦ Ä¡·áÇÏ¶ó"
+STR_SENT_CMD_HEAL_FAR_1,"%1.1, HEAL AT %2","%1.1, %2¿¡¼­ »óÃ³¸¦ Ä¡·áÇÏ¶ó"
+STR_SENT_CMD_HEAL_AT_1,"%1.1, GO TO %2 %3","%1.1, %2 %3(À¸)·Î ÀÌµ¿ÇÏ¶ó"
+STR_SENT_CMD_REPAIR_1,"%1.1, REPAIR AT %2 %3","%1.1, %2 %3¿¡¼­ ¼ö¸®ÇÏ¶ó"
+STR_SENT_CMD_REPAIR_FAR_1,"%1.1, REPAIR AT %2","%1.1, %2¿¡¼­ ¼ö¸®ÇÏ¶ó"
+STR_SENT_CMD_REPAIR_AT_1,"%1.1, REPAIR AT %2 %3","%1.1, %2 %3¿¡¼­ ¼ö¸®ÇÏ¶ó"
+STR_SENT_CMD_REFUEL_1,"%1.1, REFUEL AT %2 %3","%1.1, %2 %3¿¡¼­ ¿¬·á¸¦ °ø±Þ¹Þ¾Æ¶ó"
+STR_SENT_CMD_REFUEL_FAR_1,"%1.1, REFUEL AT %2","%1.1, %2¿¡¼­ ¿¬·á¸¦ °ø±Þ¹Þ¾Æ¶ó"
+STR_SENT_CMD_REFUEL_AT_1,"%1.1, REFUEL AT %2 %3","%1.1, %2 %3¿¡¼­ ¿¬·á¸¦ °ø±Þ¹Þ¾Æ¶ó"
+STR_SENT_CMD_REARM_1,"%1.1, REARM AT %2 %3","%1.1, %2 %3¿¡¼­ Àç¹«ÀåÇÏ¶ó"
+STR_SENT_CMD_REARM_FAR_1,"%1.1, REARM AT %2","%1.1, %2¿¡¼­ Àç¹«ÀåÇÏ¶ó"
+STR_SENT_CMD_REARM_AT_1,"%1.1, REARM AT %3","%1.1, %3¿¡¼­ Àç¹«ÀåÇÏ¶ó"
+STR_SENT_CMD_SUPPORT_1,"%1.1, SUPPORT AT %2 %3","%1.1, %2 %3¿¡¼­ Áö¿øÇÏ¶ó"
+STR_SENT_CMD_SUPPORT_FAR_1,"%1.1, SUPPORT AT %2","%1.1, %2¿¡¼­ Áö¿øÇÏ¶ó"
+
+STR_SENT_CMD_SUPPORT_AT_1," ""%1.1"," ""%1.1"
+
+STR_SENT_CMD_TAKE_WEAPON_1,"%1.1, TAKE WEAPON FROM %2 %3","%1.1,  %2 %3 (À¸)·ÎºÎÅÍ ¹«±â¸¦ ÃëÇÏ¶ó"
+STR_SENT_CMD_TAKE_WEAPON_FAR_1,"%1.1, TAKE WEAPON FROM %2","%1.1, %2 (À¸)·ÎºÎÅÍ ¹«±â¸¦ ÃëÇÏ¶ó"
+STR_SENT_CMD_TAKE_WEAPON_AT_1,"%1.1, TAKE WEAPON FROM %2 %3","%1.1, %2 %3 (À¸)·ÎºÎÅÍ ¹«±â¸¦ ÃëÇÏ¶ó"
+STR_SENT_CMD_TAKE_MAGAZINE_1,"%1.1, TAKE MAGAZINE FROM %2 %3","%1.1, %2 %3 (À¸)·ÎºÎÅÍ ÅºÃ¢À» ÃëÇÏ¶ó"
+STR_SENT_CMD_TAKE_MAGAZINE_FAR_1,"%1.1, TAKE MAGAZINE FROM %2","%1.1, %2(À¸)·ÎºÎÅÍ ÅºÃ¢À» ÃëÇÏ¶ó"
+STR_SENT_CMD_TAKE_MAGAZINE_AT_1,"%1.1, TAKE MAGAZINE FROM %2 %3","%1.1, %2 %3(À¸)·ÎºÎÅÍ ÅºÃ¢À» ÃëÇÏ¶ó"
+STR_SENT_CMD_ACTION_1,"%1.1, %2 AT %3 %4","%1.1, %2 AT %3 %4"
+STR_SENT_CMD_ACTION_FAR_1,"%1.1, %2 AT %3","%1.1, %2 AT %3"
+STR_SENT_CMD_ACTION_AT_1,"%1.1, %2 AT %3 %4","%1.1, %2 AT %3 %4"
+STR_SENT_CMD_FOLLOW_ME_1,"%1.1, RETURN TO FORMATION","%1.1, ´ë¿­·Î º¹±ÍÇÏ¶ó"
+STR_SENT_CMD_FOLLOW_ME_2,"%1.1, FALL BACK INTO FORMATION","%1.1, ´ë¿­·Î º¹±ÍÇÏ¶ó"
+STR_SENT_CMD_FOLLOW_1,"%1.1, FOLLOW %2.1","%1.1, %2.1 µû¶ó°¡¶ó"
+STR_SENT_CMD_ATTACK_1,"%1.1, ATTACK %2","%1.1, %2¸¦ °ø°ÝÇÏ¶ó"
+STR_SENT_CMD_ATTACK_NO_TARGET_1,"%1.1, ATTACK","%1.1, °ø°Ý"
+STR_SENT_CMD_FIRE_1,"%1.1, FIRE AT %2","%1.1, %2¿¡ »ç°Ý °³½Ã"
+STR_SENT_CMD_GETIN_1,"%1.1, GET IN %2","%1.1, %2¿¡ Å¾½ÂÇÏ¶ó"
+STR_SENT_CMD_GETIN_COMMANDER_1,"%1.1, COMMANDER, GET IN %2","%1.1, ÁöÈÖ°üÀ¸·Î, %2¿¡ Å¾½ÂÇÏ¶ó"
+STR_SENT_CMD_GETIN_DRIVER_1,"%1.1, DRIVER, GET IN %2","%1.1, Á¶Á¾»ç·Î, %2¿¡ Å¾½ÂÇÏ¶ó"
+STR_SENT_CMD_GETIN_PILOT_1,"%1.1, PILOT, GET IN %2","%1.1, ÆÄÀÏ·µÀ¸·Î, %2¿¡ Å¾½ÂÇÏ¶ó"
+STR_SENT_CMD_GETIN_GUNNER_1,"%1.1, GUNNER, GET IN %2","%1.1, »ç°Ý¼ö·Î, %2¿¡ Å¾½ÂÇÏ¶ó"
+STR_SENT_CMD_GETIN_CARGO_1,"%1.1, BOARD IN %2","%1.1, %2¿¡ Å¾½ÂÇÏ¶ó"
+STR_SENT_CMD_GETOUT_1,"%1.1, DISEMBARK","%1.1, ÇÏÂ÷ÇÏ¶ó"
+STR_SENT_CMD_STOP_1,"%1.1, HALT","%1.1, Á¤ÁöÇÏ¶ó"
+STR_SENT_CMD_EXPECT_1,"%1.1, WAIT FOR ME","%1.1, ³¯ ±â´Ù·Á¶ó"
+STR_SENT_CMD_HIDE_1,"%1.1, TAKE COVER","%1.1, ¾öÆóÇÏ¶ó"
+STR_SENT_NOTIFY_ATTACK_1,ENGAGING,±³ÀüÁß
+STR_SENT_NOTIFY_SUPPORT_1,SUPPORTING,Áö¿øÁß
+STR_SENT_CONFIRM_PRIVATE_1,ROGER,¾Ë¾Ò´Ù
+STR_SENT_CONFIRM_MOVE_1,ROGER,¾Ë¾Ò´Ù
+STR_SENT_CONFIRM_MOVE_2,MOVING ON,ÀÌµ¿ Áß
+STR_SENT_CONFIRM_MOVE_3,ON THE WAY,°¡°í ÀÖ´Ù
+STR_SENT_CONFIRM_ATTACK_1,I'M ON HIM,±×¸¦ ÂÑ°í ÀÖ´Ù
+STR_SENT_CONFIRM_ATTACK_2,ROGER,¾Ë¾Ò´Ù
+STR_SENT_CONFIRM_ATTACK_3,ON THE WAY,°¡°í ÀÖ´Ù
+STR_SENT_CONFIRM_OTHER_1,ROGER,¾Ë¾Ò´Ù
+STR_SENT_VEHICLE_MOVE_1,MOVE TO %1 %2,%1 %2(À¸)·Î ÀÌµ¿ÇÏ¶ó
+STR_SENT_VEHICLE_MOVE_2,GO TO %1 %2,%1 %2(À¸)·Î ÀÌµ¿ÇÏ¶ó
+STR_SENT_VEHICLE_JOIN_1,KEEP FORMATION,´ë¿­À» À¯ÁöÇÏ¶ó
+STR_SENT_VEHICLE_FIRE_1,FIRE AT %1,%1¿¡ »ç°Ý ½Ç½Ã
+STR_SENT_VEHICLE_TARGET_1,"TARGET %1, %2",%1¸¦ Á¶ÁØÇÏ¶ó
+STR_SENT_VEHICLE_NO_TARGET_1,NO TARGET,Ç¥ÀûÀÌ ¾ø´Ù
+STR_SENT_VEHICLE_CEASE_FIRE_1,CEASE FIRE,»ç°Ý ÁßÁö
+STR_SENT_VEHICLE_FORWARD_1,FORWARD,¾ÕÀ¸·Î
+STR_SENT_VEHICLE_STOP_1,HALT,ÁßÁö
+STR_SENT_VEHICLE_BACKWARD_1,REVERSE,µÚ·Î
+STR_SENT_VEHICLE_FASTER_1,FAST,»¡¸®
+STR_SENT_VEHICLE_SLOWER_1,SLOW,ÃµÃµÈ÷
+STR_SENT_VEHICLE_LEFT_1,LEFT,ÁÂ·Î
+STR_SENT_VEHICLE_RIGHT_1,RIGHT,¿ì·Î
+STR_SENT_VEHICLE_DIRECT_FIRE_1,FIRE,»ç°Ý    
+STR_SENT_VEHICLE_LOAD_1,%,
+STR_SENT_VEHICLE_AZIMUT_1,,
+STR_SENT_VEHICLE_FIRE_FAILED_1,NEGATIVE,ºÒ°¡´ÉÇÏ´Ù
+STR_SENT_VEHICLE_FIRE_FAILED_2,CANNOT FIRE,»ç°ÝÇÒ ¼ö ¾ø´Ù
+
+COMMENT,Config,Config
+STR_CFG_GLASSES_NONE,None,None
+STR_CFG_GLASSES_SPECTACLES,Spectacles,¾È°æ
+STR_CFG_GLASSES_SUNGLASSES,Sunglasses,¼±±Û¶ó½º
+STR_CFG_FACES_DEFAULT,Default face,±âº» ¾ó±¼
+STR_CFG_FACES_CUSTOM,Custom face,»ç¿ëÀÚ Á¤ÀÇ ¾ó±¼
+STR_CFG_HQ_BASE,Base,±âÁö
+STR_CFG_HQ_HQ,HQ,º»ºÎ
+STR_CFG_PAPABEAR,PAPA_BEAR,ÆÄÆÄ º£¾î
+STR_CFG_FIREFLYBASE,BASE FIREFLY,È­ÀÌ¾îÇÃ¶óÀÌ ±âÁö
+
+
+STR_CFG_SFX_CA_AK,Ambient - AK74,Ambient - AK74
+STR_CFG_SFX_CA_M16,Ambient - M16,Ambient - M16
+STR_CFG_SFX_CA_EXPL1,Ambient - Explosion 1,Ambient - Explosion 1
+STR_CFG_SFX_HEDGESPARROW,HedgeSparrow,¹ÙÀ§Á¾´Ù¸®
+STR_CFG_SFX_SKYLARK,Skylark,Á¾´Þ»õ
+STR_CFG_SFX_FORESTLARK,ForestLark,»êÁ¾´Þ»õ
+STR_CFG_SFX_NIGHTINGALE,Nightingale,¼ÒÂ½»õ
+STR_CFG_SFX_JAY,Jay,¾îÄ¡
+STR_CFG_SFX_OWL,Owl2,ºÎ¾ûÀÌ2
+STR_CFG_SFX_CROW2,Crow2,±î¸¶±Í2
+STR_CFG_SFX_FROG2,Frog2,°³±¸¸®2
+STR_CFG_SFX_SEAGULL,Seagull,°¥¸Å±â
+STR_CFG_ENVSOUNDS_DEFAULT,Default,±âº»
+STR_CFG_ENVSOUNDS_COMBAT,Combat ambience 1,ÀüÅõ È¯°æ 1
+STR_CFG_MUSIC_7TH_DECIDE,7th - Decide,7th - Decide
+STR_CFG_MUSIC_7TH_IAMGONAFLY,7th - I am Gonna Fly,7th - I am Gonna Fly
+STR_CFG_MUSIC_7TH_LIFELESS,7th - Lifeless,7th - Lifeless
+STR_CFG_MUSIC_7TH_OVERDOSE,7th - Overdose,7th - Overdose
+STR_CFG_MUSIC_TRACK1,Track 1 - Main Theme,Track 1 - Main Theme
+STR_CFG_MUSIC_TRACK2,Track 2 - Walk,Track 2 - Walk
+STR_CFG_MUSIC_TRACK3,Track 3 - Slow Blades,Track 3 - Slow Blades
+STR_CFG_MUSIC_TRACK4,Track 4 - The Fallen,Track 4 - The Fallen
+STR_CFG_MUSIC_TRACK5,Track 5 - Secret,Track 5 - Secret
+STR_CFG_MUSIC_TRACK6,Track 6 - Dark Side,Track 6 - Dark Side
+STR_CFG_MUSIC_TRACK7,Track 7 - Heroes,Track 7 - Heroes
+STR_CFG_MUSIC_TRACK8,Track 8 - Ocean,Track 8 - Ocean
+STR_CFG_MUSIC_TRACK9,Track 9 - Decisions,Track 9 - Decisions
+STR_CFG_MUSIC_TRACK10,Track 10 - March Hell,Track 10 - March Hell
+STR_CFG_MUSIC_TRACK11,Track 11 - Hunt,Track 11 - Hunt
+STR_CFG_MUSIC_TRACK12,Track 12 - Casualties Of War,Track 12 - Casualties Of War
+STR_CFG_MUSIC_TRACK13,Track 13 - Suppression,Track 13 - Suppression
+STR_CFG_MUSIC_TRACK14,Track 14 - Soviet Theme,Track 14 - Soviet Theme
+STR_CFG_MUSIC_TRACK15,Track 15 - Armor,Track 15 - Armor
+STR_CFG_MUSIC_TRACK16,Track 16 - Amen,Track 16 - Amen
+STR_CFG_MUSIC_FROST,Organ Works,Organ Works
+STR_CFG_SOUNDS_RUS1,Russian - American evils,Russian - ¸ÁÇÒ ³ðÀÇ ¹Ì±¹ ³ðµé
+STR_CFG_SOUNDS_RUS2,"Russian - Run away, all, run away","Russian - µµ¸Á°¡, ¸ðµÎµé, µµ¸Á°¡"
+STR_CFG_SOUNDS_RUS3,Russian - Devil's dogs,Russian - ¾Ç¸¶ÀÇ °³µé
+STR_CFG_SOUNDS_RUS4,Russian - Damn,Russian - Á¦±æ
+STR_CFG_SOUNDS_RUS5,Russian - Damn,Russian - Á¦±æ
+STR_CFG_SOUNDS_RUS6,Russian - Hey you. What are you doing there?,"Russian - ÀÌºÁ, °Å±â¼­ ¹» ÇÏ°í ÀÖ³ª?"
+STR_CFG_SOUNDS_RUS7,Russian - I surrender,Russian - Ç×º¹ÇÑ´Ù
+STR_CFG_SOUNDS_RUS8,Russian - Mama...,Russian - ¾ö¸¶..
+STR_CFG_SOUNDS_RUS9,Russian - Don't shoot. We're unarmed.,Russian - ½îÁö¸»¾Æ¶ó. ¿ì¸®´Â ºñ¹«Àå »óÅÂ´Ù.
+STR_CFG_SOUNDS_RUS10,Russian - Fire,Russian - »ç°Ý
+STR_CFG_SOUNDS_RUS11,Russian - Cease fire,Russian - »ç°ÝÁßÁö
+STR_CFG_SOUNDS_RUS12,Russian - Get out,Russian - ³ª°¡
+STR_CFG_SOUNDS_RUS13,Russian - Help,Russian - µµ¿ÍÁà
+STR_CFG_SOUNDS_RUS14,Russian - Freeze,Russian - ²ÄÂ¦¸¶¶ó
+STR_CFG_SOUNDS_RUS15,Russian - Alarm,Russian - ºñ»ó
+STR_CFG_SOUNDS_RUS16,Russian - Vodka!,Russian - º¸µåÄ«!
+STR_CFG_SOUNDS_RUS17,Russian - Vodka?,Russian - º¸µåÄ«?
+STR_CFG_SOUNDS_RUS18,Russian - Forward,Russian - Àü¹æ
+STR_CFG_SOUNDS_RUS19,Russian - Sector clear,Russian - ÀüÅõ ±¸¿ª Å¬¸®¾î
+STR_CFG_SOUNDS_RUS20,"Russian - Die, bastard","Russian - Á×¾î¶ó, ºô¾î¸ÔÀ» ³ð"
+STR_CFG_SOUNDS_ENG1,Bastards 1,ºô¾î¸ÔÀ» ³ð 1
+STR_CFG_SOUNDS_ENG2,Bastards 2,ºô¾î¸ÔÀ» ³ð 2
+STR_CFG_SOUNDS_ENG3,Bastards 3,ºô¾î¸ÔÀ» ³ð 3
+STR_CFG_SOUNDS_ENG4,Commie 1,»¡°»ÀÌ 1
+STR_CFG_SOUNDS_ENG5,Commie 2,»¡°»ÀÌ 2
+STR_CFG_SOUNDS_ENG6,Cover me 1,¾öÈ£ÇÏ¶ó 1
+STR_CFG_SOUNDS_ENG7,Cover me 2,¾öÈ£ÇÏ¶ó 2
+STR_CFG_SOUNDS_ENG8,Die 1,Á×¾î¶ó 1
+STR_CFG_SOUNDS_ENG9,Die 2,Á×¾î¶ó 2
+STR_CFG_SOUNDS_ENG10,Die 3,Á×¾î¶ó 3
+STR_CFG_SOUNDS_ENG11,Don't shoot we're unarmed,ºñ¹«Àå »óÅÂ´Ù! »ç°Ý ÁßÁö ÇÏ¶ó.
+STR_CFG_SOUNDS_ENG12,"Enemy spotted, open fire!","Àû ¹ß°ß, »ç°Ý °³½Ã!"
+STR_CFG_SOUNDS_ENG13,Everyone out 1,¸ðµÎ ºüÁ®³ª°¡¶ó 1
+STR_CFG_SOUNDS_ENG14,Everyone out 2,¸ðµÎ ºüÁ®³ª°¡¶ó 2
+STR_CFG_SOUNDS_ENG15,Forward,Àü¹æ
+STR_CFG_SOUNDS_ENG16,Get out of here 1,ÀÌ°÷¿¡¼­ Å»ÃâÇÏ¶ó 1
+STR_CFG_SOUNDS_ENG17,Get out of here 2,ÀÌ°÷¿¡¼­ Å»ÃâÇÏ¶ó 1
+STR_CFG_SOUNDS_ENG18,Get to your positions 1,°¢ÀÚ À§Ä¡·Î 1
+STR_CFG_SOUNDS_ENG19,Get to your positions 2,°¢ÀÚ À§Ä¡·Î 2
+STR_CFG_SOUNDS_ENG20,"Go, go, go 1",µ¹°Ý ¾ÕÀ¸·Î 1
+STR_CFG_SOUNDS_ENG21,"Go, go, go 2",µ¹°Ý ¾ÕÀ¸·Î 2
+STR_CFG_SOUNDS_ENG22,Help 1,µµ¿ÍÁà 1
+STR_CFG_SOUNDS_ENG23,Help 2,µµ¿ÍÁà 2
+STR_CFG_SOUNDS_ENG24,"Hey, what are you doing there? 1","ÀÌºÁ, °Å±â¼­ ¹¹ ÇÏ°í ÀÖ´Â°¡? 1"
+STR_CFG_SOUNDS_ENG25,"Hey, what are you doing there? 2","ÀÌºÁ, °Å±â¼­ ¹¹ ÇÏ°í ÀÖ´Â°¡? 2"
+STR_CFG_SOUNDS_ENG26,"Hey, what are you doing there? 3","ÀÌºÁ, °Å±â¼­ ¹¹ ÇÏ°í ÀÖ´Â°¡? 3"
+STR_CFG_SOUNDS_ENG27,Let them have it 1,°®µµ·Ï ³»¹ö·Á µÖ 1
+STR_CFG_SOUNDS_ENG28,Let them have it 2,°®µµ·Ï ³»¹ö·Á µÖ 2
+STR_CFG_SOUNDS_ENG29,Look out 1,Á¶½ÉÇØ 1
+STR_CFG_SOUNDS_ENG30,Look out 2,Á¶½ÉÇØ 2
+STR_CFG_SOUNDS_ENG31,Look out 3,Á¶½ÉÇØ 3
+STR_CFG_SOUNDS_ENG32,"Medic, I am hit 1","ÀÇ¹«º´, ÃÑ»óÀ» ÀÔ¾ú´Ù 1"
+STR_CFG_SOUNDS_ENG33,"Medic, I am hit 2","ÀÇ¹«º´, ÃÑ»óÀ» ÀÔ¾ú´Ù 2"
+STR_CFG_SOUNDS_ENG34,"Medic, I am hit 3","ÀÇ¹«º´, ÃÑ»óÀ» ÀÔ¾ú´Ù 3"
+STR_CFG_SOUNDS_ENG35,"Sector clear, take it easy 1","ÀüÅõ Áö¿ªÀ» Á¢¼öÇß´Ù, ¼­µÎ¸£Áö ¸»¶ó 1"
+STR_CFG_SOUNDS_ENG36,"Sector clear, take it easy 2","ÀüÅõ Áö¿ªÀ» Á¢¼öÇß´Ù, ¼­µÎ¸£Áö ¸»¶ó 2"
+STR_CFG_SOUNDS_ENG37,"Stay sharp, they're all around us","ÁÖÀÇÇÏ¶ó, ÀûµéÀÌ ¿ì¸®¸¦ µÑ·¯½Î°í ÀÖ´Ù."
+STR_CFG_SOUNDS_ENG38,We surrender,Ç×º¹ÇÑ´Ù
+STR_CFG_SOUNDS_ENG39,We're under attack. Return fire!,ÀûÀÇ °ø°ÝÀÌ´Ù. ÀÀ¼öÇÏ¶ó!
+STR_CFG_SOUNDS_ENG40,Who's there 1,´©±¸³Ä 1
+STR_CFG_SOUNDS_ENG41,Who's there 2,´©±¸³Ä 2
+STR_CFG_SOUNDS_ALARM,Play alarm,¾Ë¶÷ ¿ï¸®±â
+STR_CFG_SOUNDS_EXPLOSION1,Explosion Small,¼ÒÇü Æø¹ß
+STR_CFG_SOUNDS_EXPLOSION2,Explosion Big,´ëÇü Æø¹ß
+STR_CFG_SOUNDS_FOUNTAIN,Fountain,ºÐ¼ö
+STR_CFG_SOUNDS_FIRE,Fire,»ç°Ý
+STR_CFG_TITLES_SPHERE,Sphere,±¸
+STR_CFG_TITLES_BISLOGO,Bohemia Interactive,Bohemia Interactive
+STR_CFG_TITLES_TVSET,TV Set,ÅÚ·¹ºñÀü
+STR_CFG_CUTSCENES_REFUEL,Refueling,ÁÖÀ¯Áß
+STR_CFG_CUTSCENES_REARM,Rearming,Àç¹«ÀåÁß
+STR_CFG_CUTSCENES_REPAIR,Repairing,¼ö¸®Áß
+STR_CFG_CUTSCENES_HEALING,Healing,È¸º¹Áß
+STR_CFG_CUTSCENES_TAKEWEAPON,Taking Weapon,¹«±â Å»Ãë
+STR_CFG_CUTSCENES_TAKEMAGAZINE,Taking Ammo,Åº¾à Å»Ãë
+STR_CFG_CAMEFFECTS_TERMINATE,Terminate,Á¾°á
+STR_CFG_CAMEFFECTS_INTERNAL,Internal,³»ºÎ
+STR_CFG_CAMEFFECTS_ZOOMIN,Zoom In,È®´ë
+STR_CFG_CAMEFFECTS_ZOOMINSLOW,Zoom In Slow,ÃµÃµÈ÷ È®´ë
+STR_CFG_CAMEFFECTS_AROUND,Around,ÁÖº¯ µ¹¾Æº¸±â
+STR_CFG_CAMEFFECTS_AROUNDSLOW,Around Slow,ÃµÃµÈ÷ ÁÖº¯ µ¹¾Æº¸±â
+STR_CFG_CAMEFFECTS_ZOOMAROUND,Zoom & Around,È®´ë & ÁÖº¯ º¸±â
+STR_CFG_CAMEFFECTS_AROUNDZOOMSLOW,Around & Zoom Slow,ÁÖº¯ º¸±â & ÃµÃµÈ÷ È®´ë
+STR_CFG_CAMEFFECTS_ZOOMINS,Zoom In S,S È®´ë
+STR_CFG_CAMEFFECTS_FIXED,Fixed,°íÁ¤
+STR_CFG_CAMEFFECTS_FIXEDZOOM,Fixed (Zoom),°íÁ¤(È®´ë)
+STR_CFG_CAMEFFECTS_EXTERNAL,External,¿ÜºÎ
+STR_CFG_MARKERS_FLAG,Objective,¸ñÇ¥
+STR_CFG_MARKERS_FLAG1,Flag,±ê¹ß
+STR_CFG_MARKERS_DOT,Dot,Á¡
+STR_CFG_MARKERS_DESTROY,Destroy,ÆÄ±«
+STR_CFG_MARKERS_START,Start,½ÃÀÛ
+STR_CFG_MARKERS_END,End,³¡
+STR_CFG_MARKERS_WARNING,Warning,°æ°í
+STR_CFG_MARKERS_JOIN,Join,Á¢¼Ó
+STR_CFG_MARKERS_PICKUP,Pick Up,½Æ±â
+STR_CFG_MARKERS_UNKNOWN,Unknown,¹Ì»ó
+STR_CFG_MARKERS_MARKER,Marker,¸¶Ä¿
+STR_CFG_MARKERS_ARROW,Arrow,È­»ì
+STR_CFG_MARKERS_EMPTY,Empty,°ø¹é
+STR_CFG_MARKERCOL_DEFAULT,Default,±âº»
+STR_CFG_MARKERCOL_BLACK,Black,°ËÁ¤»ö
+STR_CFG_MARKERCOL_RED,Red,»¡°£»ö
+STR_CFG_MARKERCOL_REDALPHA,Red Transparent,Åõ¸í »¡°£»ö
+STR_CFG_MARKERCOL_GREEN,Green,ÃÊ·Ï»ö
+STR_CFG_MARKERCOL_GREENALPHA,Green Transparent,Åõ¸í ÃÊ·Ï»ö
+STR_CFG_MARKERCOL_BLUE,Blue,ÆÄ¶õ»ö
+STR_CFG_MARKERCOL_YELLOW,Yellow,³ë¶õ»ö
+STR_CFG_MARKERCOL_WHITE,White,ÇÏ¾á»ö
+STR_CFG_MARKERBR_SOLID,Solid,°íÃ¼
+STR_CFG_MARKERBR_HORIZONTAL,Horizontal,¼öÆò
+STR_CFG_MARKERBR_VERTICAL,Vertical,¼öÁ÷
+STR_CFG_MARKERBR_GRID,Grid,°ÝÀÚ
+STR_CFG_MARKERBR_FDIAGONAL,Forward diagonal,Àü¹æ »ç¼±
+STR_CFG_MARKERBR_BDIAGONAL,Backward diagonal,ÈÄ¹æ »ç¼±
+STR_CFG_MARKERBR_DIAGGRID,Grid diagonal,°ÝÀÚ »ç¼±
+STR_CFG_MARKERBR_CROSS,Cross,½ÊÀÚ¼±
+STR_CFG_GRPNAMES_ALPHA,Alpha,¾ËÆÄ
+STR_CFG_GRPNAMES_BRAVO,Bravo,ºê¶óº¸
+STR_CFG_GRPNAMES_CHARLIE,Charlie,Âû¸®
+STR_CFG_GRPNAMES_DELTA,Delta,µ¨Å¸
+STR_CFG_GRPNAMES_ECHO,Echo,¿¡ÄÚ
+STR_CFG_GRPNAMES_FOXTROT,Foxtrot,Æø½ºÆ®·Ô
+STR_CFG_GRPNAMES_GOLF,Golf,°ñÇÁ
+STR_CFG_GRPNAMES_HOTEL,Hotel,È£ÅÚ
+STR_CFG_GRPNAMES_NOVEMBER,November,³ëº¨¹ö
+STR_CFG_GRPNAMES_KILO,Kilo,Å³·Î
+STR_CFG_GRPNAMES_YANKEE,Yankee,¾çÅ°
+STR_CFG_GRPNAMES_ZULU,Zulu,ÁÙ·ç
+STR_CFG_GRPNAMES_BUFFALO,Buffalo,¹öÆÈ·Î
+STR_CFG_GRPNAMES_SIX,Six,¿©¼¸
+STR_CFG_GRPNAMES_TWO,Two,µÑ
+STR_CFG_GRPNAMES_THREE,Three,»ï
+STR_CFG_GRPNAMES_GUARDIAN,Guardian,Guardian
+STR_CFG_GRPNAMES_CONVOY,Convoy,Convoy
+
+STR_CFG_GRPCOL_BLACK,Black,ºí·¢
+STR_CFG_GRPCOL_RED,Red,·¹µå
+STR_CFG_GRPCOL_GREEN,Green,±×¸°
+STR_CFG_GRPCOL_BLUE,Blue,ºí·ç
+STR_CFG_GRPCOL_YELLOW,Yellow,¿»·Î¿ì
+STR_CFG_GRPCOL_ORANGE,Orange,¿À·»Áö
+STR_CFG_GRPCOL_PINK,Pink,ÇÎÅ©
+STR_CFG_GRP_ARMORED,Armored,Àå°©
+STR_CFG_GRP_INFANTRY,Infantry,º¸º´
+STR_CFG_GRP_M1PLATOON,M1Abrams Platoon,M1ÅÊÅ© ¼Ò´ë
+STR_CFG_GRP_M60PLATOON,M60A2 Platoon,M60A2ÅÊÅ© ¼Ò´ë
+STR_CFG_GRP_T80PLATOON,T80 Platoon,T80ÅÊÅ© ¼Ò´ë
+STR_CFG_GRP_T72PLATOON,T72 Platoon,T72ÅÊÅ© ¼Ò´ë
+STR_CFG_GRP_INFANTRY_BASIC,Infantry Squad,º¸º´ ºÐ´ë
+STR_CFG_GRP_INFANTRY_MECHANIZED,Mechanized Inf. Squad,±â°èÈ­ º¸º´ ºÐ´ë
+
+COMMENT,Briefing,º¸°í
+STR_BRIEF_WEAPONS,Weapons:,¹«±â : 
+STR_BRIEF_ITEMS1,Items I:,¾ÆÀÌÅÛ I : 
+STR_BRIEF_ITEMS2,Items II:,¾ÆÀÌÅÛ II : 
+STR_BRIEF_SPECIAL,Special:,Æ¯¼ö ¹«±â : 
+STR_BRIEF_PRIMARY_WEAPONS,Primary weapons,ÁÖ¹«±â
+STR_BRIEF_SECONDARY_WEAPONS,Secondary weapons,º¸Á¶¹«±â
+STR_BRIEF_SPECIAL_ITEMS,Special items,Æ¯¼ö ¾ÆÀÌÅÛ
+STR_BRIEF_SPECIAL_MAGAZINES,Items,¾ÆÀÌÅÛ
+STR_BRIEF_POOL_CANCEL,CANCEL,Ãë¼Ò
+STR_BRIEF_POOL_NONE,NONE,NONE
+STR_BRIEF_GROUP,Group,±×·ì
+STR_BRIEF_GROUP_LEADER,", Group Leader",", ±×·ì ÁöÈÖ°ü"
+STR_BRIEF_COMMANDER," ""  Commander: """,  ÁöÈÖ°ü :  
+STR_BRIEF_DRIVER," ""  Driver: """,¿îÀü¼ö : 
+STR_BRIEF_GUNNER," ""  Gunner: """,»ç¼ö : 
+STR_BRIEF_CARGO," ""  In Cargo: """,Ã¢°í : 
+STR_BRIEF_DURATION_LONG,"Duration: %d h, %d min","½Ã°£ :  %d ½Ã°£, %dºÐ"
+STR_BRIEF_DURATION_SHORT,Duration: %d min,½Ã°£ :  %d ºÐ
+STR_BRIEF_SCORE,Score: %.0f,Á¡¼ö :  %.0f 
+STR_BRIEF_OBJECTIVES,Objectives,¸ñÇ¥
+STR_BRIEF_STATISTICS,Statistics,Åë°è
+STR_BRIEF_YOURKILLS,Your kills:,»ç»ì : 
+STR_BRIEF_YOURKILLS_FRIENDLY,Your kills - friendly units:,»ç»ì - ¾Æ±º : 
+STR_BRIEF_YOURKILLS_CIVIL,Your kills - civilians:,»ç»ì - Àû±º : 
+STR_BRIEF_CASUALTIES,Casualties:,»ç»óÀÚ : 
+STR_BRIEF_FORMAT_GENERIC_TIMES,%dx %s,%dx %s
+STR_BRIEF_FORMAT_YOU_TIMES,%dx you (%s),%dx you (%s)
+STR_BRIEF_FORMAT_YOU_ONCE,You (%s),You (%s)
+STR_BRIEF_FORMAT_BY_TIMES,  - %dx by %s,  - %dx by %s
+STR_BRIEF_FORMAT_BY_ONCE,  - by %s,  - by %s
+STR_BRIEF_STAT_OPEN,Statistics,Åë°è
+STR_BRIEF_STAT_CLOSE,Close,´Ý±â
+
+
+COMMENT, Credits, Credits
+STR_CREDITS01,Project Leader,Project Leader
+STR_CREDITS02,Programming,Programming
+STR_CREDITS03,Artwork,Artwork
+STR_CREDITS04,Design,Design
+STR_CREDITS05,Landscape Editing,Landscape Editing
+STR_CREDITS06,Motion Capture Performance,Motion Capture Performance
+STR_CREDITS07,Additional Tools Programming,Additional Tools Programming
+STR_CREDITS08,Original Music Score,Original Music Score
+STR_CREDITS09,Additional Music Tracks,Additional Music Tracks
+STR_CREDITS10,Sound Effects,Sound Effects
+STR_CREDITS11,Special Thanks,Special Thanks
+
+STR_CREDITSN01,Marek Španìl,Marek Španìl,Marek Španìl,Marek Španìl,Marek Španìl,Marek Španìl
+STR_CREDITSN02,Ondøej Španìl\n Jiøí Martinek,Ondøej Španìl\n Jiøí Martinek,Ondøej Španìl\n Jiøí Martinek,Ondøej Španìl\n Jiøí Martinek,Ondøej Španìl\n Jiøí Martinek,Ondøej Španìl\nJiøí Martinek
+STR_CREDITSN03,Jan Hovora\nPetr Pechar\nKamila Clarová\nPetr Víšek\nKarel Matìjka,Jan Hovora\nPetr Pechar\nKamila Clarová\nPetr Víšek\nKarel Matìjka,Jan Hovora\nPetr Pechar\nKamila Clarová\nPetr Víšek\nKarel Matìjka,Jan Hovora\nPetr Pechar\nKamila Clarová\nPetr Víšek\nKarel Matìjka,Jan Hovora\nPetr Pechar\nKamila Clarová\nPetr Víšek\nKarel Matìjka,Jan Hovora\nPetr Pechar\nKamila Clarová\nPetr Víšek\nKarel Matìjka
+STR_CREDITSN04,Viktor Bocan\nVojtìch Novák\nAdam Bílek\nRobert Štípek\nTomáš Pulkrábek\nJan Kraml,Viktor Bocan\nVojtìch Novák\nAdam Bílek\nRobert Štípek\nTomáš Pulkrábek\nJan Kraml,Viktor Bocan\nVojtìch Novák\nAdam Bílek\nRobert Štípek\nTomáš Pulkrábek\nJan Kraml,Viktor Bocan\nVojtìch Novák\nAdam Bílek\nRobert Štípek\nTomáš Pulkrábek\nJan Kraml,Viktor Bocan\nVojtìch Novák\nAdam Bílek\nRobert Štípek\nTomáš Pulkrábek\nJan Kraml,Viktor Bocan\nVojtìch Novák\nAdam Bílek\nRobert Štipek\nTomáš Pulkrábek\nJan Kraml
+STR_CREDITSN05,Štepán Kment\nMelanie Novotná,Štepán Kment\nMelanie Novotná,Štepán Kment\nMelanie Novotná,Štepán Kment\nMelanie Novotná,Štepán Kment\nMelanie Novotná,Štepán Kment\nMelanie Novotná
+STR_CREDITSN06,Bohumil Trnka,Bohumil Trnka,Bohumil Trnka,Bohumil Trnka,Bohumil Trnka,Bohumil Trnka
+STR_CREDITSN07,Ondøej Novák\nLuboš Pácal,Ondøej Novák\nLuboš Pácal,Ondøej Novák\nLuboš Pacal,Ondøej Novák\nLuboš Pácal,Ondøej Novák\nLuboš Pácal,Ondøej Novák\nLuboš Pácal
+STR_CREDITSN08,Ondøej Matìjka,Ondøej Matìjka,Ondøej Matìjka,Ondøej Matìjka,Ondøej Matìjka,Ondøej Matìjka
+STR_CREDITSN09,Lifeless \n\nOverdose\nI’m Gonna Fly\nDecide,Sans vie \n\nOverdose\nJe m'envole\nDécider,Lifeless \n\nOverdose\nI’m Gonna Fly\nDecide,Sin sentido \n\nSobredosis\nVoy a despegar\nDecidir,Lifeless \n\nOverdose\nI’m Gonna Fly\nDecide,TODO translate
+STR_CREDITSN09a,(Dedicated to memory of Sgt. Tom Birnie),(Dédié à la mémoire du sergent Tom Birnie),(In memoria del sergente Tom Birnie),(Dedicado a la memoria del Sgt. Tom Birnie),(Zum Gedenken an Feldw. Tom Birnie),TODO translate
+STR_CREDITSN09b,"Composed by Lagettie / Reid and performed by \n\n\n(David Lagettie, Michael Reid, Luke Aldridge,\n Amy Dewhurst, Nathan Taylor)","Composé par Lagettie / Reid et interprété par \n\n\n(David Lagettie, Michael Reid, Luke Aldridge,\n Amy Dewhurst, Nathan Taylor)","Musica/testo di Lagettie / Reid; esecuzione di \n\n\n(David Lagettie, Michael Reid, Luke Aldridge,\n Amy Dewhurst, Nathan Taylor)","Compuesto por Lagettie / Reid e interpretada por \n\n\n(David Lagettie, Michael Reid, Luke Aldridge,\n Amy Dewhurst, Nathan Taylor)","Musik/Text: Lagettie/Reid. Gespielt von: \n\n\n(David Lagettie, Michael Reid, Luke Aldridge,\n Amy Dewhurst, Nathan Taylor)",TODO translate
+STR_CREDITSN09c,Seventh,Septième,Seventh,Séptimo,Seventh,Seventh
+
+STR_CREDITSN10,Robert Stevenson\nOndøej Matìjka\nBeaufort Clifton Addison III,Robert Stevenson\nOndøej Matìjka\nBeaufort Clifton Addison III,Robert Stevenson\nOndøej Matìjka\nBeaufort Clifton Addison III,Robert Stevenson\nOndøej Matìjka\nBeaufort Clifton Addison III,Robert Stevenson\nOndøej Matìjka\nBeaufort Clifton Addison III,Robert Stevenson\nOndøej Matìjka\nBeaufort Clifton Addison III
+STR_CREDITSN11,AndOne\nJames McKenzie-Smith\nJens Buescher\nKrzysztof Janicki\nMarc Racine\nRadan Doubrava\nSlavomír Pavlíèek\nFernando Santamaria\nVladan Marek\nAdammo,AndOne\nJames McKenzie-Smith\nJens Buescher\nKrzysztof Janicki\nMarc Racine\nRadan Doubrava\nSlavomír Pavlíèek\nFernando Santamaria\nVladan Marek\nAdammo,AndOne\nJames McKenzie-Smith\nJens Buescher\nKrzysztof Janicki\nMarc Racine\nRadan Doubrava\nSlavomír Pavlíèek\nFernando Santamaria\nVladan Marek\nAdammo,AndOne\nJames McKenzie-Smith\nJens Buescher\nKrzysztof Janicki\nMarc Racine\nRadan Doubrava\nSlavomír Pavlíèek\nFernando Santamaría\nVladan Marek\nAdammo,AndOne\nJames McKenzie-Smith\nJens Buescher\nKrzysztof Janicki\nMarc Racine\nRadan Doubrava\nSlavomír Pavlíèek\nFernando Santamaria\nVladan Marek\nAdammo,AndOne\nJames McKenzie-Smith\nJens Buescher\nKrzysztof Janicki\nMarc Racine\nRadan Doubrava\nSlavomír Pavlíèek\nFernando Santamaria\nVladan Marek\nAdammo
+
+STR_CREDITS12,Published by,Published by
+STR_CREDITS12a,Developed by,Developed by
+STR_CREDITS13,External Producer,External Producer
+STR_CREDITS14,Design/Script,Design/Script
+STR_CREDITS15,QA/Compatibility,QA/Compatibility
+STR_CREDITS16,Marketing/PR,Marketing/PR
+STR_CREDITS17,Voice Processing,Voice Processing
+STR_CREDITS18,Voice Artists,Voice Artists
+STR_CREDITS19,Localisation,Localisation
+STR_CREDITS20,Localisation Testing,Localisation Testing
+STR_CREDITS21,Business/Legal,Business/Legal
+STR_CREDITS22,Special Thanks,Special Thanks
+STR_CREDITS23,(c) 2001 Bohemia Interactive Studio and The Codemasters Software Company Limited. All rights reserved.,(c) 2001 Bohemia Interactive Studio and The Codemasters Software Company Limited. All rights reserved.
+STR_CREDITS24,"Vìnováno tìm, kteøí zemøeli, abychom my mohli žít.","Vìnováno tìm, kteøí zemøeli, abychom my mohli žít.","Vìnováno tìm, kteøí zemøeli, abychom my mohli žít.","Vìnováno tìm, kteøí zemøeli, abychom my mohli žít.","Vìnováno tìm, kteøí zemøeli, abychom my mohli žít.",TODO translate
+
+STR_CREDITSN13,Richard I Blenkinsop,Richard I Blenkinsop
+STR_CREDITSN14,Brian Coller\nHal Sandbach\nJames Brown\nJason Truman\nJonathan Davies\nJonathan Smith\nLaura Peterson\nSimon Smith,Brian Coller\nHal Sandbach\nJames Brown\nJason Truman\nJonathan Davies\nJonathan Smith\nLaura Peterson\nSimon Smith
+STR_CREDITSN15,Andrew Crabtree\nAnthony Cooper\nGary Cody\nGary Masters\nGhulam Khan\nJonathan Tainsh\nNeil Corbett\nPatrick Butler\nPaul Turland\nPeter Riley\nRichard Tysoe\nSam Chimes\nSimon Humphreys,Andrew Crabtree\nAnthony Cooper\nGary Cody\nGary Masters\nGhulam Khan\nJonathan Tainsh\nNeil Corbett\nPatrick Butler\nPaul Turland\nPeter Riley\nRichard Tysoe\nSam Chimes\nSimon Humphreys
+STR_CREDITSN16,Adam Hance \nAlyson Fielding\nAndrea Matthews\nBruce Everiss\nChristopher Hines\nDavid Alcock\nDavid Solari\nEd Denson\nEmma Nichols\nHenry Cook\nJennifer Stubbs\nLiz Darling\nNick Pili\nNick McAuliffe\nNicky Veal\nSimon Reid,Adam Hance \nAlyson Fielding\nAndrea Matthews\nBruce Everiss\nChristopher Hines\nDavid Alcock\nDavid Solari\nEd Denson\nEmma Nichols\nHenry Cook\nJennifer Stubbs\nLiz Darling\nNick Pili\nNick McAuliffe\nNicky Veal\nSimon Reid
+STR_CREDITSN17,Daniel Gardner\nLewis Griffin\nTim Bartlett,Daniel Gardner\nLewis Griffin\nTim Bartlett
+STR_CREDITSN18,Dan Russell\nGregg Brown\nJonah Lotan\nJulia Zagonek\nTed Maynard\nTom Clarke Hill\nVince Marzello\nYuri Stepanov,Dan Russell\nGregg Brown\nJonah Lotan\nJulia Zagonek\nTed Maynard\nTom Clarke Hill\nVince Marzello\nYuri Stepanov
+STR_CREDITSN19,Warren Cho/Infogrames Korea\nSgt. Orion YOung/Asteris,Warren Cho/Infogrames Korea\nSgt. Orion YOung/Asteris
+STR_CREDITSN20,Brehit\nPatrick\nJunho\nAplus,Brehit\nPatrick\nJunho\nAplus
+STR_CREDITSN21,Dean Trotman\nGary Rowe\nNav Sunner,Dean Trotman\nGary Rowe\nNav Sunner
+STR_CREDITSN22,Alex Darby\nPeter Cardwell\nJoanne Chappell\nJohn Roberts\nJustin Forrest\nMat Thomas\nPete O'Donnell\nRich Eddy (Rocket Media),Alex Darby\nPeter Cardwell\nJoanne Chappell\nJohn Roberts\nJustin Forrest\nMat Thomas\nPete O'Donnell\nRich Eddy (Rocket Media)
+
+COMMENT,Quotations,¸í¾ð
+STR_QUOTE_1,A single death is a tragedy; a million deaths is a statistic.,ÇÑ¸íÀÇ Á×À½Àº ºñ±ØÀÌÁö¸¸ ¹é¸¸¸íÀÇ Á×À½Àº Åë°èÀÏ »ÓÀÌ´Ù.
+STR_AUTHOR_1,Joseph Stalin,Á¶¼¼ÇÁ ½ºÅ»¸°
+STR_QUOTE_2,I believe that people would be alive today if there were a death penalty.,»çÇüÁ¦µµ°¡ ÀÖ¾ú´õ¶ó¸é ¸¹Àº »ç¶÷µéÀÌ Á×Áö ¾Ê°í »ì¾Æ ÀÖ¾úÀ» °ÍÀÌ´Ù.
+STR_AUTHOR_2,Nancy Reagan,³½½Ã ·¹ÀÌ°Ç
+STR_QUOTE_3,The quickest way to end a war is to lose it.,ÀüÀïÀ» °¡Àå »¡¸® ³¡³»´Â ¹æ¹ýÀº ÀüÀï¿¡¼­ ÆÐÇÏ´Â °ÍÀÌ´Ù.
+STR_AUTHOR_3,George Orwell,ÁÒÁö ¿ÀÀ£
+STR_QUOTE_4,"I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.",Á¦ 3Â÷ ¼¼°è´ëÀü¿¡¼­ ¾î¶² ¹«±â°¡ »ç¿ëµÉÁö ¸ð¸£°ÚÁö¸¸ Á¦ 4Â÷ ¼¼°è´ëÀü¿¡¼­´Â ¸ùµÕÀÌ¿Í µ¿¸ÍÀÌ¸¦ ¹«±â·Î ÀüÀïÀÌ ÀÏ¾î³¯ °ÍÀÌ´Ù.
+STR_AUTHOR_4,Albert Einstein,¾Ë¹öÆ® ¾ÆÀÎ½ºÅ¸ÀÎ
+STR_QUOTE_5,War is much too serious a matter to be entrusted to the military.,±º¿¡°Ô ¸Ã±â±â¿¡ ÀüÀïÀº ³Ê¹«³ª ½É°¢ÇÑ ¹®Á¦ÀÌ´Ù.
+STR_AUTHOR_5,Georges Clemenceau,Á¶Áö Å¬·¹¸Á¼Ò
+STR_QUOTE_6,War is a series of disasters which result in a winner.,ÀüÀïÀº ÇÑ¸íÀÇ ½ÂÀÚ¸¸ÀÌ ³²´Â Àç³­ÀÇ ¿¬¼ÓÀÌ´Ù.
+STR_AUTHOR_6,Georges Clemenceau,Á¶Áö Å¬·¹¸Á¼Ò
+STR_QUOTE_7,War is not nice.,ÀüÀïÀº ÈÇ¸¢ÇÏÁö ¸øÇÑ °ÍÀÌ´Ù.
+STR_AUTHOR_7,Barbara Bush,¹Ù¹Ù¶ó ºÎ½Ã
+STR_QUOTE_8,"War is a game that is played with a smile. If you can't smile, grin. If you can't grin, keep out of the way till you can.",ÀüÀïÀº ¹Ì¼Ò¸¦ ÁöÀ¸¸ç ÇÏ´Â °ÔÀÓÀÌ´Ù.  ¸¸ÀÏ ¹Ì¼Ò¸¦ ÁöÀ» ¼ö ¾øÀ¸¸é ¾´¿ôÀ½ÀÌ¶óµµ Áö¾î¾ßÇÑ´Ù.  ¾´¿ôÀ½µµ ÁöÀ» ¼ö ¾ø´Ù¸é ÇÒ ¼ö ÀÖÀ» ¶§±îÁö Âü¿©ÇÏÁö ¾Ê¾Æ¾ß ÇÑ´Ù.
+STR_AUTHOR_8,Winston Churchill,À©½ºÅæ Ã³Ä¥
+STR_QUOTE_9,To be prepared for war is one of the most effective means of preserving peace.,ÀüÀï¿¡ ´ëºñÇØ ÁØºñ¸¦ ÇÏ´Â °ÍÀº °¡Àå È¿°úÀûÀ¸·Î ÆòÈ­¸¦ º¸Á¸ÇÏ´Â ¹æ¹ýÀÌ´Ù.
+STR_AUTHOR_9,George Washington,Á¶Áö ¿ö½ÌÅæ
+STR_QUOTE_10,"Stay out of the road, if you want to grow old.",¿À·¡»ì°í ½Í´Ù¸é ÀüÀï¿¡ Âü¿©ÇØ¼­´Â ¾ÈµÈ´Ù.
+STR_AUTHOR_10,Pink Floyd,ÇÎÅ© ÇÃ·ÎÀÌµå
+STR_QUOTE_11,"Death is a very dull, dreary affair, and my advice to you is to have nothing whatsoever to do with it.",Á×À½ÀÌ¶õ ¸Å¿ì ¾îµÓ°í ¾µ¾µÇÑ ÀÏÀÌ¹Ç·Î Á×À½°ú ¾Æ¹«·Ã °ü·ÃÀÌ ¾ø±æ ¹Ù¶õ´Ù.
+STR_AUTHOR_11,W. Somerset Maugham,W. ¼Ø¸Ó¼Â ¸ö
+STR_QUOTE_12,Many that live deserve death.  And some that die deserve life.,»ç´Â »ç¶÷µé Áß¿¡´Â Á×¾î ¸¶¶¥ÇÑ ÀÌµéÀÌ ÀÖ´Ù. ±×¸®°í Á×Àº »ç¶÷µé Áß¿¡¼­´Â »ì¾Æ ¸¶¶¥ÇÑ ÀÌµéÀÌ ÀÖ´Ù.
+STR_AUTHOR_12,J.R.R.Tolkien,J.R.R.ÅçÅ°¿£
+STR_QUOTE_13,"And lastly there is the oldest and deepest desire, the Great Escape: the Escape from Death.",´ëÅ»ÃâÀÌ¾ß ¸»·Î °¡Àå ¿À·¡µÇ¾úÀ¸¸ç °¡Àå °£ÀýÇÑ ¿å¸ÁÀÌ´Ù.  ¹Ù·Î Á×À½À¸·ÎºÎÅÍÀÇ Å»ÃâÀÌ´Ù.
+STR_AUTHOR_13,J.R.R.Tolkien,J.R.R.ÅçÅ°¿£
+STR_QUOTE_14,"As to you, Life, I reckon you are the leavings of many deaths; No doubt I have died, myself ten thousand times before.",ÀÎ»ýÀº ¸¹Àº Á×ÀºÀÌµéÀÌ ³²±â°í °£ °ÍµéÀÌ´Ù. ³»°¡ ÀÌ¹Ì ¼ö½Ê¸¸¹ø Á×¾ú´Ù´Â °ÍÀº ÀÚ¸íÇÑ ÀÌÄ¡ÀÌ´Ù.
+STR_AUTHOR_14,Walt Whitman,¿ùÆ® ÈÖÆ®¸¸
+STR_QUOTE_15,Men are at war with each other because each man is at war with himself.,ÀÎ°£Àº ÀÚ½Å ½º½º·Î¿Í ÀüÀïÀ» ÇÏ°í ÀÖ±â ¶§¹®¿¡ ´Ù¸¥ ÀÌµé°úµµ ¼­·Î ÀüÀï¿¡ Âü¿©ÇÏ°Ô µÇ´Â °ÍÀÌ´Ù.
+STR_AUTHOR_15,Francis Meehan,ÇÁ¶õ½Ã½º ¹ÌÇÑ
+STR_QUOTE_16,"It's not that I'm afraid to die, I just don't want to be there when it happens.",³»°¡ Á×´Â °ÍÀÌ µÎ·Á¿ö¼­°¡ ¾Æ´Ï¶ó ±×³É ±× ÀÏÀÌ ¹ú¾îÁú¶§ ±× °÷¿¡ ÀÖ±â ½È±â ¶§¹®ÀÌ´Ù.
+STR_AUTHOR_16,Woody Allen,¿ìµð ¾Ë·»
+STR_QUOTE_17,It is hard to have patience with people who say 'There is no death' or 'Death doesn't matter.' There is death and whatever is matters.,"""Á×À½Àº ¾ø´Ù"" È¤Àº ""Á×À½Àº Áß¿äÇÑ ¹®Á¦°¡ ¾Æ´Ï´Ù""¶ó°í ¸»ÇÏ´Â »ç¶÷µé¿¡°Ô ÂüÀ»¼ºÀ» °®´Â °ÍÀº ¸Å¿ì ÈûµçÀÌ´Ù.  Á×À½ÀÌ¶õ °ÍÀº ºÐ¸íÈ÷ Á¸ÀçÇÏ°í ¸ðµç °ÍÀº Áß¿äÇÏ±â ¶§¹®ÀÌ´Ù."
+STR_AUTHOR_17,C.S.Lewis,C.S. ·çÀÌ½º
+STR_QUOTE_18,A man's dying is more the survivors' affair than his own.,ÇÑ »ç¶÷ÀÇ Á×À½Àº ±× ÀÚ½Åº¸´Ù´Â »ì¾Æ³²Àº ÀÚÀÇ ¹®Á¦ÀÌ´Ù.
+STR_AUTHOR_18,Thomas Mann,Åä¸¶½º ¸¸
+STR_QUOTE_19,I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act.,³ª´Â ¾î¶»°Ô Çàµ¿ÇÏ°Ç°£¿¡ ¶³¾îÁö´Â ¿î¸íº¸´Ù´Â ¾î¶»°Ô Çàµ¿ÇÏÁö ¾Ê¾Ò±â ¶§¹®¿¡ ±Í°áµÇ´Â ¿î¸íÀ» ¹Ï´Â´Ù.
+STR_AUTHOR_19,G. K. Chesterton,G. K. Ã¼½ºÅÍÅæ
+STR_QUOTE_20,A man who won't die for something is not fit to live.,¹«¾ùÀÎ°¡¸¦ À§ÇØ¼­ Á×À» ¼ö ¾ø´Â »ç¶÷Àº »ì ÀÚ°ÝÀÌ ¾ø´Ù.
+STR_AUTHOR_20,Martin Luther King,¸¶Æ¾ ·çÅÍ Å·
+STR_QUOTE_21,"Once the game is over, the king and the pawn go back in the same box.","ÀÏ´Ü Ã¼½º °ÔÀÓÀÌ ³¡³ª¸é, Å·°ú ÆùÀº °°Àº »óÀÚ·Î µ¹¾Æ°£´Ù."
+STR_AUTHOR_21,Italian Proverb,ÀÌÅ»¸®¾Æ ¼Ó´ã
+STR_QUOTE_22,I have not yet begun to fight!,¾ÆÁ÷ ½Î¿òÀ» ½ÃÀÛÇÏÁö ¾Ê¾Ò´Ù.
+STR_AUTHOR_22,John Paul Jones,Á¸ Æú Á¸½º
+STR_QUOTE_23,"Mankind must put an end to war, or war will put an end to mankind.",ÀÎ·ù°¡ ÀüÀï¿¡ Á¾ÁöºÎ¸¦ ÂïÁö ¾Ê´Â´Ù¸é ÀüÀïÀÌ ÀÎ·ù¿¡ Á¾ÁöºÎ¸¦ Âï°Ô µÉ °ÍÀÌ´Ù.
+STR_AUTHOR_23,John Fitzgerald Kennedy,Á¸ F. ÄÉ³×µð
+STR_QUOTE_24,Wars have never hurt anybody except the people who die.,ÀüÀïÀº Á×´Â ÀÌµéÀ» Á¦¿ÜÇÏ°í´Â ¾Æ¹«¿¡°Ôµµ »óÃ³¸¦ ÁÖÁö ¾Ê¾Ò´Ù.
+STR_AUTHOR_24,Salvador Dali,»ç¹Ùµµ¸£ ´Þ¸®
+STR_QUOTE_25,War does not determine who is right - only who is left.,ÀüÀïÀº ´©°¡ ¿ÇÀ¸³Ä¸¦ °áÁ¤ÇÏÁö ¾Ê´Â´Ù-´ÜÁö ´©°¡ »ì¾Æ³²´À³Ä¸¦ °áÁ¤ÇÑ´Ù.
+STR_AUTHOR_25,Bertrand Russell,¹öÆ®¶õÆ® ·¯¼¿
+STR_QUOTE_26,"We improve ourselves by victories over ourself. There must be contests, and you must win.",¿ì¸®´Â ¿ì¸® ½º½º·Î¸¦ »ó´ë·Î ½Â¸®¸¦ ÇÏ¸é¼­ ¹ßÀüÇØ ³ª°£´Ù.  °æÀïÀÌ ÀÖ¾î¾ß ÇÏ°í °Å½Ã¼­ ´ç½ÅÀº ¹Ýµå½Ã ½Â¸®ÇØ¾ß ÇÑ´Ù.
+STR_AUTHOR_26,Edward Gibbon,¿¡µå¿öµå ±âº»
+STR_QUOTE_27,"We succeed only as we identify in life, or in war, or in anything else, a single overriding objective, and make all other considerations bend to that one objective.","¿ì¸®°¡ ÀÎ»ý, È¤Àº ÀüÀï È¤Àº ±× ¹«¾ù¿¡ ÀÖ¾î¼­ ÇÑ°¡Áö Áß¿äÇÑ ¸ñÇ¥¸¦ È®ÀÎÇÏ°í ´Ù¸¥ ¸ðµç °ÍµéÀ» ÀÌ°Í¿¡ ±¼º¹ ½ÃÅ³¶§¿¡ ºñ·Î¼Ò ¿ì¸®´Â ¼º°øÀ» ÇÑ´Ù."
+STR_AUTHOR_27,Dwight D. Eisenhower,µå¿ÍÀÌÆ® ¾ÆÀÌÁ¨ÇÏ¿ö
+STR_QUOTE_28,"Experience is a hard teacher because she gives the test first, the lesson afterwards.",°æÇèÀº ¸Å¿ì ¾ö°ÝÇÑ ¼±»ý´ÔÀÌ´Ù.  ¿Ö³ÄÇÏ¸é ±×³à´Â ¾ðÁ¦³ª ½ÃÇèÀ» ¸ÕÀú ÁÖ°í ±³ÈÆÀ» ³ªÁß¿¡ °¡¸£ÃÄ ÁØ´Ù.
+STR_AUTHOR_28, Vernon Sanders Law,¹ö³í »÷´õ½º ·Î¿ì
+STR_AUTHOR_29,James Thurber,Á¦ÀÓ½º ½á¹ö
+STR_QUOTE_29,You might as well fall flat on your face as lean over too far backwards.,µÚ·Î ³Ê¹« ¸¹ÀÌ ±â´î ¹Ù¿¡´Â Â÷¶ó¸® ¾ó±¼ÂÊÀ¸·Î ÀÚºüÁö´Â °ÍÀÌ ³º´Ù.
+STR_QUOTE_30,Courage is being scared to death - but saddling up anyway.,¿ë±â°¡ Á×µµ·Ï ¹«¼­¿öÇÏ°í ÀÖÁö¸¸ ¿©Â÷ÀúÂ÷ ÇÏ¿© ¶°³¯ Ã¤ºñ¸¦ ÇÏ°í ÀÖ´Ù.
+STR_AUTHOR_30,John Wayne,Á¸ ¿þÀÎ
+STR_QUOTE_31,Death is more universal than life; everyone dies but not everyone lives.,»îº¸´Ù Á×À½ÀÌ ´õ¿í º¸ÆíÀûÀÌ´Ù. ¸ðµçÀÌ´Â Á×Áö¸¸ ¸ðµçÀÌ°¡ »ç´Â °ÍÀº ¾Æ´Ï´Ù.
+STR_AUTHOR_31,A. Sachs,A. Àè½º
+STR_QUOTE_32,Imagination is the one weapon in the war against reality.,ÀüÀï¿¡ ÀÖ¾î¼­ »ó»óÀº Çö½Ç¿¡ ´ëÇÑ ¹«±âÀÌ´Ù.
+STR_AUTHOR_32,Jules de Gaultier,Áì½º µð °íÆ¼¿¡
+STR_QUOTE_33,"You can't say that civilization don't advance, however, for in every war they kill you in a new way.",¹®¸íÀÌ ¹ß´ÞÇÏÁö ¾Ê´Â´Ù°í ¸»ÇÒ ¼ö´Â ¾øÁö¸¸ ¸ðµç ÀüÀï¿¡¼­´Â »ç¶÷À» Á×ÀÌ´Â ¹æ¹ýÀÌ »õ·Ó°Ô ¹ß¸íµÈ´Ù.
+STR_AUTHOR_33,Will Rogers,Àª ·ÎÀú½º
+STR_QUOTE_34,...Sometime they'll give a war and nobody will come.,...°¡²û ÀüÀïÀ» ÁÖ°í ¾Æ¹«µµ ¿ÀÁö ¾ÊÀ» °ÍÀÌ´Ù.
+STR_AUTHOR_34,Carl Sandburg,Ä® »÷µå¹ö±×
+STR_QUOTE_35,"It is well that war is so terrible, or we should get too fond of it.",ÀüÀïÀÌ¶õ °ÍÀÌ ¸Å¿ì ¹«½Ã¹«½ÃÇÑ °ÍÀÌ¶ó´Â °ÍÀº ÂüÀ¸·Î ´ÙÇàÀÌ´Ù.  ±×·¸Áö ¾Ê¾Ò´Ù¸é ¿ì¸®´Â ÀüÀïÀ» ³Ê¹« ÁÁ¾ÆÇÏ°Ô µÉ °ÍÀÌ´Ù.
+STR_AUTHOR_35,Robert E. Lee,·Î¹öÆ® E. ¸®
+STR_QUOTE_36,You can no more win a war than you can win an earthquake.,ÁöÁøÀ» ÀÌ±æ ¼ö ¾øµíÀÌ ÀüÀïÀ» ÀÌ±æ ¼ö ¾ø´Ù.
+STR_AUTHOR_36,Jeannette Rankin,Á¦³Ý ·£Å²
+STR_QUOTE_37,War is one of the scourges with which it has pleased God to afflict men.,ÀüÀïÀº ½ÅÀÌ ÀÎ°£¿¡°Ô °íÅëÀ» °¡ÇÒ ¼ö ÀÖ´Â Ã¤ÂïÀÌ´Ù.
+STR_AUTHOR_37,Cardinal Richelieu,¸®Ã¿·ù ½ÅºÎ
+STR_QUOTE_38,In war there is no substitute for victory.,ÀüÀï¿¡¼­´Â ½Â¸®¸¦ ÀçÃ¼ÇÒ ¸¸ÇÑ °ÍÀÌ ¾Æ¹«°Íµµ ¾ø´Ù.
+STR_AUTHOR_38,General Douglas MacArthur,´õ±Û¶ó½º ¸Æ¾Æ´õ Àå±º
+STR_QUOTE_39,"War isn't about who's right, its about who's left.",ÀüÀïÀº ´©°¡ ¿ÇÀ¸³Ä¿¡ ´ëÇÑ °ÍÀÌ ¾Æ´Ï¶ó ´©°¡ ÃÖÁ¾ÀûÀ¸·Î »ì¾Æ ³²´À³Ä¿¡ ´ëÇÑ °ÍÀÌ´Ù.
+STR_AUTHOR_39,Anders Russell,¾Ø´õ½º ·¯¼¿
+STR_QUOTE_40,The object of war is not to die for your country but to make the other bastard die for his.,ÀüÀïÀÇ ¸ñÀûÀº Á¶±¹À» À§ÇØ ¸ñ¼ûÀ» ¹ÙÄ¡´Â °ÍÀÌ ¾Æ´Ï¶ó Àû±ºÀÌ Àû±¹À» À§ÇØ ¸ñ¼ûÀ» ÀÒ°Ô ¸¸µå´Â °ÍÀÌ´Ù.
+STR_AUTHOR_40,General G. C. Patton,G. C. ÆÐÆ° Àå±º
+STR_QUOTE_41,Much good work is lost for the lack of a little more.,¾à°£¸¸ ³ë·ÂÀÌ ºÎÁ·ÇÏ´õ¶óµµ °øµçÅ¾ÀÌ ¹«³ÊÁú ¼ö ÀÖ´Ù.
+STR_AUTHOR_41,Edward Harriman,¿¡µå¿öµå ÇØ¸®¸Ç
+STR_QUOTE_42,"When defeat comes, accept it as a signal that your plans are not sound, rebuild those plans, and set sail once more toward your coveted goal.",ÆÐ¹èÇÏ°Ô µÈ´Ù¸é ´ç½ÅÀÇ °èÈ¹ÀÌ °Ç½ÇÇÏÁö ¸øÇß´Ù´Â ¶æÀ¸·Î ¹Þ¾ÆµéÀÌ°í °èÈ¹À» ¼öÁ¤ÇÑ ÈÄ ´Ù½ÃÇÑ¹ø ´ç½ÅÀÇ ¸ñÇ¥¸¦ ÇâÇØ Ç×ÇØÇØ¾ß ÇÑ´Ù.
+STR_AUTHOR_42,Napolean Hill,³ªÆú¸® ¾ð´ö
+STR_QUOTE_LAST,Brave men are all vertebrates; they have their softness on the surface and their toughness in the middle.,¿ë°¨ÇÑ ÀÌµéÀº ¸ðµÎ Ã´Ãßµ¿¹°ÀÌ´Ù. Ç¥¸éÀº ºÎµå·´Áö¸¸ ¼ÓÀº °­ÀÎÇÏ´Ù.
+STR_AUTHOR_LAST,Lewis Carroll,·çÀÌ½º Ä³·Ñ
+
+
+STRN_S01, 01: Steal the Car, 01 :  Steal the Car
+STRN_S02, 02: Ambush, 02 :  Ambush
+STRN_S03, 03: Bomberman, 03 :  Bomberman
+STRN_S04, 04: Ground Attack, 04 :  Ground Attack
+STRN_S05, 05: Heavy Metal, 05 :  Heavy Metal
+STRN_S06, 06: Clean Sweep, 06 :  Clean Sweep
+STRN_S07, 07: Shadow Killer, 07 :  Shadow Killer
+STRN_S08, 08: Lone Wolf, 08 :  Lone Wolf
+STRN_S09, 09: Sniper Team, 09 :  Sniper Team
+STRN_S10, 10: Commander, 10 :  Commander
+
+STRN_M01, Deathmatch (1-8 D), Deathmatch (1-8 D)
+STRN_M02, Flag Fight (1-8 D), Flag Fight (1-8 D)
+STRN_M03, Capture the Flag (2-8 T), Capture the Flag (2-8 T)
+STRN_M04, Hold City (2-8 T), Hold City (2-8 T)
+STRN_M05, Hostage Rescue (2-5 C), Hostage Rescue (2-5 C)
+STRN_M06, King of the City (2-8 T), King of the City (2-8 T)
+STRN_M07, King of the Hill (2-8 T), King of the Hill (2-8 T)
+
+
+
+
+
+COMMENT,*** Added after translation *** TODO: Translate,*** Added after translation ***
+
+STR_DIFF_3RD_PERSON_VIEW,3rd person view,3ÀÎÄª ½ÃÁ¡
+STR_DISP_INT_TITLE_MP,Game in progress,°ÔÀÓ ÁøÇà Áß
+STR_DN_FORTRESS_2,Fortress 2,¿ä»õ 2
+STR_MSG_PLAYERNAME_INVALID,Player's name is invalid!,»ç¿ëÇÒ ¼ö ¾ø´Â ÇÃ·¹ÀÌ¾î ÀÌ¸§!
+STR_DN_M2_MGE,M2 Machine Gun (East),M2 ±â°üÃÑ (¼Ò·Ã±º)
+
+STR_DN_BLACKOP,Black Op,Black Op
+STR_DN_BLACKOPDAY,Black Op (day),Black Op (day)
+STR_DN_SPECNAS,Spetz Natz,Spetz Natz
+STR_DN_ENGINEER, Engineer,°øº´
+
+STR_BRIEFING,"Briefing (%s, %s %d)","»óÈ²º¸°í (%s, %s %d)"
+
+STR_DISP_REVERT_QUESTION,You're attempting to revert in your campaign game. Information about your progress and your save positions can be lost.,Ä·ÆÐÀÎ °ÔÀÓ¿¡¼­ µÇµ¹¾Æ°¡·Á°í ÇÏ°í ÀÖ½À´Ï´Ù.  ÁøÃ´ »óÈ²°ú ÀúÀåµÈ À§Ä¡°¡ »ç¶óÁú ¼ö ÀÖ½À´Ï´Ù.
+STRM_ADD_CLEAN2,You are the leader of those highly trained soldiers...,´ç½ÅÀº °íµµ·Î ÈÆ·ÃµÈ º´»çµéÀÇ ÁöÈÖ°üÀÔ´Ï´Ù....
+
+STR_MAINTITLES_01, CODEMASTERS, CODEMASTERS
+STR_MAINTITLES_02, PRESENTS, PRESENTS
+STR_MAINTITLES_03, A, A
+STR_MAINTITLES_04, BOHEMIA INTERACTIVE, BOHEMIA INTERACTIVE
+STR_MAINTITLES_05, PRODUCTION, PRODUCTION
+STR_MAINTITLES_06, OPERATION FLASHPOINT, OPERATION FLASHPOINT
+
+
+STR_COPY,Vorbis Sound Compression Codec \nCopyright (c) 2001 Xiphophorus,Vorbis Sound Compression Codec \nCopyright (c) 2001 Xiphophorus
+
+STR_ACTION_SALUTE,Salute,°æ·Ê
+STR_WEAPON,Weapon,¹«±â
+STR_MAGAZINE,Magazine,ÅºÃ¢
+STR_USE_WEAPON,Use Weapon,¹«±â »ç¿ë
+STR_ACTION_SCUDLAUNCH,Launch SCUD,½ºÄ¿µå ¹Ì»çÀÏ ¹ß»ç
+STR_ACTION_SCUDSTART,Start SCUD,½ºÄ¿µå ¹Ì»çÀÏ ÀÛµ¿
+
+
+STRN_S11, 11: Clean Sweep II, 11 :  Clean Sweep II
+
+COMMENT,*** Keyboard,*** Keyboard
+STR_DIK_ESCAPE,Escape,Escape
+STR_DIK_1,1,1
+STR_DIK_2,2,2
+STR_DIK_3,3,3
+STR_DIK_4,4,4
+STR_DIK_5,5,5
+STR_DIK_6,6,6
+STR_DIK_7,7,7
+STR_DIK_8,8,8
+STR_DIK_9,9,9
+STR_DIK_0,0,0
+STR_DIK_MINUS,-,-
+STR_DIK_EQUALS,=,=
+STR_DIK_BACK,Back Space,Back Space
+STR_DIK_TAB,Tab,Tab
+STR_DIK_Q,Q,Q
+STR_DIK_W,W,W
+STR_DIK_E,E,E
+STR_DIK_R,R,R
+STR_DIK_T,T,T
+STR_DIK_Y,Y,Y
+STR_DIK_U,U,U
+STR_DIK_I,I,I
+STR_DIK_O,O,O
+STR_DIK_P,P,P
+STR_DIK_LBRACKET,[,[
+STR_DIK_RBRACKET,],]
+STR_DIK_RETURN,Enter,Enter
+STR_DIK_LCONTROL,Left Ctrl,Left Ctrl
+STR_DIK_A,A,A
+STR_DIK_S,S,S
+STR_DIK_D,D,D
+STR_DIK_F,F,F
+STR_DIK_G,G,G
+STR_DIK_H,H,H
+STR_DIK_J,J,J
+STR_DIK_K,K,K
+STR_DIK_L,L,L
+STR_DIK_SEMICOLON,;,;
+STR_DIK_APOSTROPHE,','
+STR_DIK_GRAVE,~,~
+STR_DIK_LSHIFT,Left Shift,Left Shift
+STR_DIK_BACKSLASH,\\,\\
+STR_DIK_Z,Z,Z
+STR_DIK_X,X,X
+STR_DIK_C,C,C
+STR_DIK_V,V,V
+STR_DIK_B,B,B
+STR_DIK_N,N,N
+STR_DIK_M,M,M
+STR_DIK_COMMA,",",","
+STR_DIK_PERIOD,.,.
+STR_DIK_SLASH,/,/
+STR_DIK_RSHIFT,Right Shift,Right Shift
+STR_DIK_MULTIPLY,* [NUM],* [NUM]
+STR_DIK_LMENU,Left Alt,Left Alt
+STR_DIK_SPACE,Space,Space
+STR_DIK_CAPITAL,Caps Lock,Caps Lock
+STR_DIK_F1,F1,F1
+STR_DIK_F2,F2,F2
+STR_DIK_F3,F3,F3
+STR_DIK_F4,F4,F4
+STR_DIK_F5,F5,F5
+STR_DIK_F6,F6,F6
+STR_DIK_F7,F7,F7
+STR_DIK_F8,F8,F8
+STR_DIK_F9,F9,F9
+STR_DIK_F10,F10,F10
+STR_DIK_NUMLOCK,Num Lock,Num Lock
+STR_DIK_SCROLL,Scroll Lock,Scroll Lock
+STR_DIK_NUMPAD7,7 [NUM],7 [NUM]
+STR_DIK_NUMPAD8,8 [NUM],8 [NUM]
+STR_DIK_NUMPAD9,9 [NUM],9 [NUM]
+STR_DIK_SUBTRACT,- [NUM],- [NUM]
+STR_DIK_NUMPAD4,4 [NUM],4 [NUM]
+STR_DIK_NUMPAD5,5 [NUM],5 [NUM]
+STR_DIK_NUMPAD6,6 [NUM],6 [NUM]
+STR_DIK_ADD,+ [NUM],+ [NUM]
+STR_DIK_NUMPAD1,1 [NUM],1 [NUM]
+STR_DIK_NUMPAD2,2 [NUM],2 [NUM]
+STR_DIK_NUMPAD3,3 [NUM],3 [NUM]
+STR_DIK_NUMPAD0,0 [NUM],0 [NUM]
+STR_DIK_DECIMAL,. [NUM],. [NUM]
+STR_DIK_OEM_102,OEM 102,OEM 102
+STR_DIK_F11,F11,F11
+STR_DIK_F12,F12,F12
+STR_DIK_F13,F13,F13
+STR_DIK_F14,F14,F14
+STR_DIK_F15,F15,F15
+STR_DIK_KANA,Kana,Kana
+STR_DIK_ABNT_C1,ABNT_C1,ABNT_C1
+STR_DIK_CONVERT,Convert,Convert
+STR_DIK_NOCONVERT,No Convert,No Convert
+STR_DIK_YEN,Yen,Yen
+STR_DIK_ABNT_C2,ABNT_C2,ABNT_C2
+STR_DIK_NUMPADEQUALS,= [NUM],= [NUM]
+STR_DIK_PREVTRACK,Previous Track,Previous Track
+STR_DIK_AT,&,&
+STR_DIK_COLON,",, ",",, "
+STR_DIK_UNDERLINE, _, _
+STR_DIK_KANJI,Kanji,Kanji
+STR_DIK_STOP,Stop,Stop
+STR_DIK_AX,Ax,Ax
+STR_DIK_UNLABELED,Unlabeled,Unlabeled
+STR_DIK_NEXTTRACK,Next Track,Next Track
+STR_DIK_NUMPADENTER,Enter [NUM],Enter [NUM]
+STR_DIK_RCONTROL,Right Ctrl,Right Ctrl
+STR_DIK_MUTE,Mute,Mute
+STR_DIK_CALCULATOR,Calculator,Calculator
+STR_DIK_PLAYPAUSE,Play / Pause,Play / Pause
+STR_DIK_MEDIASTOP,Media Stop,Media Stop
+STR_DIK_VOLUMEDOWN,Volume -,Volume -
+STR_DIK_VOLUMEUP,Volume +,Volume +
+STR_DIK_WEBHOME,Web Home,Web Home
+STR_DIK_NUMPADCOMMA,. [NUM],. [NUM]
+STR_DIK_DIVIDE,/ [NUM],/ [NUM]
+STR_DIK_SYSRQ,System Request,System Request
+STR_DIK_RMENU,Right Alt,Right Alt
+STR_DIK_PAUSE,Pause,Pause
+STR_DIK_HOME,Home,Home
+STR_DIK_UP,UP,UP
+STR_DIK_PRIOR,Page Up,Page Up
+STR_DIK_LEFT,LEFT,LEFT
+STR_DIK_RIGHT,RIGHT,RIGHT
+STR_DIK_END,End,End
+STR_DIK_DOWN,DOWN,DOWN
+STR_DIK_NEXT,Page Down,Page Down
+STR_DIK_INSERT,Insert,Insert
+STR_DIK_DELETE,Delete,Delete
+STR_DIK_LWIN,Left Windows,Left Windows
+STR_DIK_RWIN,Right Windows,Right Windows
+STR_DIK_APPS,App Menu,App Menu
+STR_DIK_POWER,System Power,System Power
+STR_DIK_SLEEP,System Sleep,System Sleep
+STR_DIK_WAKE,System Wake,System Wake
+STR_DIK_WEBSEARCH,Web Search,Web Search
+STR_DIK_WEBFAVORITES,Web Favorites,Web Favorites
+STR_DIK_WEBREFRESH,Web Refresh,Web Refresh
+STR_DIK_WEBSTOP,Web Stop,Web Stop
+STR_DIK_WEBFORWARD,Web Forward,Web Forward
+STR_DIK_WEBBACK,Web Back,Web Back
+STR_DIK_MYCOMPUTER,My Computer,My Computer
+STR_DIK_MAIL,Mail,Mail
+STR_DIK_MEDIASELECT,Media Select,Media Select
+STR_INPUT_DEVICE_MOUSE_0,Prim. Mouse Btn.,Prim. Mouse Btn.
+STR_INPUT_DEVICE_MOUSE_1,Sec. Mouse Btn.,Sec. Mouse Btn.
+STR_INPUT_DEVICE_MOUSE_2,Middle Mouse Btn.,Middle Mouse Btn.
+STR_INPUT_DEVICE_MOUSE_3,Mouse Btn. #4,Mouse Btn. #4
+STR_INPUT_DEVICE_MOUSE_4,Mouse Btn. #5,Mouse Btn. #5
+STR_INPUT_DEVICE_MOUSE_5,Mouse Btn. #6,Mouse Btn. #6
+STR_INPUT_DEVICE_MOUSE_6,Mouse Btn. #7,Mouse Btn. #7
+STR_INPUT_DEVICE_MOUSE_7,Mouse Btn. #8,Mouse Btn. #8
+STR_INPUT_DEVICE_STICK_0,Stick Btn. #1,Stick Btn. #1
+STR_INPUT_DEVICE_STICK_1,Stick Btn. #2,Stick Btn. #2
+STR_INPUT_DEVICE_STICK_2,Stick Btn. #3,Stick Btn. #3
+STR_INPUT_DEVICE_STICK_3,Stick Btn. #4,Stick Btn. #4
+STR_INPUT_DEVICE_STICK_4,Stick Btn. #5,Stick Btn. #5
+STR_INPUT_DEVICE_STICK_5,Stick Btn. #6,Stick Btn. #6
+STR_INPUT_DEVICE_STICK_6,Stick Btn. #7,Stick Btn. #7
+STR_INPUT_DEVICE_STICK_7,Stick Btn. #8,Stick Btn. #8
+
+
+STR_DN_AMMO_CRATES_WEST2,Ammo Crates II (West),Åº¾à»óÀÚ II (West)
+STR_DN_AMMO_CRATES_EAST2,Ammo Crates II (East),Åº¾à»óÀÚ II (East)
+STR_DN_AMMO_CRATES_RES2,Ammo Crates II (Res),Åº¾à»óÀÚ II (Res)
+
+COMMENT,***** Added in patch 1.01 *****,
+COMMENT,Addons,¾Öµå ¿Â
+STR_MSG_ADDON_MISSING,"Cannot load mission, missing addons: ","¹Ì¼ÇÀ» ·ÎµùÇÒ ¼ö ¾øÀ¾´Ï´Ù, ¹Ì¼³Ä¡ ¾Öµå ¿Â : "
+STR_MSG_ADDON_VERSION,Addon %s requires version %s of application., %s ¾Öµå ¿ÂÀº % ¹öÀüÀÇ ¾îÇÃ¸®ÄÉÀÌ¼ÇÀ» ÇÊ¿ä·Î ÇÕ´Ï´Ù
+
+COMMENT,MP Fade protection,MP ÆäÀÌµå ÇÁ·ÎÅØ¼Ç
+STR_FADE_REMMEMBER,Remember,±â¾ïÇÏ½Ê½Ã¿À
+STR_FADE_AWAY,Original games do not fade.,¿øº» °ÔÀÓÀÌ ¾Æ´Õ´Ï´Ù.
+STR_FADE_CAUTION,My copy is fading.,È­¸éÀÌ ÁÙ¾îµì´Ï´Ù.
+
+COMMENT,MP server messages,MP ¼­¹ö ¸Þ½ÃÁö
+STR_MP_CONNECT,Player %s connected,ÇÃ·¹ÀÌ¾î %sÀÌ(°¡) Á¢¼ÓÇÏ¿´½À´Ï´Ù. 
+STR_MP_DISCONNECT,Player %s disconnected,ÇÃ·¹ÀÌ¾î %sÀÌ(°¡) ÅðÀåÇÏ¿´½À´Ï´Ù. 
+STR_MSG_LAUNCH_GAME,Not all players are ready. Are you sure?,¸ðµç ÇÃ·¹ÀÌ¾îµéÀÌ ÁØºñµÇÁö ¾Ê¾Ò½À´Ï´Ù. °è¼Ó ÁøÇàÇÏ½Ã°Ú½À´Ï±î?
+STR_DISP_MP_KICKOFF,Kick Off,½ÃÀÛ
+
+COMMENT,New vehicle types,»õ·Î¿î Â÷·® Å¸ÀÔ
+STR_DN_MOTORCYCLE,Motorcycle,¿ÀÅä¹ÙÀÌ
+STR_DN_BICYCLE,Bicycle,ÀÚÀü°Å
+
+COMMENT,New controls,»õ·Î¿î ÄÁÆ®·Ñ
+STR_USRACT_WALK,Walk,µµº¸
+
+COMMENT,***** Added in patch 1.11 *****,
+COMMENT,UI Dialogs,UI ´ëÈ­
+STR_DISP_IP_PORT,Port:,Æ÷Æ® : 
+STR_SESSION_NAME_INIT,Creating...,»ý¼ºÁß...
+STR_DEDICATED_SERVER,Dedicated server,Àü¿ë¼­¹ö
+
+COMMENT,Changed (parameter added),º¯°æ (ÆÄ¶ó¹ÌÅÍ Ãß°¡)
+STR_MULTI_TITLE_LAN,Network games on LAN (port %d),LANÀ» ÅëÇÑ ³×Æ®¿öÅ© °ÔÀÓ (Æ÷Æ®%d)
+STR_MULTI_TITLE_REMOTE,Network games on %s:%d,%s : %d»óÀÇ ³×Æ®¿öÅ© °ÔÀÓ
+
+COMMENT,Joystick configuration,Á¶ÀÌ½ºÆ½ ¼³Á¤
+STR_INPUT_DEVICE_STICK_AXIS_X,Stick X-Axis,Stick X-Axis
+STR_INPUT_DEVICE_STICK_AXIS_Y,Stick Y-Axis,Stick Y-Axis
+STR_INPUT_DEVICE_STICK_AXIS_Z,Stick Z-Axis,Stick Z-Axis
+STR_INPUT_DEVICE_STICK_ROT_X,Stick X-Rotate,Stick X-Rotate
+STR_INPUT_DEVICE_STICK_ROT_Y,Stick Y-Rotate,Stick Y-Rotate
+STR_INPUT_DEVICE_STICK_ROT_Z,Stick Z-Rotate,Stick Z-Rotate
+STR_INPUT_DEVICE_STICK_SLIDER_1,Stick Slider 1,Stick Slider 1
+STR_INPUT_DEVICE_STICK_SLIDER_2,Stick Slider 2,Stick Slider 2
+STR_INPUT_DEVICE_MOUSE_AXIS_X,Mouse X-Axis,¸¶¿ì½º X-Axis
+STR_INPUT_DEVICE_MOUSE_AXIS_Y,Mouse Y-Axis,¸¶¿ì½º Y-Axis
+STR_INPUT_DEVICE_MOUSE_AXIS_Z,Mouse Wheel,¸¶¿ì½º ÈÙ
+
+STR_INPUT_DEVICE_POV_N,Pov 0 deg,Pov 0 deg
+STR_INPUT_DEVICE_POV_NE,Pov 45 deg,Pov 45 deg
+STR_INPUT_DEVICE_POV_E,Pov 90 deg,Pov 90 deg
+STR_INPUT_DEVICE_POV_SE,Pov 125 deg,Pov 125 deg
+STR_INPUT_DEVICE_POV_S,Pov 180 deg,Pov 180 deg
+STR_INPUT_DEVICE_POV_SW,Pov 225 deg,Pov 225 deg
+STR_INPUT_DEVICE_POV_W,Pov 270 deg,Pov 270 deg
+STR_INPUT_DEVICE_POV_NW,Pov 315 deg,Pov 315 deg
+
+STR_USRACT_TURN,Turn,È¸Àü
+STR_USRACT_ACCELERATE,Dive (Air)/Forward (Land),³«ÇÏ(°øÁß)/ÀüÁø(À°»ó)
+STR_USRACT_THRUST,Thrust (Air),°ø°Ý(°øÁß)
+STR_USRACT_RUDDER,Rudder (Air),¹æÇâÅ¸(°øÁß)
+STR_USRACT_LOCK_OR_ZOOM,Lock or Zoom,Àá±Ý ¶Ç´Â È®´ë
+
+STR_MP_VALIDERROR,%s uses modified config file,%sÀÌ(°¡) ¼öÁ¤µÈ config ÆÄÀÏÀ» »ç¿ëÇÏ°í ÀÖ½À´Ï´Ù. 
+STR_MP_VALIDERROR_1,%s uses modified exe file,%sÀÌ(°¡) ¼öÁ¤µÈ exe ÆÄÀÏÀ» »ç¿ëÇÏ°í ÀÖ½À´Ï´Ù. 
+STR_MP_VALIDERROR_2,%s uses modified data file,%sÀÌ(°¡) ¼öÁ¤µÈ µ¥ÀÌÅ¸ ÆÄÀÏÀ» »ç¿ëÇÏ°í ÀÖ½À´Ï´Ù. 
+
+STR_MP_LOGGED,Logged in as admin,
+STR_DISP_MP_BAN,Ban,±ÝÁö
+
+
+COMMENT, ---------------- added for MP wizzard --------------------,
+
+STR_MPW_NEW_EDIT,<< New - Editor >>,¹Ì¼Ç ¸¸µé±â
+STR_MPW_NEW_WIZ,<< New - Wizard >>,¹Ì¼Ç ¸¸µé±â ¸¶¹ý»ç
+
+STR_DISP_MPW_TITLE,Mission Wizard,À§ÀÚµå ¹Ì¼Ç
+STR_DISP_MPW_TEMPLATE,Template:,ÇüÅÂ : 
+STR_DISP_MPW_DESCRIPTION,Description:,¼³¸í : 
+STR_DISP_MPW_NAME,Mission name:,¹Ì¼Ç¸í : 
+STR_MSG_MPW_NONAME,You have to name your mission first!,¹Ì¼ÇÀÇ ÀÌ¸§À» ¸ÕÀú ¼³Á¤ÇÏ½Ê½Ã¿À!
+
+STR_DISP_MPW_FINISH, Finish,¸¶Ä§
+
+STR_DISP_PORT_TITLE,Port,Æ÷Æ®
+STR_DISP_MPROLE_SIDES,Sides,»çÀÌµå
+
+COMMENT,***** Added in patch 1.21 *****,
+STR_MSG_MISSION_VERSION,Mission requires version %s of application., %s ¾Öµå ¿ÂÀº % ¹öÀüÀÇ ¾îÇÃ¸®ÄÉÀÌ¼ÇÀ» ÇÊ¿ä·Î ÇÕ´Ï´Ù
+STR_MSG_NO_WORLD,World %s not found.,%s ¼¼°è°¡ ¹ß°ßµÇÁö ¾Ê¾Ò½À´Ï´Ù. 
+
+STR_SESSION_CREATE,Creating,»ý¼ºÁß
+STR_SESSION_EDIT,Editing,ÆíÁýÁß,,,,,,,,
+STR_SESSION_WAIT,Waiting,´ë±âÁß,,,,,,,,
+STR_SESSION_SETUP,Setting up,¼Â¾÷Áß,,,,,,,,
+STR_SESSION_DEBRIEFING,Debriefing,°á°úº¸°í,,,,,,,,
+STR_SESSION_BRIEFING,Briefing,»óÈ²º¸°í,,,,,,,,
+STR_SESSION_PLAY,Playing,ÁøÇàÁß,,,,,,,,
+
+STR_SESSION_VERSION,Version: %.2f ,¹öÀü :  %.2f,,,,,,,,
+STR_SESSION_REQUIRED,Required: %.2f ,ÇÊ¿ä»çÇ× :  %.2f,,,,,,,,
+
+STR_DISP_CLIENT_TEXT_EDIT,Editing mission,¹Ì¼Ç ÆíÁý,,,,,,,Hra prob?h? (%s),
+
+STR_SERVER_MONITOR,"Server load: FPS %.0f, memory used: %.0f MB, out: %.0f Kbps, in: %.0f Kbps","¼­¹ö ·Îµå :  FPS %.0f, memory used :  %.0f MB, out :  %.0f Kbps, in :  %.0f Kbps",,,,,,,,
+
+STR_CLIENT_WAIT_TITLE,Game in progress (%s),°ÔÀÓ ÁøÇàÁß(%s),,,,,,,, po?kej pros?m
+
+STR_MPROLE_ENABLE_ALL,Enable All,¸ðµÎ »ç¿ë
+STR_MPROLE_DISABLE_ALL,Disable All,¸ðµÎ »ç¿ëÇÏÁö ¾ÊÀ½
+
+COMMENT,***** Changed in patch 1.23 *****,
+STR_MPROLE_POOL_WEST,Pool:,Ç® : 
+STR_MPROLE_POOL_EAST,Pool:,Ç® : 
+STR_MPROLE_POOL_RESIST,Pool:,Ç® : 
+STR_MPROLE_POOL_CIVIL,Pool:,Ç® : 
+
+COMMENT,***** Added in patch 1.24 *****,
+STR_MSG_MP_SESSION_FULL,Maximum number of players has been reached.,ÃÖ´ë ÀÎ¿ø¼ö¿¡ µµ´ÞÇÏ¿´½À´Ï´Ù 
+STR_DISP_MP_PL_TIME,Time:,½Ã°£ : 
+STR_DIFF_TRACERS,Rifle bullet tracers,ÃÑ±â Åº¾à ¿¹±¤Åº
+STR_MP_CONNECTING,Player %s connecting,ÇÃ·¹ÀÌ¾î %sÀÌ(°¡) Á¢¼ÛÁßÀÔ´Ï´Ù
+
+STR_DISP_MP_PING,Ping:,ÇÎ : 
+STR_DISP_MP_BANDWIDTH,Bandwidth:,ÁÖÆÄ¼ö ´ë¿ªÆø : 
+STR_DISP_MP_DESYNC,Desync:,ºñµ¿±â : 
+STR_MP_SERVER,Server,¼­¹ö
+STR_MP_MASTER,Admin,ÁÖ¼Ò
+
+STR_DISP_OPT_BLOOD,Blood:,ºí·¯µå:
+
+COMMENT,***** Added in patch 1.30 *****,
+STR_DISP_OPT_MULTITEXTURING,Multitexturing:,¸ÖÆ¼ ÅØ½ºÃÄ¸µ : 
+STR_DISP_OPT_WBUFFER,W-buffer:,W-¹öÆÛ : 
+
+COMMENT,***** Added after 1.30 *****,
+STR_ACTION_PUTBOMB,Put %s (%d left),%s ¼³Ä¡ (%d ³²À½)
+
+STR_ULTRA_AI,Super AI,Super AI
+
+STR_KILLED_BY_FRIENDLY,%s (%s %d) was killed by %s (Friendly fire),%s (%s %d) »ç¸ÁÇß½À´Ï´Ù %s (¾Æ±º »ç°ÝÀ¸·Î)
+STR_KILLED_FRIENDLY,%s (%s %d) was killed (Friendly fire),%s (%s %d) »ç¸ÁÇß½À´Ï´Ù (¾Æ±º »ç°ÝÀ¸·Î)
+
+STR_TIME_LEFT,%d min left,%d ºÐÀÌ ³²¾Ò½À´Ï´Ù

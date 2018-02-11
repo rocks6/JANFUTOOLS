@@ -1,0 +1,661 @@
+COMMENT, *****"ONLY FOR DESIGNER VERSION"*****
+STR_USRACT_CHEAT_1,Cheat 1,Cheat 1,Cheat 1,Cheat 1,Cheat 1,Cheat 1,
+STR_USRACT_CHEAT_2,Cheat 2,Cheat 2,Cheat 2,Cheat 2,Cheat 2,Cheat 2,
+
+
+COMMENT,***** MISSION DESCRIPTIONS *****,
+STR_DISP_XBOX_DESC_ESCAPE,"Get in a chopper and leave the island!",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_DESC_CSWEAP,"Let's get back in one piece!",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_DESC_PILOTDOWN,"Find and rescue the pilots",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_DESC_HOLDBASE,East: defend the base - West: conquer the base, "Est: dÈfendez la base - Ouest: prenez la base","Russi: difendi base - NATO: conquista base","Este: defender la base; oeste: conquistar la base","",TODO TRANSLATE
+
+
+COMMENT,*****"TEXTS FOR PRELOADS SCREEN"*****
+STR_LOAD_M16, "The M16 Assault Rifle series of weapons developed from research conducted by the U.S. Army's Operations Research Office (ORO), created at Johns Hopkins University in September 1948. As the United States Army's standard-issue rifle, the M16 is a reliable and accurate weapon.","La sÈrie des fusils d'assaut M16 est le fruit des recherches menÈes par l'Operations Research Office (ORO) de l'US Army, crÈÈ a l'UniversitÈ Johns de Baltimore, Maryland, en septembre 1948. Le M16, fusil d'assaut en dotation dans l'US Army, est une arme fiable et prÈcise.", "La linea di fucili d'assalto M16 fu sviluppata in base alle ricerche condotte dall'Operations Research Office (ORO) dell'esercito americano, fondato nel settembre 1948 presso la Johns Hopkins University. Come fucile di ordinanza dell'esercito americano, l'M16 e un'arma affidabile e precisa","La serie de fusiles de asalto M16 fue desarrollada por el departamento de investigaciÛn (ORO) del ejÈrcito de los Estados Unidos, fundado en septiembre de 1948 en la Universidad Johns Hopkins. El M16 es el fusil m·s habitual del ejÈrcito estadounidense.", "Die M16-Sturmgewehr-Serie ist aus Forschungen des Operations Research Office (ORO) der US&nbsp;Army entstanden, das im September 1948 an der Johns Hopkins University gegr&uuml;ndet wurde. Die M16 ist das Standardgewehr der US Army und eine zuverl&auml;ssige und genaue Waffe."
+STR_LOAD_M16a, "M16A2 5.56mm", "M16A2 5,56mm", "M16A2 5,56mm", "M16A2 5,56mm", "M16A2 5,56mm"
+STR_LOAD_AK47, "The Avtomat Kalashnikova-47 was developed by the Soviets in the late 1940's. It was standard issue for Warsaw pact countries untill the AKM was developed in 1959. The AK-47 is the most widely used weapon in the world.","L'Avtomat Kalashnikova-47 a ÈtÈ mis au point par les SoviÈtiques a la fin des annÈes 40. C'Ètait l'arme utilisÈe par les pays du Pacte de Varsovie jusqu'a l'apparition de l'AKM en 1959. L'AK-47 est l'arme la plus utilisÈe au monde.","L'Avtomat Kalashnikova-47 fu creato dai russi verso la fine degli anni '40. E stato l'arma standard dei Paesi del Patto di Varsavia fino all'introduzione dell'AKM nel 1959. L'AK-47 e l'arma piu usata al mondo.","El AK47 fue creado por los soviÈticos al final de la dÈcada de los cuarenta. Se empleÛ con profusiÛn en los paÌses del Pacto de Varsovia hasta la creaciÛn del AKM en 1959. El AK47 es el arma m·s usada en todo el mundo.","Die Awtomat Kalaschnikowa-47 wurde in den sp‰ten vierziger Jahren von den Sowjets entwickelt. Vor der Entwicklung der AKM im Jahr 1959 war sie die Standardwaffe des Warschauer Pakts. Die AK-47 ist die verbreitetste Waffe der Welt."
+STR_LOAD_AK47a, "AK-47 7.62mm", "AK-47 7,62mm", "AK-47 7,62mm", "AK-47 7,62mm", "AK-47 7,62mm"
+STR_LOAD_AKSU, "Compared to the AK-74, the AKS-74U features a shorter barrel, lower muzzle velocity, higher rate of fire, but a lower consistency of fire. The AKS-74U is intended for special subunits of airborne troops, combat engineers and drivers of combat vehicles.","ComparÈ a l'AK-74, l'AKS-74U prÈsente un canon court, dispose d'une vitesse initiale moins importante et permet un tir rapide, mais il est moins fiable. L'AKS-74U est destinÈ aux sous-unitÈs spÈciales des troupes aÈroportÈes, aux soldats du gÈnie militaire et aux pilotes des vÈhicules de combat.","L'AKS-74U ha una canna corta, velocita iniziale inferiore, alta cadenza di tiro ma una minore regolarita di fuoco rispetto all'AK-74. L'AKS-74U e progettato per sottounita speciali di truppe aerotrasportate, e piloti di veicoli da combattimento.","El canÛn de la AKS-74U es m·s corto que el de su antecesor, tiene menor velocidad inicial y mayor cadencia de disparo, aunque tambiÈn es m·s irregular. El AKS-74U est· destinado a las subunidades especiales de las tropas aÈreas, a los ingenieros de combate y a los conductores de vehÌculos de combate.","Im Vergleich zur AK-74 verf¸gt das AKS-74U ¸ber einen k¸rzeren Lauf, eine geringere M¸ndungsgeschwindigkeit und eine hˆhere Feuerrate, aber auch eine wesentlich geringere Feuerkonsistenz. Das AKS-74U ist f¸r spezielle Untereinheiten von Lufttruppen sowie f¸r Pioniere und Fahrer von Kampffahrzeugen bestimmt."
+STR_LOAD_AKSUa, "AKS-74U 5.45mm", "AKS-74U 5,45mm", "AKS-74U 5,45mm", "AKS-74U 5,45mm", "AKS-74U 5,45mm"
+STR_LOAD_M21, "The United States M21 sniper rifle is a modified M14 National Match rifle, with a high accuracy rating to approximately 900yds/822m. It has a 20 round detachable magazine and is gas operated and air-cooled. Standard models include a 3x to 9x Automatic Ranging Telescope (ART) sight.","Le fusil pour tireur d'Èlite amÈricain M21 est un dÈrivÈ du fusil M14 National Match, caractÈrisÈ par une grande prÈcision permettant de toucher des cibles situÈes a environ 822 metres. Il dispose d'un chargeur 20 cartouches dÈtachable, d'un systeme de refroidissement et d'un mÈcanisme de fonctionnement a gaz. Les modeles standard incluent une lunette de visÈe automatique avec grossissement allant du x3 au x9.","Il fucile americano da cecchino M21 e una versione modificata del fucile M14 National Match capace di alta precisione fino a 822 m / 900 iarde circa. Ha un caricatore staccabile da 20 colpi, funziona a gas ed e raffreddato ad aria. I modelli standard sono dotati di un mirino telescopico con telemetria automatica (ART) 3x - 9x.","El rifle estadounidense M21 es una modificaciÛn del M14. Cuenta con una gran precisiÛn de tiro hasta un alcance aproximado de 822 m. Tiene un cargador desechable de 20 cartuchos, funciona por toma de gases y est· refrigerado por aire. El modelo est·ndar dispone de una mira telescÛpica de alcance autom·tico de entre 3 y 9 aumentos.","Das amerikanische Scharfsch¸tzengewehr M21 ist eine Weiterentwicklung des National Match-Gewehrs M14. Es besitzt bis etwa 822 m Entfernung eine sehr hohe Genauigkeit. Es verf¸gt ¸ber ein wechselbares Magazin von 20 Runden, ist gasgetrieben und luftgek¸hlt. Standardmodelle des Gewehrs sind mit einem 3fach-9fach-Automatic Ranging Telescope (ART)-Visier ausgestattet."
+STR_LOAD_M21a, "M21 7.62mm", "M21 7,62mm", "M21 7,62mm", "M21 7,62mm", "M21 7,62mm"
+STR_LOAD_HK, "The MP5-SD6 is a suppressed variant of the world-famous MP5 9mm submachine gun. Used by military and law enforcement units in more than fifty nations, the MP5 is firmly established as the worldís pre-eminent submachine gun. This extremely accurate and controllable weapon is known for its reliability, ease of handling, simple maintenance, and safety.","Le MP5-SD6 est une variante du cÈlebre MP5 9mm ÈquipÈe d'un silencieux. UtilisÈe par les militaires et les unitÈs spÈciales d'intervention de 50 pays, le MP5 s'est imposÈ comme le pistolet-mitrailleur le plus rÈpandu au monde. Cette arme extremement prÈcise et facile a maÓtriser est rÈputÈe pour sa fiabilitÈ, sa maniabilitÈ, son entretien facile et sa suretÈ.","L'MP5-SD6 e una variante del famoso fucile mitragliatore MP5 da 9mm con silenziatore. Usato da unita militari e di polizia in piu di cinquanta nazioni, l'MP5 e senza dubbio il fucile mitragliatore piu diffuso al mondo. Quest'arma estremamente accurata e controllabile e nota per le sue caratteristiche di affidabilita, facilita d'uso, facile manutenzione e sicurezza.","El MP5-SD6 es una variante del famoso subfusil con silenciador MP5 de 9mm. El MP5 forma parte del equipo del ejÈrcito y la policÌa de m·s de cincuenta naciones y est· considerado como el subfusil m·s utilizado del mundo. Esta arma de precisiÛn extrema y f·cilmente controlable es conocida por su fiabilidad, facilidad de uso, sencillez de mantenimiento y seguridad.","Das MP5-SD6 ist eine Variante der ber¸hmten schallged‰mpften 9mm-Maschinenpistole MP5. Die MP5 wird in ¸ber 50 Nationen von Milit‰r- und Gesetzesvollzugseinheiten eingesetzt und hat sich als die weltweit f¸hrende Maschinenpistole etabliert. Die hochgenaue und gut kontrollierbare Waffe ist f¸r ihre Zuverl‰ssigkeit, Einfachheit der Handhabung und Wartung sowie f¸r ihre Sicherheit bekannt."
+STR_LOAD_HKa, "MP5-SD6 9mm", "MP5-SD6 9mm", "MP5-SD6 9mm", "MP5-SD6 9mm", "MP5-SD6 9mm"
+STR_LOAD_LAW, "LAW is a lightweight, self-contained, antiarmor weapon consisting of a rocket packed in a launcher. It is man-portable, may be fired from either shoulder, and is issued as a round of ammunition. It requires little from the user--only a visual inspection and some operator maintenance.","Le LAW est une arme antiblindage lÈgere et indÈpendante composÈe d'une roquette et d'un lanceur a usage unique. Il s'agit d'une arme portable qui peut etre posÈe indiffÈremment sur l'Èpaule droite ou gauche et est considÈrÈe comme une munition.","l razzo anticarro leggero e un'arma anticarro autonoma di peso ridotto, composta da un razzo contenuto in un lanciarazzi. Puo essere trasportata da un uomo e usata appoggiandola ad una spalla.Non richiede molta attenzione da parte di chi la usa: solo un controllo visivo e manutenzione minima.","El LAW es un arma antitanque ligera y compacta. Consiste en un lanzacohetes y un proyectil. Es port·til y se acciona f·cilmente. SÛlo hay que apoyarlo sobre un hombro y disparar. Viene equipado para realizar un disparo. No requiere cuidados especiales, sÛlo una inspecciÛn ocular y cierto mantenimiento.","Die LAW ist eine leichte, eigenst‰ndige Panzerabwehrwaffe. Sie besteht aus einer Rakete in einem Raketenwerfer. Die Waffe kann von einem Mann getragen und von beiden Schultern abgefeuert werden. Sie wird als eine Runde Munition ausgegeben. Sie verlangt dem Benutzer auﬂer einer Sichtinspektion und etwas Wartung nur wenig ab."
+STR_LOAD_LAWa, "M72 LAW 66mm", "M72 LAW 66mm", "M72 LAW 66mm", "M72 LAW 66mm", "M72 LAW 66mm"
+STR_LOAD_M60, "The M60 Machine Gun has been the US Army's general-purpose machine gun since 1950. It fires the standard NATO 7.62mm round and is used as a general support crew-served weapon.","La M60 est la mitrailleuse la plus utilisÈe par l'US Army depuis 1950. Elle utilise les cartouches OTAN 7,62mm et est utilisÈe comme arme d'appui feu par diverses unitÈs.","L'M60 e stata la mitragliatrice di uso universale dell'esercito americano dal 1950. Spara i colpi standard da 7,62mm della NATO ed e utilizzata come arma di supporto generico servita da equipaggio.","La M60 ha sido la ametralladora de uso generalizado del ejÈrcito estadounidense desde 1950. Utiliza la municiÛn est·ndar de la OTAN del calibre 7,62mm y se emplea como arma de apoyo general.","Das Maschinengewehr M60 ist seit 1950 das Universal-Maschinengewehr der US Army. Es verwendet die standardm‰ﬂige 7,62mm NATO-Munition und wird allgemein als Waffe von Unterst¸tzungstruppen eingesetzt."
+STR_LOAD_M60a, " M60 7.62mm", " M60 7,62mm", " M60 7,62mm", " M60 7,62mm", " M60 7,62mm"
+STR_LOAD_M16203, "The M203 40mm Grenade Launcher is here attached to an M16A2 5.56mm rifle. It is a lightweight, compact, breech loading, pump action, single shot launcher.","Le lance-grenades M203 de 40 mm est ici fixÈ sur un fusil M16A2 de 5,56mm. Il s'agit d'un lance-grenades a pompe, lÈger, compact, a chargement par la culasse, qui tire un coup a la fois.","Il lanciagranate da 40 mm M203 qui descritto e unito a un fucile da 5,56mm M16A2. E un lanciagranate a pompa a retrocarica leggero e compatto a colpo singolo.","El lanzagranadas M203 de 40 mm va unido a un fusil M16A2 de 5,56mm. El lanzagranadas admite un solo proyectil, es ligero, compacto y se carga por detr&aacute;s.","Der 40 mm-Granatenwerfer M203 ist hier an das 5,56mm-Gewehr M16A2 gekoppelt. Der einsch¸ssige Granatenwerfer ist kompakt und von geringem Gewicht. Er verf¸gt ¸ber Verschlussladen und Stoﬂwirkung."
+STR_LOAD_M16203a, "M16 + M203 40mm", "M16 + M203 40mm", "M16 + M203 40mm", "M16 + M203 40mm", "M16 + M203 40mm"
+STR_LOAD_PK, "The PK machine gun is the standard light machine gun of the former Soviet Union and many of its allies. The PK is a gas-operated, rotary locked, belt-fed machine gun which fires from an open bolt. The weapon is fed from non-disintegrating metallic belts. These belts are comprised of 25-round sections that can be linked to any size necessary.","La PK est la mitrailleuse qu'avaient adoptÈe l'ex-Union SoviÈtique et beaucoup de ses alliÈs. Elle est dotÈe d'un systeme de fonctionnement a gaz et d'un systeme rotatif verrouillÈ et tire gr‚ce a une culasse ouverte. L'arme est alimentÈe par des bandes mÈtalliques non dÈsintÈgrables comprenant des sections de 25 cartouches qui peuvent etre mises bout a bout pour obtenir le nombre de cartouches dÈsirÈ.","La mitragliatrice PK e la mitragliatrice leggera standard dell'ex Unione Sovietica e di molti dei suoi alleati. La PK e una mitragliatrice a gas a otturatore rotante alimentata a nastro che spara a otturatore aperto. L'arma e alimentata da nastri metallici non articolati, composti da sezioni di 25 colpi che possono essere collegate per raggiungere le dimensioni necessarie.","La ametralladora PK es la ametralladora ligera m·s com˙n de la antigua UniÛn SoviÈtica y de muchos de sus aliados. La PK es una ametralladora que funciona por toma de gases y dispone de obturador rotativo. Se alimenta mediante cintas rÌgidas de cartuchos met·licos que se disparan con el cerrojo abierto.","Das Maschinengewehr PK ist das standardm‰ﬂige Maschinengewehr der ehemaligen Sowjetunion und vieler ihrer Verb¸ndeter. Das PK ist ein gasgetriebenes Gewehr mit Gurtzuf¸hrung und Drehverschluss, welches von einem offenen Schloss aus feuert. Die Zuf¸hrung der Waffe geschieht durch Metallgurte, die nicht zerfallen."
+STR_LOAD_PKa, "PK 7.62mm", "PK 7,62mm", "PK 7,62mm", "PK 7,62 mm", "PK 7,62 mm"
+STR_LOAD_RPG, "The Reaktivniy Protivotankoviy Granatomet (Rocket-Propelled Grenade) entered into active service with the Soviet army in 1962. It was widely used by the North Vietnamese and Viet Cong during the Vietnam conflict.","Le Reaktivniy Protivotankoviy Granatomet (grenade propulsÈe par une roquette) a fait son apparition en 1962 dans l'ArmÈe rouge. Il a ÈtÈ largement utilisÈ par les Nord-Vietnamiens et les Vietcongs lors de la guerre du Viet-nam.","La Reaktivniy Protivotankoviy Granatomet (granata a propulsione razzo) fu adottata per la prima volta dall'esercito sovietico nel 1962. Fu ampiamente utilizzata dai nordvietnamiti e dai Viet Cong durante la guerra del Vietnam.","La Reaktivniy Protivotankoviy Granatomet (granada propulsada por cohetes) empezÛ a ser utilizada por el ejÈrcito soviÈtico en 1962. Durante el conflicto de Vietnam fue muy usada por Vietnam del Norte y el Vietcong.","Die Reaktivnij Protiwotankowij Granatomet (Granate mit Raketenantrieb) wurde 1962 von der sowjetischen Armee in den Dienst gestellt. Es wurde im Vietnamkrieg von Nordvietnamesen und Vietcong eingesetzt."
+STR_LOAD_RPGa, "RPG NH75 40mm", "RPG NH75 40mm", "RPG NH75 40mm", "RPG NH75 40mm", "RPG NH75 40mm"
+STR_LOAD_SA58, "The Sa 58 Assault Rifle is a Czech weapon based on the popular Avtomat Kalashnikova AK-47 developed by the Soviets in the late 1940's. 93 countries across the globe have adopted this rifle design. The Sa 58 is designed for the destruction of lightly armored mobile enemy equipment and manpower. It is gas-operated and capable of firing in single shots or in bursts.","Le fusil d'assaut Sa 58 est une arme tcheque inspirÈe du populaire AK-47 mis au point par les SoviÈtiques a la fin des annÈes 1940. Ce modele de fusil a ÈtÈ adoptÈ par 93 pays. Le Sa 58 a ÈtÈ conÁu pour dÈtruire les troupes et Èquipements ennemis mobiles protÈgÈs par un blindage lÈger. Il est ÈquipÈ d'un systeme de fonctionnement a gaz et permet de tirer au coup par coup ou bien en rafales.","Il fucile d'assalto Sa 58 e un'arma ceca basata sul diffuso Avtomat Kalashnikova AK-47 creato dai russi alla fine degli anni '40.93 Paesi in tutto il mondo hanno adottato questo tipo di fucile. Il Sa 58 e progettato per distruggere truppe ed equipaggiamento nemici mobili con corazza leggera. Funziona a gas e puo sparare colpi singoli a raffica.","El fusil de asalto Sa 58 es un arma checa basada en el popular AK47 creado por los soviÈticos al final de la dÈcada de los cuarenta.El diseno de este fusil ha sido adoptado por 93 paÌses del mundo. El Sa 58 fue creado para destruir fuerzas enemigas y unidades mÛviles ligeramente blindadas. Funciona por toma de gases y es capaz de disparar tiro a tiro o a r·fagas.","Das Sa 58 Sturmgewehr ist eine tschechische Waffe, die auf der weit verbreiteten Awtomat Kalaschnikowa AK-47 basiert, welche die Sowjets in den sp‰ten vierziger Jahren entwickelt haben.Weltweit wurde die Gestalt dieser Waffe in 93 L‰ndern ¸bernommen."
+STR_LOAD_SA58a, "Sa 58 7.62mm", "Sa 58 7,62mm", "Sa 58 7,62mm", "Sa 58 7,62mm", "Sa 58 7,62mm"
+STR_LOAD_SVD, "The 7.62mm Dragunov is a single-target sniper rifle designed to destroy open or screened, static or moving targets, which fires bullets in single shots. The optical sight features a comprehensive reticule which is used to measure the distance of targets from 300m to 1300m. The individual marks on the reticule represent these distances as a scale and must be calibrated before use.","Le Dragunov 7,62mm est un fusil pour tireur d'Èlite a cible unique conÁu pour dÈtruire des objectifs visibles ou masquÈs, statiques ou mobiles. Il tire un coup a la fois. Son dispositif de visÈe optique comprend un rÈticule perfectionnÈ qui permet de calculer la distance a laquelle se trouvent des cibles situÈes entre 300 et 1300 metres. Les reperes du rÈticule reprÈsentent ces distances sur une Èchelle et il faut les calibrer avant de les utiliser.","Il Dragunov da 7,62mm e un fucile da cecchino a bersaglio singolo progettato per distruggere bersagli scoperti o coperti, statici o mobili, che spara proiettili a colpo singolo. Il mirino ottico dispone di un ampio reticolo che consente di misurare la distanza dei bersagli da 300 a 1300 metri. I singoli segni sul reticolo rappresentano le distanze sotto forma di scala e devono essere calibrati prima dell'uso.","El Dragunov de 7,62mm es un fusil para abatir blancos distantes estÈn o no a cubierto, est·ticos o en movimiento, que dispara tiro a tiro. El visor Ûptico comprende un completo retÌculo que se emplea para medir la distancia de los blancos con un alcance de 300 a 1.300 m. Las marcas del retÌculo representan las distancias a escala y deben calibrarse antes de usar el arma.","Das 7,62mm Dragunov ist ein Scharfsch¸tzengewehr zum Einsatz gegen offene oder versteckte statische oder bewegliche Ziele. Es feuert Kugeln in Einzelsch¸ssen ab. Die Visieroptik enth‰lt eine umfassende Sichtplatte, welche zur Messung der Entfernung von Zielen zwischen 300 m und 1300 m eingesetzt wird."
+STR_LOAD_SVDa, "SVD Dragunov 7.62mm", "SVD Dragunov 7,62mm", "SVD Dragunov 7,62mm", "SVD Dragunov 7,62mm", "SVD Dragunov 7,62mm"
+
+
+COMMENT,*****"XBOX LIVE STATISTICS"*****
+STR_XBOX_LIVE_STATS_SINGLE,"Single Missions",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CAMPAIN_1985,"Campaign 1985",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CAMPAIN_RES,"Campaign Resistance",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_TOTAL,"Total",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_DM,"Online - Death Match",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CTF,"Online - Capture The Flag ",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_FF,"Online - Flag Fight",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_COOP,"Online - Cooperative mission",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_TEAM,"Online - Team Mission",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_SCONTROL,"Online - Sector Control",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_HOLD,"Online - Hold Location",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_UNKNOWN,"Online - Unknown",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_MPTOTAL,"Online - Total",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_DDSERVER,"Dedicated Hosting",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_LIVE_STATS_CAMPAIN1985,Campaign Cold War Crisis,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_LIVE_STATS_POINTS,"Points",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_LIVE_STATS_DROPOUT,"Dropouts/Games",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_LIVE_STATS_DEDICATED_TIME,"Time",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_LIVE_STATS_DEDICATED_POINTS,"Popularity",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_LIVE_STATS_RANK,"Rank",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_LIVE_STATS_NAME,"Name",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_STATS_MY_POSITION,"%1 My position",French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"XBOX LIVE FEEDBACK"*****
+STR_FEEDBACK_HARASS,Harassing voice message, French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_FEEDBACK_OFFENSIVE,Offensive voice message, French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_FEEDBACK_SPAM,Spam,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+COMMENT,*****"XBOX LIVE VOICE"*****
+STR_DISP_XBOX_FRIEND_INVITE_VOICE,Invite this Friend to a game session with voice mail.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_FRIEND_PLAY_MESSAGE,Play Message,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_PLAYER_ASK_VOICE,Send Friend Request with voice mail,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_GAME_INVITE,Game Invite,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_FRIEND_REQUEST,Friend Request,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_RECORD,Record message,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_STOP,Stop,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_PLAY,Play Message,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_SEND,Send Voice Mail,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_FEEDBACK,Feedback On This Message,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_PROF_VOICE_THROUGH,Voice through:,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_VOICE_COMMUNICATOR,"Communicator",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_VOICE_SPEAKERS,"Speakers",French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"MULTIPLAYER MISSION NAMES"*****
+STRN_M08,Armored Fist, Poing blindÈ, Pugno corazzato, spanish, german, czech TODO TRANSLATE
+STRN_M09,Fight in the Ruins,  Combat dans les ruines, Battaglia nelle rovine, spanish, german, czech TODO TRANSLATE
+STRN_M10,Close Combat, Combat rapprochÈ, Combattimento corpo a corpo, spanish, german, czech  TODO TRANSLATE
+STRN_M11,Distance Run,  Fuite au loin, Fuga, spanish, german, czech TODO TRANSLATE
+STRN_M12,Chateau Run,  Course pour le ch‚teau, Castello, spanish, german, czech TODO TRANSLATE
+STRN_M13,Sector Control: Bridge Too Far, ContrÙle de secteur : pont trop loin, Controllo settore: ponte lontano, spanish, german, czech  TODO TRANSLATE
+STRN_M14,Air Assault,  Assaut aÈrien, Assalto aereo, spanish, german, czech TODO TRANSLATE
+STRN_M15,Camel Dogfight,  french, italian, spanish, german, czech TODO TRANSLATE
+STRN_M16,Skirmish,  french, italian, spanish, german, czech TODO TRANSLATE
+STRN_M17,Demolition Squad,  Groupe de dÈmolition, Squadra demolizione, spanish, german, czech TODO TRANSLATE
+STRN_M18,Shadow Killers,  Tueurs de l'ombre, Killer ombra, spanish, german, czech TODO TRANSLATE
+STRN_M19,Lost Squad,  Groupe perdu,Squadra perduta, spanish, german, czech TODO TRANSLATE
+STRN_M20,Oil War,  Guerre du pÈtrole, Guerra al petrolio, spanish, german, czech TODO TRANSLATE
+STRN_M21,Desert Ambush,  Embuscade dans le dÈsert, Imboscata nel deserto, spanish, german, czech  TODO TRANSLATE
+STRN_M22,Opposing Islands,  Affrontement entre Óles, Isole nemiche, spanish, german, czech TODO TRANSLATE
+STRN_M23,Across the Bridge,  A travers le pont, Attraverso il ponte, spanish, german, czech TODO TRANSLATE
+STRN_M24,"Large scale, many vehicles",  Grande envergure, nombreux vÈhicules, Larga scala, molti veicoli, spanish, german, czech TODO TRANSLATE
+STRN_M25,Behind the Horizon,  Au-dela de l'horizon, Dietro l'orizzonte, spanish, german, czech TODO TRANSLATE
+STRN_M26,Hold the Castle, Tenir le ch‚teau, Tieni il castello, spanish, german, czech  TODO TRANSLATE
+STRN_M27,War Cry,  Cri de guerre, Urlo di guerra, spanish, german, czech TODO TRANSLATE
+STRN_M28,Iron Conquerors,  ConquÈrants d'acier, Conquistatori di ferro, spanish, german, czech TODO TRANSLATE
+STRN_M29,Hold the City,  Tenir la ville, Tieni la citta, spanish, german, czech TODO TRANSLATE
+STRN_M30,Street Combat,  Combats de rue, Combattimento sulla STRada, spanish, german, czech TODO TRANSLATE
+STRN_M31,Paintball Match,  Match de paintball, Partita paintball, spanish, german, czech TODO TRANSLATE
+STRN_M32,Team Flag Fight, Capture de drapeau par Èquipe, Scontro a squadre con bandiera, spanish, german, czech  TODO TRANSLATE
+STRN_M33,Sector Control, ContrÙle de secteur, Controllo settore, spanish, german, czech  TODO TRANSLATE
+STRN_M34,Hostage Rescue,  Sauvetage d'otages, Salvataggio ostaggio, spanish, german, czech TODO TRANSLATE
+STRN_M35,Seize the City,  Prendre la ville, Prendi la citta, spanish, german, czech TODO TRANSLATE
+STRN_M36,Return to Eden, Retour a Eden, Torna all'Eden, spanish, german, czech  TODO TRANSLATE
+STRN_M37,Village Combat,  Combat en village, Combattimento nel villaggio, spanish, german, czech TODO TRANSLATE
+STRN_M38,Castle Conflict,  Affrontement au ch‚teau, Conflitto nel castello, spanish, german, czech TODO TRANSLATE
+STRN_M39,City Conflict,  Affrontement en ville, Conflitto in citta, spanish, german, czech TODO TRANSLATE
+STRN_M67,"Tower",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STRN_M68,"Siberian Base",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STRN_M69,"Escape",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STRN_M66,"Pilot Down",French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"MULTIPLAYER TEMPLATE GROUPS"*****
+STR_XBOX_GROUP_PLAYER,Player Squad,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_CHARLIE,West Attack Squad 2 (Charlie),French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTATTACK1,East Attack Squad 1,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTATTACK2,East Attack Squad 2,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_WESTDEFEND1,West Defend Squad 1,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_WESTDEFEND2,West Defend Squad 2,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTDEFEND1,East Defend Squad 1,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_EASTDEFEND2,East Defend Squad 2,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"TEMPLATE ROLES"*****
+STR_DISP_XBOX_ROLE_CONQ_ONE_M60,Lead M60 %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_ROLE_CONQ_TWO_M60,M60 2 %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_ROLE_CONQ_THREE_M60,M60 3 %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_ROLE_SOLDIER_MORTAR,"Soldier M16A2 + rifle grenade",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_ROLE_CONQ_COBRA,Cobra %s,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_GUARD1,T72,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_GUARD2,Shilka,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_REINF1,Armor Unit,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_REINF2,Anti Air Battery,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_ROLE_REINF3,Heavy Armor Unit,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_UNITS_NAME_EAST_GUARD,East Guard,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_UNITS_NAME_REINFORCEMENTS,East Reinforcements,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_GROUP_NAME_ABRAMS,M1A1 Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_NAME_M60,M60 Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_GROUP_NAME_COMBINATED,Air and Armored,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"DEDICATED SERVER MESSAGES"*****
+STR_DS_SERVER_CREATED,Dedicated host created.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_SERVER_CREATE_FAIL,Cannot start host on port %d.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_SERVER_FINISHED,Dedicated host finished (SIGINT signal).,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_SERVER_IDENTITY_CREATED,Host identity created.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_PLAYER_CONNECTING,Player %s connecting.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_PLAYER_CONNECTED,Player %s connected (id=%s).,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_PLAYER_DISCONNECTED,Player %s disconnected.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_ADMIN_LOGGED_IN,Admin %s logged in.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_ADMIN_LOGGED_OUT,Admin %s logged out.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_NO_USERS,All users disconnected, waiting for users.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_MISSION_READ_FROM_BANK,Mission %s read from bank.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_MISSION_READ_FROM_DIR,Mission %s read from directory.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_ROLES_ASSIGNED,Roles assigned.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_READING_MISSION,Reading mission ...,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_MISSION_READ,Mission read.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_GAME_STARTED,Game started.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_GAME_RESTARTED,Game restarted.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_GAME_FINISHED,Game finished.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_WAITING_FOR_NEXT_GAME,Waiting for next game.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_LOAD_MISSION_ERROR,Error loading mission.,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_PLAYER_KICKED_BIG_CUSTOM_FILE,Player %s kicked off - too big custom file '%s' (%d B > %d B).,French,Italian,Spanish,German,Czech, TODO Translates
+STR_DS_PLAYER_KICKED_INVALID_CUSTOM_FILE,Player %s kicked off - invalid custom file '%s'.,French,Italian,Spanish,German,Czech, TODO Translates
+
+
+COMMENT,*****"CONTROLLER SCHEME"*****
+STR_XBOX_CONTROLER_SCHEME_DEFAULT,"Default Scheme",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_SCHEME_STICK,"Reverted Sticks",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_SCHEME_TRIGGERS,"Reverted Triggers",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_MOVEMENT,"MOVEMENT",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_AIM,"AIM",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_CHARACTERS,"Characters",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_VEHICLE_GROUND,"Ground vehicles",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_AIR,"Aircraft",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_DP_MENU,"MENU",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_STRAFE,"Strafe <img image='\xmisc\ctrl_strafe.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_MOVE,"Move <img image='\xmisc\ctrl_move.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_UP,"Kneel <img image='\xmisc\ctrl_nextarget.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_LR_AIM,"<img image='\xmisc\ctrl_strafe.paa'/> Left/Right",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_UD_AIM,"<img image='\xmisc\ctrl_move.paa'/> Up/Down",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_OPTICS,"<img image='\xmisc\ctrl_nextarget.paa'/> Scope/Sights",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_LR_AIM,"Left/Right <img image='\xmisc\ctrl_strafe.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_UD_AIM,"Up/Down <img image='\xmisc\ctrl_move.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_OPTICS,"Optics <img image='\xmisc\ctrl_nextarget.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_STRAFE,"<img image='\xmisc\ctrl_strafe.paa'/> Strafe",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_MOVE,"<img image='\xmisc\ctrl_move.paa'/> Move",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_UP,"<img image='\xmisc\ctrl_nextarget.paa'/> Kneel",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_FLY,"Fly <img image='\xmisc\ctrl_move.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_RUDDER,"Rudder <img image='\xmisc\ctrl_strafe.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_LOCK,"Lock Target <img image='\xmisc\ctrl_nextarget.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_FLY,"<img image='\xmisc\ctrl_move.paa'/> Fly",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_RUDDER,"<img image='\xmisc\ctrl_strafe.paa'/> Rudder",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_LOCK,"<img image='\xmisc\ctrl_nextarget.paa'/> Lock Target",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_TILT,"Tilt <img image='\xmisc\ctrl_strafe.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_TURN,"Turn <img image='\xmisc\ctrl_strafe.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_TILT,"<img image='\xmisc\ctrl_strafe.paa'/> Tilt",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_TURN,"<img image='\xmisc\ctrl_strafe.paa'/> Turn",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_TILT_MOVE,"Tilt <img image='\xmisc\ctrl_move.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_TILT_MOVE,"<img image='\xmisc\ctrl_move.paa'/> Tilt",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_DP_SELECT,"Select",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_DP_BACK,"Back",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_DP_NEXT,"Next",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_DP_PREVIOUS,"Previous",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_RS_KNEEL,"<img image='\xmisc\ctrl_nextarget.paa'/> Kneel",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_SCOPE,"Scope/Sights <img image='\xmisc\ctrl_nextarget.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_ZOOM,"<img image='\xmisc\ctrl_nextarget.paa'/> Zoom",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CONTROLER_LS_RELOAD,"Reload <img image='\xmisc\ctrl_nextarget.paa'/>",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_GAMEPAD,Gamepad,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_JOYSTICK,Joystick,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_WHEEL,Wheel,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_YAXIS_REVERTED,%1 Y axis inverted,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_FOREFDB_DISABLED,%1 Vibration disabled,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_XBOX_HINT_PREV_SCHEME,%1 Previous scheme,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_HINT_NEXT_SCHEME,%1 Next scheme,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_DEFAULT_SETTING,"%1 Default settings",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+COMMENT,*****"ACTIONS"*****
+STR_USRACT_MOVE_FORWARD,Move forward,Avancer,Spostarsi in avanti,Avanzar,Vorw‰rts bewegen,Pohyb vp¯ed
+STR_USRACT_MOVE_BACK,Move back,Reculer,Arretrare,Retroceder,R¸ckw‰rts bewegen,Pohyb zpÏt
+STR_USRACT_TURN_LEFT,Strafe left,DÈplacement gauche,Spostarsi a sinistra,Andar hacia la izda.,Nach links bewegen,Posun vlevo
+STR_USRACT_TURN_RIGHT,Strafe right,DÈplacement droite,Spostarsi a destra,Andar hacia la dcha.,Nach rechts bewegen,Posun vpravo
+STR_USRACT_MOVE_UP,"Up",,French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_MOVE_DOWN,"Go prone",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_FAST_FORWARD,Fast forward,Avancer rapidement,Avanti veloce,Avanzar r·pidamente,Schnell vorw‰rts,Rychle vp¯ed
+STR_USRACT_SLOW_FORWARD,Slow forward,Avancer lentement,Avanti lentamente,Avanzar lentamente,Langsam vorw‰rts,Pomalu vp¯ed
+STR_USRACT_MOVE_LEFT,Turn left,Tourner ‡ gauche,Girare a sinistra,Girar a la izquierda,Nach links drehen,OtoËenÌ vlevo
+STR_USRACT_MOVE_RIGHT,Turn right,Tourner ‡ droite,Girare a destra,Girar a la derecha,Nach rechts drehen,OtoËenÌ vpravo
+STR_USRACT_TOGGLE_WEAPONS,Toggle weapons,Faire dÈfiler les armes,Cambiare arma,Cambiar de arma,Waffe waehlen,ZmÏna zbranÏ
+STR_USRACT_FIRE,Fire,Tirer,Fuoco,Fuego,Feuer,Pal
+STR_USRACT_RELOAD_MAGAZINE,Reload,Recharger,Ricaricare,Recargar,Magazin neu laden,V˝mÏna z·sobnÌku
+STR_USRACT_LOCK_TARGETS,Next target,Cible suivante,Bersaglio successivo,Blanco siguiente,N‰chstes Ziel,DalöÌ cÌl
+STR_USRACT_LOCK_TARGET,Lock target,Verrouiller cible,Bloccare bersaglio,Fijar el blanco,Ziel aufschalten,Vybrat cÌl
+STR_USRACT_REVEAL_TARGET,Reveal target,RÈvÈler cible,Rivelare bersaglio,Destapar el blanco,Ziel aufdecken,Prozradit cÌl
+STR_USRACT_PREV_ACTION,"Previous",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_NEXT_ACTION,"Next",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_ACTION,Perform action,RÈaliser action,Eseguire azione,Ejecutar acciÛn,Aktion ausf¸hren,Vyvol·nÌ akce
+STR_USRACT_HEADLIGHTS,Headlights on/off,Phares allumÈs/Èteints,Luci accese/spente,Encender/apagar faros,Scheinwerfer ein/aus,RozsvÌtit / zhasnout svÏtla
+STR_USRACT_NIGHT_VISION,Night vision,Vision nocturne,Visione notturna,VisiÛn nocturna,Nachtsicht-Geraet,NoËnÌ vidÏnÌ
+STR_USRACT_BINOCULAR,Binoculars,Jumelles,Binocolo,Prism·ticos,Fernglas,Dalekohled
+STR_USRACT_COMPASS,Compass,Boussole,Bussola,Br˙jula,Kompass,Kompas
+STR_USRACT_WATCH,Watch,Montre,Orologio,Reloj,Armbanduhr,Hodinky
+STR_USRACT_MAP,Map,Carte,Mappa,Mapa,Karte,Mapa
+STR_USRACT_HELP,Last help,Dernier conseil,Ultimo aiuto,⁄ltima ayuda,Letzte Hilfe,PoslednÌ n·povÏda
+STR_USRACT_TIME_INC,Time acceleration,AccÈlÈrer temps,Accelerazione temporale,Acelerar el tiempo,Zeitraffer,ZrychlenÌ Ëasu
+STR_USRACT_TIME_DEC,Time deceleration,Ralentir temps,Decelerazione temporale,Retardar el tiempo,Zeitverlangsamung,ZpomalenÌ Ëasu
+STR_USRACT_OPTICS,Optics,SystËmes optiques,Ottica,Punto de vista,Waffen-Ansicht,Optika
+STR_USRACT_PERSON_VIEW,"Toggle view",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_TACTICAL_VIEW,Tactical view,Vue tactique,Visuale tattica,Vista t·ctica,Taktische Perspektive,Taktick˝ pohled
+STR_USRACT_ZOOM_IN,Zoom in,Zoom avant,Zoom avanti,Acercar,Vergrˆﬂern,P¯iblÌûenÌ pohledu
+STR_USRACT_ZOOM_OUT,Zoom out,Zoom arriËre,Zoom indietro,Alejar,Verkleinern,Odd·lenÌ pohledu
+
+STR_USRACT_LOOK_ARROUND,"Look",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_LOOK_ARROUND_TOGGLE,Free-look,Regard libre,Vista libera,Mirar en todas direcciones,Gesamt¸berblick,VolnÈ rozhlÌûenÌ
+STR_USRACT_LOOK_LEFT_DOWN,Look left down,Regarder gauche-bas,Guardare in basso a sin.,Mirar abajo y a la izda.,Nach links unten blicken,Pohled vlevo dol˘
+STR_USRACT_LOOK_DOWN,Look down,Regarder en bas,Guardare in basso,Mirar abajo,Nach unten blicken,Pohled dol˘
+STR_USRACT_LOOK_RIGHT_DOWN,Look right down,Regarder en bas-droite,Guardare in basso a des.,Mirar abajo y a la dcha.,Nach rechts unten blicken,Pohled vpravo dol˘
+STR_USRACT_LOOK_LEFT,Look left,Regarder ‡ gauche,Guardare a sinistra,Mirar a la izda.,Nach links blicken,Pohled vlevo
+STR_USRACT_LOOK_CENTER,Center look,Regarder au centre,Guardare al centro,Mirar al frente,Mittiger Blick,Vyst¯edit pohled
+STR_USRACT_LOOK_RIGHT,Look right,Regarder ‡ droite,Guardare a destra,Mirar a la dcha.,Nach rechts blicken,Pohled vpravo
+STR_USRACT_LOOK_LEFT_UP,Look left up,Regarder ‡ gauche-haut,Guardare in alto a sin.,Mirar arriba y a la izda.,Nach links oben blicken,Pohled vlevo nahoru
+STR_USRACT_LOOK_UP,Look up,Regarder en haut,Guardare in alto,Mirar arriba,Nach oben blicken,Pohled nahoru
+STR_USRACT_LOOK_RIGHT_UP,Look right up,Regarder ‡ droite-haut,Guardare in alto a des.,Mirar arriba y a la dcha.,Nach rechts oben blicken,Pohled vpravo nahoru
+
+STR_USRACT_PREV_CHANNEL,Previous channel,Canal prÈcÈdent,Canale precedente,Canal anterior,Vorheriger Kanal,P¯edchozÌ kan·l
+STR_USRACT_NEXT_CHANNEL,Next channel,Canal suivant,Canale successivo,Canal siguiente,N‰chster Kanal,N·sledujÌcÌ kan·l
+STR_USRACT_CHAT,Chat,Discussion,Chat,Chat,Chat,Chat
+STR_USRACT_VOICE_OVER_NET,Voice Over Net,Voix sur Internet,Voce su Internet,Voz en Red,Stimme ¸ber Netzwerk,Voice Over Net
+STR_USRACT_NETWORK_STATS,Multiplayer statistics,Statistiques multijoueurs,Statistiche Multiplay,EstadÌs. multi-jugadores,Mehrspieler-Statistiken,Statistiky sÌùovÈ hry
+STR_USRACT_NETWORK_PLAYERS,List of players,Liste de joueurs,Elenco dei giocatori,RelaciÛn de jugadores,Spielerliste,Seznam hr·Ë˘
+STR_USRACT_SELECT_ALL,Select all units,SÈlectionner UnitÈs,Selez. Tutte le unit‡,Selecc. todas las unidades,Alle Einheiten ausw‰hlen,Vybrat vËechny jednotky
+STR_USRACT_TURBO,Turbo,Turbo,Sprint,Turbo,Turbo,Turbo
+
+STR_USRACT_MENU_UP,"Next",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_MENU_DOWN,"Previous",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_MENU_SELECT,"Select",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_MENU_BACK,"Back",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_USRACT_COMMAND_LEFT,Command left,Ordre - a gauche,Vai a sinistra,Orden: izquierda,Nach links,Czech, TODO Translate
+STR_USRACT_COMMAND_RIGHT,Command right,Ordre - a droite,Vai a destra,Orden: derecha,Nach rechts,Czech, TODO Translate
+STR_USRACT_COMMAND_FORWARD,Command forward,Ordre - en avant,Vai avanti,Orden: avanzar,Vorw‰rts,Czech, TODO Translate
+STR_USRACT_COMMAND_BACK,Command back,Ordre - en arriere,Vai indietro,Orden: retroceder,Zur¸ck,Czech, TODO Translate
+STR_USRACT_COMMAND_FAST,Command fast,Ordre - vite,Vai veloce,Orden: deprisa,Schnell,Czech, TODO Translate
+STR_USRACT_COMMAND_SLOW,Command slow,Ordre - lentement,Vai piano,Orden: despacio,Langsam,Czech, TODO Translate
+
+STR_USRACT_WALK,Walk,Marchez,Cammina,Avanzar!,Lauf,Ch˘ze
+STR_USRACT_TURN,Turn,Tourner,Girare,Girar,Abbiegen,Czech
+STR_USRACT_ACCELERATE,Dive (Air)/Forward (Land),Plonger (air) / Avancer (au sol),Picchiata (aria)/Avanti (terra),Bajar en picado (aire)/Avanzar (tierra),Sturzflug (Luft)/Vorw‰rts (Land),Czech
+STR_USRACT_THRUST,Thrust (Air),AccÈlÈrer (Air),Spinta (aria),TracciÛn (aire),Schub (Luft),Czech
+STR_USRACT_RUDDER,Rudder (Air),Gouvernail (Air),Timone di direzione (aria),Palanca de mando (aire),Ruder (Luft),Czech
+STR_USRACT_LOCK_OR_ZOOM,Lock or Zoom,Capter ou faire un zoom,Blocco o zoom,Fijar o enfocar,Aufschalten oder Zoom,Czech
+
+STR_USRACT_AIM_UP,Aim Up,Viser en haut,Mira in alto,Apuntar arriba,Zielen: Rauf,Czech
+STR_USRACT_AIM_DOWN,Aim Down,Viser en bas,Mira in basso,Apuntar abajo,Zielen: Runter,Czech
+STR_USRACT_AIM_LEFT,Aim Left,Viser ‡ gauche,Mira a sinistra,Apuntar a la izquierda,Zielen: Links,Czech
+STR_USRACT_AIM_RIGHT,Aim Right,Viser ‡ droite,Mira a destra,Apuntar a la derecha,Zielen: Rechts,Czech
+
+STR_USRACT_HANDGUN,Switch gun / handgun,Echanger arme/arme de poing,Passa da fucile a pistola,Cambiar fusil/pistola,Tauschen: Waffe/Handfeuerwaffe,Czech
+
+STR_USRACT_DEFAULT_ACTION,"Fire",French,Italian,Spanish,German,Czech, TODO Translate
+STR_USRACT_ZOOM_CONT,Zoom in/out,Zoom av./arr.,Zoom avanti/indietro,Acercar/alejar vista,Vergrˆﬂern/verkleinern,Czech, TODO Translate
+STR_USRACT_SWITCH_WEAPON,Switch weapon,Changement d'arme,Cambia arma,Cambiar de arma,Waffe wechseln,Czech, TODO Translate
+
+STR_USRACT_HELI_UP,Heli up,HÈlico haut,Elicottero: su,Mover el heli. hacia arriba,Hubschrauber nach oben,Czech, TODO Translate
+STR_USRACT_HELI_DOWN,Heli down,HÈlico bas,Elicottero: gi˘,Mover el heli. hacia abajo,Hubschrauber nach unten,Czech, TODO Translate
+STR_USRACT_HELI_CYCLIC_LEFT,Heli cyclic left,HÈlico cyclique G,Elicottero: ruota a sinistra,Girar el heli. a la izquierda ,Hubschrauber nach links drehen,Czech, TODO Translate
+STR_USRACT_HELI_CYCLIC_RIGHT,Heli cyclic right,HÈlico cyclique D,Elicottero: ruota a destra,Girar el heli. a la derecha,Hubschrauber nach rechts drehen,Czech, TODO Translate
+STR_USRACT_HELI_RUDDER_LEFT,Heli rudder left,HÈlico palonnier G,Timone elicottero sinistra,Mover el timÛn a la izquierda,Hubschrauber-Ruder nach links,Czech, TODO Translate
+STR_USRACT_HELI_RUDDER_RIGHT,Heli rudder right,HÈlico palonnier D,Timone elicottero destra,Mover el timÛn a la derecha,Hubschrauber-Ruder nach rechts,Czech, TODO Translate
+STR_USRACT_HELI_FORWARD,Heli forward,HÈlico avant,Elicottero: avanti,Avanzar con el helicÛptero,Hubschrauber vorw‰rts,Czech, TODO Translate
+STR_USRACT_HELI_BACK,Heli back,HÈlico arriËre,Elicottero: indietro,Retroceder con el helicÛptero,Hubschrauber zur¸ck,Czech, TODO Translate
+STR_USRACT_HELI_FAST_FORWARD,Heli fast forward,HÈlico avant rapide,Elicottero: avanti veloce,Acelerar con el helicÛptero,Hubschrauber schnell vorw‰rts,Czech, TODO Translate
+
+STR_USRACT_CAR_LEFT,Car left,Voiture G,Auto: sinistra,Mover el coche a la izquierda,Auto nach links,Czech, TODO Translate
+STR_USRACT_CAR_RIGHT,Car right,Voiture D,Auto: destra,Mover el coche a la derecha,Auto nach rechts,Czech, TODO Translate
+STR_USRACT_CAR_FORWARD,Car forward,Voiture avant,Auto: avanti,Avanzar con el coche,Auto vorw‰rts,Czech, TODO Translate
+STR_USRACT_CAR_BACK,Car back,Voiture arriËre,Auto: indietro,Retroceder con el coche,Auto zur¸ck,Czech, TODO Translate
+STR_USRACT_CAR_FAST_FORWARD,Car fast forward,Voiture avant rapide,Auto: avanti veloce,Acelerar con el coche,Auto schnell vorw‰rts,Czech, TODO Translate
+STR_USRACT_CAR_SLOW_FORWARD,Car slow forward,Voiture avant lent,Auto: avanti lentamente,Avanzar lentamente con el coche,Auto langsam vorw‰rts,Czech, TODO Translate
+
+STR_USRACT_VEH_LOCK_TARGETS,Next target ,Cible suiv ,Prossimo obiettivo, Blanco siguiente ,N‰chstes Ziel ,Czech, TODO Translate
+STR_USRACT_INGAME_PAUSE,"Pause",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_USRACT_SHOW_MAP,Map,Carte,Mappa,Mapa,Karte,Mapa
+STR_USRACT_HIDE_MAP,Hide Map,Carte,Mappa,Mapa,Karte,Mapa
+
+STR_USRACT_SWAP_GUNNER,Swap gunner,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_USRACT_HELI_MANUAL_FIRE,Manual fire,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_USRACT_CANCEL_ACTION,Cancel action,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+COMMENT,*****"USER ACTIONS"*****
+STR_ACTION_PUT_WEAPON,Put %s to %s,Mettre %s sur %s,Metti %s in %s,Poner %s en %s,%s in %s legen,Czech
+STR_ACTION_DROP_WEAPON,Drop %s,DÈposer %s,Lascia %s,Tirar %s,%s ablegen,Czech
+STR_ACTION_PUT_MAGAZINE,Put %s to %s,Mettre %s sur %s,Metti %s in %s,Poner %s en %s,%s in %s legen,Czech
+STR_ACTION_DROP_MAGAZINE,Drop %s,DÈposer %s,Lascia %s,Tirar %s,%s ablegen,Czech
+STR_ACTION_MARK_ENTITY,Collect from %s,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+COMMENT,*****"INSTANT ACTION MISSIONS"*****
+STRN_X_MISSION_SNIPER,Sniper,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_VULCAN,Air Defense,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_KILL_THEM_ALL,Kill Them All,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_CONVOY,Convoy,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_RACE,Race,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_TANK,Tank,French,Italian,Spanish,German,Czech, TODO Translate
+STRN_X_MISSION_HELICOPTER,Helicopter,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****Weapons display names,Noms armes,Nomi visualizzazione armi,Nombres de las armas,Waffenanzeige-Namen,*****
+STR_DN_MORTAR_W,Rifle Grenade,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MN_MORTAR_W,Rifle Grenade,French,Italian,Spanish,German,Czech, TODO Translate
+STR_SN_MORTAR_W,Rifle Grenade,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_MORTAR,Rifle Grenade,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_DN_HK,MP5-SD6,MP5-SD6,MP5-SD6,MP5-SD6,MP5-SD6,MP5-SD6
+STR_MN_HK,MP5 Mag,Chargeur MP5,Caricatore MP5,Cargador de MP5,MP5 Mag,MP5 z·s.
+STR_SN_HK,MP5-SD6,MP5-SD6,MP5-SD6,MP5-SD6,MP5-SD6,MP5-SD6
+STR_DN_HK_AUTO,MP5-SD6 Full Auto,MP5-SD6 rafales libres,MP5-SD6 automatico,MP5-SD6 autom·tica,MP5-SD6-vollautom.,MP5-SD6 auto
+
+STR_UAZ_POLICE,Car (Police),French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+COMMENT,*****"Vehicle classes"*****
+STR_DN_MEN,Men,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_CARS,Cars,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_ARMORED,Armored,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_AIR,Air,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_SUPPORT,Support,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_CAMERAS,Cameras,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_OBJECTS,Objects,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_AMMO,Ammo,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_SOUNDS,Sounds,French,Italian,Spanish,German,Czech, TODO Translate
+STR_DN_MINES,Mines,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+
+STR_CFG_XBOX_GRP_INFANTRY_SQUADS,Infantry squads,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_ARMOR_PLATOONS,Armor platoons,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_AIR_SQUADRONS,Air Squadrons,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_CFG_XBOX_GRP_ARMOR_M1A1,M1A1 Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_ARMOR_COMBINED,Combined Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_ARMOR_T55,T55 Platoon,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_CFG_XBOX_GRP_SQUAD_BASIC,"Basic Squad",French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_SPECIAL,Special Squad,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_NORMAL,Normal Squad,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_HEAVY,Heavy Squad,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_MOTORIZED,Motorized Patrol,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_MECHANIZED,Mechanized Squad,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_CROWD,Crowd,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_SQUAD_POLICE_PATROL,Police patrol,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_CFG_XBOX_GRP_AIR_ATTACK,Attack Squadron,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_AIR_TRANSPORT,Transport Squadron,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_AIR_GUARDED,Guarded Transport,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_AIR_PLANE,Plane Squadron,French,Italian,Spanish,German,Czech, TODO Translate
+STR_CFG_XBOX_GRP_AIR_PARA,Para Squadron,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"DOWNLOADABLE CONTENT"*****
+STR_DISP_XBOX_HINT_PRICE,"%1 Price information",French,Italian,Spanish,German,Czech, TODO Translate
+STR_DISP_XBOX_HINT_INSTALL,"%1 Download",French,Italian,Spanish,German,Czech, TODO Translate
+STR_MSG_INSTALL_FAILED,The download has failed.,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MSG_CONFIRM_INSTALL_ABORT,Are you sure you want to cancel the download of this content?,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"MULTIPLAYER"*****
+STR_XBOX_HOST_TITLE,"Host Session",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_DEDICATED_HOST,"Dedicated Host",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CREATE_DEDICATED_HOST,"Create Dedicated Host",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_MULTI_HOST_SETTINGS,"Host Settings",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_MULTI_HOST_SETTINGS_ADV,"Advanced Host Settings",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_CLIENT_TEXT,"Wait for host",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_CREATE_HOST,"Creating host...",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_MSG_WAIT_CONNECTING,"Connecting Ö wait for host",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_HINT_DEDICATED_HOST,"%1 Create dedicated host",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_HINT_HOST_SETINGS, "%1 Host settings",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_MULTI_HOST_STATE,"Host state:",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_MP_HOST,"Host",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_FILTER_HOST,"Host:",French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_HINT_FREE_SLOTS,%1 Free slots,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_MP_CONNECTED, Connected players,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_RESPAWN_MESSAGE,Wait %.0f seconds to continue playing,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_MP_CONNECTION_LOOSING,Player %s is losing connection.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_MP_SERVER,Host,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_HOST_SESSION,Host session,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_CREATE_SERVER,Creating host...,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_TIME_LEFT,%d min left,%d min left,%d min left,%d min left,%d min left,%d min left
+STR_BRIEF_SCORE_MP,Score:,Score†:,Punteggio:,Puntuac.:,Punkte:,HodnocenÌ:
+
+STR_MP_TIMEOUT_CLIENT,"Connection with host has been lost.",French,Italian,Spanish,German,Czech, TODO Translate
+STR_MP_KICKED_CLIENT,"You were kicked off the game.",French,Italian,Spanish,German,Czech, TODO Translate
+STR_MP_BANNED_CLIENT,"You were banned.",French,Italian,Spanish,German,Czech, TODO Translate
+
+
+COMMENT,*****"XBOX LIVE SIGN IN/OUT"*****
+STR_DISP_MP_SIGN_OUT, Sign Out,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SILENT_SIGN_IN_NONE,Not Signed In,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SILENT_SIGN_IN_OK,Signed In: %s,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SILENT_SIGN_IN_PASSCODE,Not Signed In: Passcode Needed,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SILENT_SIGN_IN_FAILED,Sign In Failed,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_XBOX_MP_INTERRUPT_OFFLINE_HINT,%1 Appear Offline,%1 ApparaÓtre Hors Ligne,%1 Apparire Offline,%1 Aparecer Offline,%1 Offline Anzeigen,Czech, TODO Translate
+STR_DISP_XBOX_MP_INTERRUPT_ONLINE_HINT,%1 Appear Online,%1 ApparaÓtre En Ligne,%1 Apparire Online,%1 Aparecer En LÌnea,%1 Online Anzeigen,Czech, TODO Translate
+
+
+COMMENT,*****"MISSION EDITOR/WIZARD"*****
+STR_XBOX_WIZARD_MY_MISSIONS,My Missions,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_WIZARD_EDIT,Edit Mission Settings,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_MISSION_WIZARD_LIMIT,Construction points limit exceeded,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_MISSION_WIZARD_POINTS,Construction points: %d,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_EDITOR_WIZARD_UNIT_CHOOSE,"Choose Mission Units",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_WIZARD_MAP_HINT_ROTATE,%1 Rotate,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+COMMENT,*****"SAVE/LOAD"*****
+STR_LOADING, Loading,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_AUTOSAVE_GAME,Saving...,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SAVE_GAME,Saving...,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SAVE_AND_ABORT,"Save And Abort",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_LOAD_FAILED,Unable to load '%s'.,Chargement de '%s' impossible.,Impossibile caricare '%s'.,Imposible cargar '%s'.,'%s' kann nicht geladen werden.,Czech, TODO Translate
+STR_LOAD_FORMAT,Load (%d/%d/%d %d:%02d),French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_RETRY_FORMAT,Retry (%d/%d/%d %d:%02d),French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+
+
+STR_CORRUPTED_MISSION,Corrupted Mission,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_CORRUPTED_IDENTITY,Corrupted Identity,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_CORRUPTED_SAVE,Corrupted Save,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_XBOX_HINT_IGNORE,%1 Ignore,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_HINT_REMOVE,%1 Remove,French,Italian,Spanish,German,Czech, TODO Translate
+STR_XBOX_QUESTION_DELETE_SAVE,You're attempting to delete saved game '%s'. Are you sure?,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_MSG_DISK_FULL_T,Your Xbox console does not have enough free blocks to download this content. Please free %d blocks.,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MSG_DISK_FULL_U,Your Xbox doesnít have enough free blocks to save games. Please free %d blocks.,French,Italian,Spanish,German,Czech, TODO Translate
+STR_MSG_ADDON_MISSING,"You cannot play/edit this mission, as it depends on downloadable content that was deleted.",French,Italian,Spanish,German,Czech, TODO Translate
+STR_MSG_WRONG_MISSION_NAME,Offensive mission name,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+STR_XBOX_HINT_FREE_BLOCKS,%1 Free blocks,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_INTERUPTED_ABORT_MOVIE, "%1 Abort Movie",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_UNLOCKED_CAMPAIGN, "Campaign Resistance unlocked!",French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_XBOX_RECEIVNING,Receiving,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_DISP_XBOX_HINT_RESTART_MISSION,%1 Restart Mission,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+
+STR_DISP_REVERT_QUESTION,You are attempting to revert in your campaign game. Information about your progress and your saves since this point will be lost.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_XBOX_EDIT_PROFILE_HINT_EDIT,%1 Edit,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_EDIT_PROFILE_ACCEPT,Apply settings,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_XBOX_PROFILE_SELECT_EDIT,Select Profile,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_PROFILE_SELECT_PLAY,Select Profile,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_MAIN_XBOX_SETTINGS,IDENTITY, French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SETTINGS_FORMAT,IDENTITY: %s,%s - parametres,Impostazioni %s ,%s configuraciÛn,%s Einstellungen,Czech, TODO Translate
+
+
+STR_CONTROLLER_REMOVED,Please reconnect the controller to any controller port.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_ACTIVE_CONTROLLER_REMOVED,Please reconnect the controller.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_BRIEF_SPECIAL_HANDGUN,Hand gun,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_BRIEF_SPECIAL_HANDGUN_MAGAZINES,Hand gun magazines,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+COMMENT,*****"RADIO PROTOCOL"*****
+STR_SIDE_UNKNOWN,Unknown side,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_SENT_TEAM_2,%1.1 ARE %2,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_WORD_DIST50,50,50,50,50,50,50
+STR_WORD_DIST100,100,100,100,100,100,100
+STR_WORD_DIST200,200,200,200,200,200,200
+STR_WORD_DIST500,500,500,500,500,500,500
+STR_WORD_DIST1000,1000,1000,1000,1000,1000,1000
+STR_WORD_DIST2000,2000,2000,2000,2000,2000,2000
+STR_WORD_DISTFAR,Very Far,TrËs loin,Molto distante,Muy lejos,Sehr weit entfernt,Velmi daleko
+
+STR_SENT_SUPPORT_ASK_REPAIR_1,"THIS IS %2, I NEED REPAIRS AT POSITION %1","BESOIN DE REPARATIONS, COORDONNEES %1","SI NECESSITA DI RIPARAZIONI, POSIZIONE %1","NECESITO REPARACI”N, POSICI”N %1","BEN÷TIGE REPARATUREN, POSITION %1","POTÿEUJEM OPRAVIT, POZICE %1"
+STR_SENT_SUPPORT_ASK_REFUEL_1,"THIS IS %2, I NEED FUEL AT POSITION %1","BESOIN DE CARBURANT, COORDONNEES %1","SI NECESSITA DI CARBURANTE, POSIZIONE %1","NECESITO COMBUSTIBLE, POSICI”N %1","BEN÷TIGE TREIBSTOFF, POSITION %1","POTÿEBUJEM PALIVO, POZICE %1"
+STR_SENT_SUPPORT_ASK_REARM_1,"THIS IS %2, I NEED AMMO AT POSITION %1","BESOIN DE MUNITIONS, COORDONNEES %1","SI NECESSITA DI MUNIZIONI, POSIZIONE %1","NECESITO MUNICI”N, POSICI”N %1","BEN÷TIGE MUNITION, POSITION %1","POTÿEBUJEM MUNICI, POZICE %1"
+STR_SENT_VEHICLE_JOIN_1,MAINTAIN FORMATION,RESTEZ EN FORMATION,MANTENERSI IN FORMAZIONE,MANTENGA LA FORMACI”N,FORMATION BEIBEHALTEN,DODRéUJTE FORMACI
+STR_SENT_CMD_GETIN_CARGO_1,"%1.1, BOARD %2","%1.1, MONTEZ DANS %2","%1.1, SALIRE A BORDO DI %2","%1.1, EMBARQUEN EN %2","%1.1, IN %2 EINSTEIGEN","%1.1, NASTUPTE  %2"
+
+
+
+
+
+STR_XBOX_COLLAPSE,%1 Collapse,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_EXPAND,%1 Expand,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_SINGLE_NEW_MISSION_TITLE,New Mission,Nouvelle Mission,Nuova Missione,Nueva MisiÛn,Neuer Einsatz,Czech, TODO Translate
+
+COMMENT,*****"UNIT/OBJECT NAMES"*****
+STR_DN_SPECNAS,Spetsnaz,Spetznatz,Spetznatz,Spetznatz,Speznaz,Spec Nas
+
+STR_DN_FIRE_LIT,Fire (Lit),French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_FLAG_WEST,Flag (US),French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_FLAG_EAST,Flag (USSR),French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+STR_DN_AMMO_CRATES_WEST,"West, Basic",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_AMMO_CRATES_EAST,"East, Basic",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_AMMO_CRATES_RES,"Res, Basic",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DN_AMMO_CRATES_WEST2,"West, Heavy",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_AMMO_CRATES_EAST2,"East, Heavy",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_AMMO_CRATES_RES2,"Res, Heavy",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DN_OUT_AMMO_CRATES_WEST,"West, Special",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_OUT_AMMO_CRATES_EAST,"East, Special",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_OUT_AMMO_CRATES_RES,"Res, Special",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DN_OUT_AMMO_CRATES_WP_WEST,"West, Weapon",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_OUT_AMMO_CRATES_WP_EAST,"East, Weapon",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_OUT_AMMO_CRATES_WP_RES,"Res, Weapon",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DN_AMMO_CRATES_ADD_WEST,"West, AddOns",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DN_AMMO_CRATES_ADD_EAST,"East, AddOns",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_XBOX_AMMO_CRATES_WEST,"Ammo, West",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_AMMO_CRATES_EAST,"Ammo, East",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_AMMO_CRATES_RESISTANCE,"Ammo, Resistance",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_XBOX_WEAPON_CRATES_WEST,"Weapon, West",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_WEAPON_CRATES_EAST,"Weapon, East",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_WEAPON_CRATES_RESISTANCE,"Weapon, Resistance",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+STR_XBOX_UPLOAD_STATS,%1 Submit score on live,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_XBOX_HINT_MISSION_RESTART,%1 Play mission from the beginning.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_HINT_MISSION_RETRY,%1 Play mission from last checkpoint.,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+
+STR_XBOX_QUESTION_RESTART_MISSION,"You are attempting to restart the mission. Your progress and all saves from this mission will be lost.",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_XBOX_QUESTION_ABORT_MISSION,"You are attempting to abort the mission. Your progress and all saves from this mission will be lost. Are you sure?",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_XBOX_HINT_ABORT,%1 Abort,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_DISP_XBOX_MESSAGE_SAVING_DONT_TURN_OFF,"Saving game. Please donít turn off your Xbox console.",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_MESSAGE_SAVING_USER_DONT_TURN_OFF,"Saving game. Please donít turn off your Xbox console.",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_DISP_XBOX_MESSAGE_SAVING_NOT_SPACE,"You have reached the maximum saved games for Operation Flashpont. You must delete some saved games before you can save more games.",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_XBOX_PLAY_AGAIN,"Play Again",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_XBOX_WATCH_DIR,Watch,French,Italian,Spanish,German,Czech, TODO Translate
+
+STR_DISP_XBOX_MULTI_TEXT_CONNECTION,Connection,French,Italian,Spanish,German,Czech, TODO Translate
+
+
+STR_SENT_VEHICLE_LOAD_MAGAZINE_1,%1,%1,%1,%1,%1,%1
+STR_SENT_VEHICLE_WATCH_TGT_1,"WATCH %1, %2",French,Italian,Spanish,German,Czech, TODO Translate
+STR_SENT_VEHICLE_WATCH_POS_1,WATCH %1 %2,French,Italian,Spanish,German,Czech, TODO Translate
+STR_SENT_VEHICLE_MANUAL_FIRE_1,MANUAL FIRE,French,Italian,Spanish,German,Czech, TODO Translate
+STR_SENT_VEHICLE_CANCEL_MANUAL_FIRE_1,CANCEL MANUAL FIRE,French,Italian,Spanish,German,Czech, TODO Translates
+
+
+STR_INTEL_DATE_FORMAT,"%m/%d/%Y","%m/%d/%Y","%m/%d/%Y","%m/%d/%Y","%m/%d/%Y","%m/%d/%Y"
+STR_INTEL_TIME_FORMAT,"%H:%M:%S","%H:%M:%S","%H:%M:%S","%H:%M:%S","%H:%M:%S","%H:%M:%S"
+
+
+STR_XBOX_CREDITS,%1 Credits,%1 CrÈdits,%1 Titoli di coda,%1 Colaboradores,%1 Mitarbeiter,%1 Credits
+
+STR_DAMAGED_DISC,Thereís a problem with the disc youíre using. It may be dirty or damaged.,Le disque utilisÈ prÈsente une anomalie. Il est peut-etre sale ou endommagÈ.,Il disco in uso ha qualche problema. Potrebbe essere sporco o danneggiato.,Hay un problema con el disco que est· usando. Puede estar sucio o danado,Bei der benutzten CD ist ein Problem aufgetreten. Mˆglicherweise ist sie verschmutzt oder besch‰digt.,Czech,TODO TRANSLATE
+
+STR_CFG_SOUNDS_FANFARE, Fanfare,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_CFG_SOUNDS_TUNE, Tune,French,Italian,Spanish,German,Czech,TODO TRANSLATE
+
+STR_O_HOUSE_TOWN_HALL,"Town Hall",French,Italian,Spanish,German,Czech,TODO TRANSLATE
+STR_AC_GETINNEAREST,GET IN NEAREST,French,Italian,Spanish,German,Czech, TODO Translates
+
+STR_SENT_CMD_ACTION_NEAR_1,"%1.1, %2","%1.1, %2","%1.1, %2","%1.1, %2","%1.1, %2","%1.1, %2",
+STR_ACTION_MARK_WEAPON,Collect weapon,French,Italian,Spanish,German,Czech, TODO Translates
+
+STR_DISP_XBOX_HINT_YES,"%1 Yes",French,Italian,Spanish,German,Czech, TODO Translates
+STR_DISP_XBOX_HINT_NO,"%1 No",French,Italian,Spanish,German,Czech, TODO Translates
+
+STR_XBOX_CONTROLER_SCHEME_DEFAULT,"Default",French,Italian,Spanish,German,Czech, TODO Translates
+STR_XBOX_CONTROLER_SCHEME_LEFTHAND,"Left Handed",French,Italian,Spanish,German,Czech, TODO Translates
+STR_XBOX_CONTROLER_SCHEME_SNIPER,"Sniper",French,Italian,Spanish,German,Czech, TODO Translates
+STR_XBOX_CONTROLER_SCHEME_SPECIAL,"Special soldier",French,Italian,Spanish,German,Czech, TODO Translates
+STR_XBOX_CONTROLER_SCHEME_CHAR,"Characters",French,Italian,Spanish,German,Czech, TODO Translates
+STR_XBOX_CONTROLER_SCHEME_GROUND,"Ground",French,Italian,Spanish,German,Czech, TODO Translates
+STR_XBOX_CONTROLER_SCHEME_AIR,"Air",French,Italian,Spanish,German,Czech, TODO Translates
+
+

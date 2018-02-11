@@ -1,0 +1,74 @@
+########################################################################
+# Model file conversion
+.p3d.bip3d:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\binarize\binarize.exe" -o "$@" "$<"
+
+.p3d.p3d:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\binarize\binarize.exe" -o "$@" "$<"
+
+########################################################################
+# World file conversion
+.wrp.biwrp:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\binarize\binarize.exe" -o "$@" "$<"
+
+.wrp.wrp:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\binarize\binarize.exe" -o "$@" "$<"
+
+########################################################################
+#Config file conversion
+.cpp.bin:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\CfgConvert\CfgConvert.exe" -bin -dst "$@" "$<"
+
+.cpp.bicpp:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\CfgConvert\CfgConvert.exe" -bin -dst "$@" "$<"
+
+########################################################################
+#Material conversion
+# Material is a ParamFile
+.rvmat.rvmat:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\CfgConvertFileChng\CfgConvertFileChng.exe" -bin -dst "$@" "$<"
+
+.bimpas.bimpas:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\CfgConvertFileChng\CfgConvertFileChng.exe" -bin -dst "$@" "$<"
+
+.bisurf.bisurf:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\CfgConvertFileChng\CfgConvertFileChng.exe" -bin -dst "$@" "$<"
+
+########################################################################
+#Texture file conversion
+.gif.bi:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.tga.bitga:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.tga.paa:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.png.paa:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.tga.pac:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.png.pac:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.gif.pac:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.paa.paa:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+.pac.pac:
+        "C:\Users\Steve\workspace\JANFUTOOLS\uploadUtility\tools\BinMake\Pal2PacE\Pal2PacE.exe" "$<" "$@"
+
+########################################################################
+### How to add new rules:
+###
+### Each rules starts with suffixes telling which formats are converted by the rule,
+### followed by list of commands
+### list of commands is terminated by empty line
+### Following special variables can be used in commands:
+###    "$<"  Input file path
+###    "$@"  Output file path
