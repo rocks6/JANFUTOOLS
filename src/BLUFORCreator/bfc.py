@@ -24,9 +24,14 @@ team_lead = Unit("Team Lead", "squad_lead")
 squad_lead = Unit("Squad Lead", "squad_lead")
 autorifleman = Unit("Autorifleman", "autorifleman")
 assistant_ar = Unit("Asst. Autorifleman", "asst_autorifleman")
-medic = Unit("Medic", "MD_CNAME_PLACEHOLDER", "medic")
+medic = Unit("Medic", "medic")
 platoon_lead = Unit("Platoon Lead", "squad_lead")
 platoon_sgt = Unit("Platoon Sergeant", "squad_lead")
+heavy_machinegunner = Unit("Heavy Machine Gunner", "hmg")
+heavy_mg_assistant = Unit("Assistant Heavy Machine Gunner", "asst_hmg")
+veh_driver = Unit("Driver", "crewman")
+veh_gunner = Unit("Gunner", "crewman")
+veh_commander = Unit("Commander", "crewman")
 
 
 # individual element factories
@@ -38,7 +43,7 @@ def infantry_platoon_factory():
 
 
 def single_squad_factory(squad_identifier):
-    single_squad = deepcopy([squad_lead, team_lead, autorifleman, assistant_ar, rifleman, team_lead, autorifleman, assistant_ar, rifleman, medic])
+    single_squad = [deepcopy(x) for x in [squad_lead, team_lead, autorifleman, assistant_ar, rifleman, team_lead, autorifleman, assistant_ar, rifleman, medic]]
     single_squad[0].team_prefix = single_squad[9].team_prefix = squad_identifier
     for x in range(1,5):
         single_squad[x].team_prefix = squad_identifier + "\'A" # set team A
@@ -47,8 +52,41 @@ def single_squad_factory(squad_identifier):
     return single_squad
 
 
+def hmg_squad_factory(squad_identifier):
+    hmg_squad = [deepcopy(x) for x in [squad_lead, heavy_machinegunner, heavy_mg_assistant, heavy_machinegunner, heavy_mg_assistant]]
+    hmg_squad[0].team_prefix = squad_identifier
+    hmg_squad[1].team_prefix = hmg_squad[2].team_prefix = squad_identifier + "\'A"
+    hmg_squad[3].team_prefix = hmg_squad[4].team_prefix = squad_identifier + "\'B"
+    return hmg_squad
+
+
+def vehicle_3crew_factory(squad_identifier):
+    crew = [deepcopy(x) for x in [veh_driver, veh_gunner, veh_commander]]
+    for x in range(3):
+        crew[x].team_prefix = squad_identifier
+    return crew
+
+
+def vehicle_2crew_factory(squad_identifier):
+    crew = [deepcopy(x) for x in [veh_driver, veh_gunner]]
+    for x in range(2):
+        crew[x].team_prefix = squad_identifier
+    return crew
+
+
+def generic_unit_factory(squad_identifier, units):
+    new_units = [deepcopy(x) for x in units]
+    for x in len(new_units):
+        new_units[x].team_prefix = squad_identifier
+    return new_units
+
+
 if __name__=="__main__":
     z = infantry_platoon_factory()
+    for k in vehicle_3crew_factory("2'1"):
+        z.append(k)
+    for k in vehicle_3crew_factory("2'2"):
+        z.append(k)
     for x in z:
         print(x)
 
