@@ -35,6 +35,7 @@ veh_commander = Unit("Commander", "crewman")
 
 
 # individual element factories
+# the function below assumes the infantry platoon is always the first element
 def infantry_platoon_factory():
     command_element = [deepcopy(x) for x in [platoon_lead, platoon_sgt, medic, *single_squad_factory("1\'1"), *single_squad_factory("1\'2"), *single_squad_factory("1\'3")]]
     for x in range(0,3):
@@ -76,11 +77,14 @@ def vehicle_2crew_factory(squad_identifier):
 
 def generic_unit_factory(squad_identifier, units):
     new_units = [deepcopy(x) for x in units]
-    for x in len(new_units):
-        new_units[x].team_prefix = squad_identifier
+    for z in len(new_units):
+        new_units[z].team_prefix = squad_identifier
     return new_units
 
 
+# TODO: inject created units into mission.sqm, maybe at the center or a corner of the map
+
+# main used for debug
 if __name__=="__main__":
     z = infantry_platoon_factory()
     for k in vehicle_3crew_factory("2'1"):
