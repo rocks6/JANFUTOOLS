@@ -1,6 +1,7 @@
 from collections import OrderedDict
 from copy import deepcopy
 
+
 class Unit:
     def __init__(self, name, treated_as, team_prefix=""):
         self.name = name
@@ -11,7 +12,7 @@ class Unit:
         return self.team_prefix + " " + self.name
 
 
-# currently unused
+# currently unused, may be useful in future
 class Element:
     def __init__(self, units, squad_identifier):
         self.units = units
@@ -20,6 +21,7 @@ class Element:
 
 # unit definitions
 rifleman = Unit("Rifleman", "rifleman")
+rifleman_lat = Unit("Rifleman (LAT)", "rifleman_lat")
 team_lead = Unit("Team Lead", "squad_lead")
 squad_lead = Unit("Squad Lead", "squad_lead")
 autorifleman = Unit("Autorifleman", "autorifleman")
@@ -32,7 +34,8 @@ heavy_mg_assistant = Unit("Assistant Heavy Machine Gunner", "asst_hmg")
 veh_driver = Unit("Driver", "crewman")
 veh_gunner = Unit("Gunner", "crewman")
 veh_commander = Unit("Commander", "crewman")
-
+at_gunner = Unit("AT Gunner", "at_gunner")
+at_asst = Unit("AT Assistant", "at_asst")
 
 # individual element factories
 # the function below assumes the infantry platoon is always the first element
