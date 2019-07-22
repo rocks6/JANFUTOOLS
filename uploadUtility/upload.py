@@ -12,8 +12,8 @@ print "welcome to steves mission upload utility"
 print "you are running version " + str(VERSION)
 
 #get mission name from user, check if exists and is directory
-#mission = raw_input("please enter the full path of your mission (for example, CO38_Boston_Bizza.Altis)")
-mission = "janfuframeworkredux.Stratis"
+mission = raw_input("please enter the full path of your mission (for example, CO38_Boston_Bizza.Altis)")
+#mission = "janfuframeworkredux.Stratis"
 
 if (not os.path.isdir(mission)):
 	print "cannot find that mission folder. exiting"

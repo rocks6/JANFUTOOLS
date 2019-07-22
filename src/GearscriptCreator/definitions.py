@@ -23,19 +23,23 @@ class WeaponSet:
             self.ammo_mapping[weapon_classname] = weapon_classnames_to_ammo_classnames[weapon_classname]
 
 
+def inject_additem(itemname):
+    return "_unit additem \"" + itemname + "\"; \\\n"
+
+
 # define a mapping between the programmatic 'names' for each class (i.e. squad_lead) and the ARMA 3 classnames (i.e. B_Soldier)
 names_to_classnames = {
-    "rifleman": "",
+    "rifleman": "B_Soldier_F",
     "rifleman_lat": "B_soldier_LAT_F",
     "squad_lead": "B_Soldier_SL_F",
     "autorifleman": "B_soldier_AR_F",
     "asst_autorifleman": "B_soldier_AAR_F",
     "medic": "B_medic_F",
-    "hmg": "",
-    "asst_hmg": "",
-    "at_gunner": "",
-    "at_asst": "",
-    "crewman": ""
+    "hmg": "B_HeavyGunner_F",
+    "asst_hmg": "B_support_AMG_F",
+    "at_gunner": "B_soldier_LAT2_F",
+    "at_asst": "B_soldier_AAT_F",
+    "crewman": "B_crew_F"
 }
 
 
@@ -54,22 +58,9 @@ sleep 0;
 _unit linkItem \"ItemMap\"; \
 _unit linkItem \"ItemWatch\"; \
 _unit linkItem \"ItemCompass\"; \
-_unit addItem \"ACRE_PRC343\"; \
-_unit additem \"ACE_Earbuds\";\
-_unit additem \"ACE_Morphine\";\
-_unit additem \"ACE_elasticBandage\";\
-_unit additem \"ACE_elasticBandage\";\
-_unit additem \"ACE_elasticBandage\";\
-_unit additem \"ACE_elasticBandage\";\
-_unit additem \"ACE_elasticBandage\";\
-_unit additem \"ACE_elasticBandage\";\
-_unit additem \"ACE_packingBandage\";\
-_unit additem \"ACE_packingBandage\";\
-_unit additem \"ACE_packingBandage\";\
-_unit additem \"ACE_packingBandage\";\
-_unit additem \"ACE_packingBandage\";\
-_unit additem \"ACE_packingBandage\";\
-_unit addmagazines [\"SmokeShell\",2];
+''' + inject_additem("ACRE_PRC343") + inject_additem("ACE_Earbuds") + inject_additem("ACE_Morphine") + \
+                     inject_additem("ACE_elasticBandage") * 6 + inject_additem("ACE_packingBandage") * 6 + \
+                     '''_unit addmagazines [\"SmokeShell\",2];
 '''
 
 add_binocs = "_unit addWeapon \"Binocular\";"
@@ -85,3 +76,4 @@ unitbackpack _unit addItemCargoGlobal [\"ACE_Morphine\",15];
 unitbackpack _unit addItemCargoGlobal [\"ACE_personalAidKit\",4];
 unitbackpack _unit addItemCargoGlobal [\"ACE_salineIV_500\",1];
 '''
+
