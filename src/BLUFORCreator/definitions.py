@@ -3,7 +3,7 @@ class ClassSQM:
         self.classname = classname
         self.data = data
 
-    def dump(self, tabLevel):
+    def dump(self, tabLevel=0):
         constructed_string = "class " + self.classname + "\n" + "\t"*tabLevel + "{\n"
         if type(self.data) != list:
             self.data = [self.data]
@@ -15,8 +15,6 @@ class ClassSQM:
         constructed_string = constructed_string + "\t"*tabLevel + "};\n"
         return constructed_string
 
-    def dump(self):
-        return self.dump(0)
 
 class AssignmentSQM:
     def __init__(self, lhs, rhs):
@@ -46,19 +44,23 @@ class ArraySQM:
         return constructed_string
 
 
-def create_unit_sqm(item_number, position, description, id, type):
+def create_unit_sqm(item_number, position, description, unit_id, type, isPlayer=False):
+    player_setting = "isPlayer" if isPlayer else "isPlayable"
     unit_data = []
     unit_data.append(AssignmentSQM("dataType", "Object"))
     unit_data.append(ClassSQM("PositionInfo", ArraySQM("position", position)))
     unit_data.append(AssignmentSQM("side", "West"))
     unit_data.append(AssignmentSQM("flags", 7))
-    unit_data.append(ClassSQM("Attributes", [AssignmentSQM("description", description), AssignmentSQM("isPlayer", 1)]))
-    unit_data.append(AssignmentSQM("id", id))
+    unit_data.append(ClassSQM("Attributes", [AssignmentSQM("description", description), AssignmentSQM(player_setting, 1)]))
+    unit_data.append(AssignmentSQM("id", unit_id))
     unit_data.append(AssignmentSQM("type", type))
     unit_data.append(ClassSQM("CustomAttributes", AssignmentSQM("nAttributes",0)))
     unit_object = ClassSQM("Item" + str(item_number), unit_data)
 
-    return unit_object
+    new_pos = [position[0]+5, position[1], position[2]]
+    new_id = unit_id + 1
+    new_item_no = item_number + 1
+    return unit_object, new_pos, new_id, new_item_no
 
 def sqm_oo_test1():
     arr = ArraySQM("addons", ["A3_Modules_F", "acex_headless", "A3_Characters_F", "A3_Ui_F", "WW2_Core_c_IF_Gui_c", "asr_ai3_skills", "ace_explosives", "A3_Characters_F_Mark"])
@@ -68,7 +70,18 @@ def sqm_oo_test1():
 
 
 def sqm_oo_test2():
-    print(create_unit_sqm(0, [1,1,1], "1\'0 Platoon Lead", 1, "B_Soldier_SL_F").dump())
+    pos = [3000, 1, 4000]
+    unit_id = 1
+    item_no = 0
+    plt_lead, pos, unit_id, item_no = create_unit_sqm(item_no, pos, "1\'0 Platoon Lead", unit_id, "B_Soldier_SL_F", isPlayer=True)
+    plt_sgt, pos, unit_id, item_no = create_unit_sqm(item_no, pos, "1\'0 Platoon Sergeant", unit_id, "B_Soldier_SL_F")
+    plt_rif, pos, unit_id, item_no = create_unit_sqm(item_no, pos, "1\'0 Rifleman", unit_id, "B_Soldier_F")
+    plt_md, pos, unit_id, item_no = create_unit_sqm(item_no, pos, "1\'0 Medic", unit_id, "B_medic_F")
+    squad = [plt_lead, plt_sgt, plt_rif, plt_md]
+
+    with open("out.sqm", "w") as f:
+        for unit in squad:
+            f.write(unit.dump())
 
 def build_inf_group_test():
     group = ClassSQM("Item0")  # TODO: remember to actually calculate how many items exist
