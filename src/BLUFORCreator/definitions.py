@@ -69,7 +69,7 @@ def sqm_oo_test1():
     print(group.dump(0))
 
 
-def sqm_oo_test2():
+def generate_command_element():
     pos = [3000, 1, 4000]
     unit_id = 1
     item_no = 0
@@ -82,6 +82,7 @@ def sqm_oo_test2():
     with open("out.sqm", "w") as f:
         for unit in squad:
             f.write(unit.dump())
+
 
 def build_inf_group_test():
     group = ClassSQM("Item0")  # TODO: remember to actually calculate how many items exist
