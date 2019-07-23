@@ -98,4 +98,4 @@ if __name__ == '__main__':
     f = open("bfc_test_mission.sqm", "r+")
     test_mission_sqm = f.read()
 
-    sqm_oo_test2()
+    create_unit_sqm()
