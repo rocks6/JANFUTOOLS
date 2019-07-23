@@ -4,11 +4,12 @@ easy_test_data = '''
 class AddonsMetaData
 {
     assgn=5;
-    assgn2=6;
+    dataType="TestData";
     class ItemIDProvider
     {
         nextID=241;
     };
+
 };
 '''
 test_data = '''
@@ -62,33 +63,39 @@ grammar = '''
     CLOSED_BRACKET: "};"
     
     %import common.WS
+    %import common.ESCAPED_STRING
     %ignore WS
 '''
 
 
+
+
 class SqmTransformer(Transformer):
-    def file(self, items):
-        return items
     def class_object(self, items):
-        print(items)
-        to_return = {items[0]: items[1]}
+        to_return = "class " + str(items[0]) + "\n{\n" + str("\n".join(["\t"+item.value if type(item) is not str else item for item in items[1]])) + " \n};"
         return to_return
+
     def data(self, data):
         return list(data)
+
     def ASSIGNMENT(self, data):
         return data
+
     def CLASSNAME(self, items):
         return items
 
+
 def make_png(data):
     tree.pydot__tree_to_png(data, "out.png")
+
 
 if __name__ == '__main__':
     f = open("bfc_test_mission.sqm", "r+")
     test_mission_sqm = f.read()
 
-    parser = Lark(grammar, start='data')
-    parsed_data = parser.parse(easy_test_data)
-    print(parsed_data.pretty())
-    make_png(parsed_data)
-    # print(SqmTransformer().transform(parsed_data))
+    # test the parser
+    # parser = Lark(grammar, start='data')
+    # parsed_data = parser.parse(easy_test_data)
+    # make_png(parsed_data)
+    # rebuilt = SqmTransformer().transform(parsed_data)
+    # print(rebuilt[0])
