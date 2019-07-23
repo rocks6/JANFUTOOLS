@@ -1,11 +1,16 @@
 from lark import Lark, tree
 
 easy_test_data = '''
-class EditorData 
-{
-    class TwoDeep 
+class EditorData {
+    threeData=6;
+    class TwoDeep
     {
-        innerData
+    twoData=5;
+    };
+    type[]=
+    {
+        "SCALAR",
+        "ITEM2"
     };
 };
 '''
@@ -36,16 +41,20 @@ class EditorData
 '''
 
 grammar = '''
-    class: CLASSNAME OPEN_BRACKET data CLOSED_BRACKET
-    data: class
-    | DATA
-
-
+    class: CLASSNAME OPEN_BRACKET internal CLOSED_BRACKET
+    internal: class internal?
+    | ASSIGNMENT internal?
+    | array internal?
+    array: ARRAY_NAME ARRAY_ASSIGNMENT OPEN_BRACKET array_contents CLOSED_BRACKET
+    array_contents: ARRAY_ITEM+
     
-    CLASSNAME: /class.+/
-    DATA: /.+(?=};)/s
+    ARRAY_ITEM: /"\S+",*/
+    ARRAY_NAME: /.+(?=\[\]=)/
+    ASSIGNMENT: /(\S+=\S+;)/
+    CLASSNAME: /class.+(?=\s*{)/
     OPEN_BRACKET: "{"
     CLOSED_BRACKET: "};"
+    ARRAY_ASSIGNMENT: "[]="
     
     %import common.WS
     %ignore WS
