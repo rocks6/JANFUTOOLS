@@ -17,9 +17,9 @@
 		<!--$body-->
 
 
-        <table id="preview_table">
+        <div id="preview">
             <!-- iframe goes here! -->
-        </table>
+        </div>
 
 		<table id="weapons_table">
             <thead>
@@ -7970,8 +7970,18 @@
                     var classnames = document.getElementsByClassName("weaponAnchor");
                     for (var i=0; i < classnames.length; i++) {
                         classnames[i].addEventListener('click', function(event) {
-                            var targetElement = event.target
-                            console.log(targetElement.id);
+                            //remove previous iframe
+                            var pTable = document.getElementById("preview");
+                            if (pTable.children.length > 0) {
+                                pTable.removeChild(pTable.children[0]);
+                            }
+
+                            var callingId = event.target.id;
+                            var iframe = document.createElement("iframe");
+                            iframe.src = callingId;
+                            iframe.height="100%";
+                            iframe.width="100%";
+                            pTable.appendChild(iframe);
                         }, false);
                     }
                 }
