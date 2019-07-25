@@ -7982,6 +7982,7 @@
                             iframe.src = callingId;
                             iframe.height="100%";
                             iframe.width="100%";
+                            iframe.scrolling="auto";
                             pTable.appendChild(iframe);
                         }, false);
                     }
@@ -7989,7 +7990,7 @@
             });
 
             $('#hide').css( 'display', 'block' );
-            $.fn.dataTable.tables( { visible: true, api: true } ).buttons.resize();
+
 
         } );
 

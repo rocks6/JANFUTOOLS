@@ -9,7 +9,7 @@ html * {
     height: calc(100% - 30px);
     width: calc(50% - 20px);
     left: calc(50% + 10px);
-
+    display: flex;
 }
 
 table, th, td {
@@ -17,13 +17,15 @@ table, th, td {
     border-collapse: collapse;
 }
 
+#weapons_table_wrapper {
+    width: 50%;
+}
 
 /*
  * Table styles
  datatables (https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css) styling below
  */
 table.dataTable {
-    width: 50%;
     float: left;
     margin: 5px auto;
     clear: both;
