@@ -13,7 +13,7 @@
 <body>
 
 
-    <div class="main">
+    <div id="hide" style="display:none" class="main">
 		<!--$body-->
 
 
@@ -21,7 +21,7 @@
             <!-- iframe goes here! -->
         </div>
 
-		<table id="weapons_table">
+		<table id="weapons_table" class="display">
             <thead>
                 <tr>
                     <th>CfgWeapons</th>
@@ -7966,6 +7966,7 @@
         $(document).ready( function () {
             $('#weapons_table').DataTable( {
                 paging: false,
+                dom: 'Bfrtip',
                 initComplete: function() {
                     var classnames = document.getElementsByClassName("weaponAnchor");
                     for (var i=0; i < classnames.length; i++) {
@@ -7986,6 +7987,9 @@
                     }
                 }
             });
+
+            $('#hide').css( 'display', 'block' );
+            $.fn.dataTable.tables( { visible: true, api: true } ).buttons.resize();
 
         } );
 
