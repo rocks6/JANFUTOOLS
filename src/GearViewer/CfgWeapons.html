@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Test java HTML</title>
+    <title>GearViewer v1.0</title>
     <script src="js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -8002,6 +8002,7 @@
                             textToClipboard(toCopy)
 
                             var iframe = document.createElement("iframe");
+                            iframe.id = "previewFrame";
                             iframe.src = callingId;
                             iframe.height="100%";
                             iframe.width="100%";
